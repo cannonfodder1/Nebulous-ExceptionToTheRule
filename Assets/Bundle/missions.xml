@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<MissionLoaderManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MissionGraphMappings>
+    <MissionGraphEntry MissionName="Beachhead Secure" GraphAddress="Assets/Bundle/Data/Mission1_Graph.asset"/>
+    <MissionGraphEntry MissionName="Under The Weather" GraphAddress="Assets/Bundle/Data/Mission2_Graph.asset"/>
+  </MissionGraphMappings>
+  <MissionBattlespaceMappings>
+    <MissionBattlespaceEntry MissionName="Beachhead Secure" BattlespaceName="Abyssal"/>
+    <MissionBattlespaceEntry MissionName="Under The Weather" BattlespaceName="The Cliff"/>
+  </MissionBattlespaceMappings>
+</MissionLoaderManifest>

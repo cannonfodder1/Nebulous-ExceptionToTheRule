@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -131367795, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: KribensisIncursion_MissionSet
+  m_EditorClassIdentifier: 
+  CampaignName: Kribensis Incursion
+  Description: Take command of the reactivated cruiser Exception To The Rule in service
+    to the fledgling OSP Navy for a crucial mission deep into Shelter Alliance territory.
+  Screenshot: {fileID: 21300000, guid: a44acc1c43eb0184187defb8e4156013, type: 3}
+  MissionNamePrefix: Mission
+  Missions:
+  - {fileID: 11400000, guid: 7564285a94ccfb34c80235f2ec0134fd, type: 2}
+  - {fileID: 11400000, guid: 4268ba353b58ed746badf1ae7ff30d1a, type: 2}
+  - {fileID: 11400000, guid: e00029016c098434e850169719a8ae18, type: 2}
+  AllMissionsAvailable: 1
+  _modId: 0

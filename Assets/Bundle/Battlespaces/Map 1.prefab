@@ -1,0 +1,640 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8127523292491448655
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8127523292491452080}
+  m_Layer: 0
+  m_Name: Team B Home
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8127523292491452080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523292491448655}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 700}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8127523294269219098}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 1.4292e-41, y: 1.02e-43, z: 0}
+--- !u!1 &8127523292521459590
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8127523292521459592}
+  - component: {fileID: 2891686121879757021}
+  m_Layer: 0
+  m_Name: Spawn 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8127523292521459592
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523292521459590}
+  m_LocalRotation: {x: -0, y: -0.38268343, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: 150, y: -200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8127523293107069021}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 1.4289e-41, y: 1.02e-43, z: 0}
+--- !u!114 &2891686121879757021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523292521459590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1413284775, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shipsPerColumn: 3
+  _spacing: 20
+  _halfVerticalSpacing: 10
+--- !u!1 &8127523292543763462
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8127523292543763463}
+  m_Layer: 0
+  m_Name: Central Objective
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8127523292543763463
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523292543763462}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8127523294269219098}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 1.4297e-41, y: 1.02e-43, z: 0}
+--- !u!1 &8127523293047091315
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8127523293047091317}
+  - component: {fileID: 8127523293047091316}
+  m_Layer: 0
+  m_Name: Spawn 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8127523293047091317
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523293047091315}
+  m_LocalRotation: {x: -0, y: -0.38268343, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: 150, y: -200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8127523293904892987}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 1.427e-41, y: 1.02e-43, z: 0}
+--- !u!114 &8127523293047091316
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523293047091315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1413284775, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shipsPerColumn: 3
+  _spacing: 20
+  _halfVerticalSpacing: 10
+--- !u!1 &8127523293107069019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8127523293107069021}
+  - component: {fileID: 8127523293107069020}
+  m_Layer: 0
+  m_Name: Team A Spawns
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8127523293107069021
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523293107069019}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -800}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8127523294046590533}
+  - {fileID: 8127523293802692973}
+  - {fileID: 8127523294455762178}
+  - {fileID: 8127523292521459592}
+  m_Father: {fileID: 8127523294269219098}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 4.956934e+33, y: 0, z: 0}
+--- !u!114 &8127523293107069020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523293107069019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -217899150, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spawns:
+  - {fileID: 7345176253721184102}
+  - {fileID: 1294991487118481492}
+  - {fileID: 7448340204581224137}
+  - {fileID: 2891686121879757021}
+  _approachVectorAngle: 45
+--- !u!1 &8127523293633962366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8127523293633962367}
+  - component: {fileID: 1584243611899362119}
+  m_Layer: 0
+  m_Name: Spawn 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8127523293633962367
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523293633962366}
+  m_LocalRotation: {x: -0, y: -0.38268343, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: 150, y: 200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8127523293904892987}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1584243611899362119
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523293633962366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1413284775, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shipsPerColumn: 3
+  _spacing: 20
+  _halfVerticalSpacing: 10
+--- !u!1 &8127523293701904386
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8127523293701904387}
+  - component: {fileID: 705512037870303283}
+  m_Layer: 0
+  m_Name: Spawn 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 560
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8127523293701904387
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523293701904386}
+  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: -150, y: -200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8127523293904892987}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.4275e-41, y: 1.02e-43, z: 0}
+--- !u!114 &705512037870303283
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523293701904386}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1413284775, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shipsPerColumn: 3
+  _spacing: 20
+  _halfVerticalSpacing: 10
+--- !u!1 &8127523293762585789
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8127523293762585790}
+  m_Layer: 0
+  m_Name: Team A Home
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 560
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8127523293762585790
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523293762585789}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -700}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8127523294269219098}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 1.428e-41, y: 1.02e-43, z: 0}
+--- !u!1 &8127523293802692972
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8127523293802692973}
+  - component: {fileID: 1294991487118481492}
+  m_Layer: 0
+  m_Name: Spawn 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8127523293802692973
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523293802692972}
+  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: -150, y: 200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8127523293107069021}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 1.4267e-41, y: 1.02e-43, z: 0}
+--- !u!114 &1294991487118481492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523293802692972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1413284775, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shipsPerColumn: 3
+  _spacing: 20
+  _halfVerticalSpacing: 10
+--- !u!1 &8127523293904892985
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8127523293904892987}
+  - component: {fileID: 8127523293904892986}
+  m_Layer: 0
+  m_Name: Team B Spawns
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8127523293904892987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523293904892985}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 800}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8127523293701904387}
+  - {fileID: 8127523294470802327}
+  - {fileID: 8127523293633962367}
+  - {fileID: 8127523293047091317}
+  m_Father: {fileID: 8127523294269219098}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 9.404242e-38, y: 0, z: 0}
+--- !u!114 &8127523293904892986
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523293904892985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -217899150, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _spawns:
+  - {fileID: 705512037870303283}
+  - {fileID: 4624934840665867883}
+  - {fileID: 1584243611899362119}
+  - {fileID: 8127523293047091316}
+  _approachVectorAngle: 45
+--- !u!1 &8127523294046590532
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8127523294046590533}
+  - component: {fileID: 7345176253721184102}
+  m_Layer: 0
+  m_Name: Spawn 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8127523294046590533
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523294046590532}
+  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: -150, y: -200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8127523293107069021}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 9.404242e-38, y: 0, z: 0}
+--- !u!114 &7345176253721184102
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523294046590532}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1413284775, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shipsPerColumn: 3
+  _spacing: 20
+  _halfVerticalSpacing: 10
+--- !u!1 &8127523294269219096
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8127523294269219098}
+  - component: {fileID: 8127523294269219097}
+  m_Layer: 0
+  m_Name: Map 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8127523294269219098
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523294269219096}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8127523293107069021}
+  - {fileID: 8127523293904892987}
+  - {fileID: 8127523292543763463}
+  - {fileID: 8127523293762585790}
+  - {fileID: 8127523292491452080}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 1.4286e-41, y: 1.02e-43, z: 45732308}
+--- !u!114 &8127523294269219097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523294269219096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1411395594, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MapName: 
+  MapKey: D-GbLTmCH0OpQLdAojEd-g
+  _longName: Deep Space
+  _locationName: Kribensis System
+  _flavorDescription: 3 Hours to Emergence
+  _mapImage: {fileID: 0}
+  _radius: 1000
+  _spawnRadius: 900
+  _maxPlayers: 4
+  _allowSpawnSelection: 0
+  _teamASpawns: {fileID: 8127523293107069020}
+  _teamBSpawns: {fileID: 8127523293904892986}
+  _pathfinding: {fileID: 0}
+  _lighting: {fileID: 0}
+  _skybox: {fileID: 0}
+  _centralObjectivePosition: {fileID: 8127523292543763462}
+  _teamAHomeObjective: {fileID: 8127523293762585789}
+  _teamBHomeObjective: {fileID: 8127523292491448655}
+  _distributedObjectivePositions:
+  - {x: -800, y: 0, z: 0}
+  - {x: 800, y: 0, z: 0}
+  - {x: 0, y: 600, z: -500}
+  - {x: 0, y: -600, z: 500}
+  - {x: 0, y: 0, z: 0}
+  _scenarioSettings: []
+  _modId: 0
+--- !u!1 &8127523294455762177
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8127523294455762178}
+  - component: {fileID: 7448340204581224137}
+  m_Layer: 0
+  m_Name: Spawn 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8127523294455762178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523294455762177}
+  m_LocalRotation: {x: -0, y: -0.38268343, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: 150, y: 200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8127523293107069021}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 1.4272e-41, y: 1.02e-43, z: 0}
+--- !u!114 &7448340204581224137
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523294455762177}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1413284775, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shipsPerColumn: 3
+  _spacing: 20
+  _halfVerticalSpacing: 10
+--- !u!1 &8127523294470802326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8127523294470802327}
+  - component: {fileID: 4624934840665867883}
+  m_Layer: 0
+  m_Name: Spawn 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8127523294470802327
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523294470802326}
+  m_LocalRotation: {x: -0, y: 0.38268343, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: -150, y: 200, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 8127523293904892987}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 1.10476574e-32, y: 0, z: 0}
+--- !u!114 &4624934840665867883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8127523294470802326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1413284775, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _shipsPerColumn: 3
+  _spacing: 20
+  _halfVerticalSpacing: 10

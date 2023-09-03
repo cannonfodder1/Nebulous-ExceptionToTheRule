@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1006082986, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Mission1_Def
+  m_EditorClassIdentifier: 
+  MissionName: Beachhead Secure
+  DetailText: Hunt down an Alliance patrol in deep space, securing a hyperspace emergence
+    point for the rest of the battlegroup.
+  PreBriefing: "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\
+    Two weeks after The Divide \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nOSPN
+    EMPEROR REVERSE. INTRASHIP MAIL.\r\nTO: BSTRATIS\r\nFROM: NOVANCE\r\n\r\nStratis,
+    \r\n\r\nI've got news for you. Constantine gave me one of his precious cruisers
+    from the Roclaren mothball yards, a rusty old bucket, but a true warship. It's
+    better than any of our converted freighters. And there's no way in hell I'm taking
+    it. I built my flagship with grit, spit, and a whole lot of duct tape, I'm not
+    trading her out just on the Old Man's say so. Also, equally as importantly, I'm
+    not driving one of these fuckin' missile-proof heavy-armoured military ships
+    into battle, hell no, I'm a real spacer. So, getting back to my point: I figured
+    this sort of cowardly asset would be right up your alley. I'll be sad to not
+    have you onboard to second-guess all my genius plans, but it's about time you
+    got a ship of your own. And don't tell Constantine about this, you hear? \r\n\r\n-
+    Vance\r\n\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\
+    Five weeks after The Divide \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nOSPN
+    NAVY-LINK COMM.\r\nT: OSPN EXCEPTION TO THE RULE\r\nF: OSPN EMPEROR REVERSE\r\n\r\nStratis,\r\n\r\nHope
+    you've settled into your new command, because it's go time. I just got off the
+    phone with the Old Man: we're heading into Kribensis to do some old fashioned
+    convoy raiding. Defenses at home are far from ready - if the Alliance pushes
+    through the Kribensis-Bethel gate now, the OSP is well and truly fucked. Our
+    job is to blow up a few freighters, slow the enemy buildup on their side of the
+    gate, and buy Constantine some goddamn time. We're heading into hyperspace via
+    breach torpedo in under 48 hours, but I want you to take the Exception ahead
+    and clear the emergence zone for the rest of the battlegroup. I don't want the
+    Alliance having any spotters nearby when the rest of us arrive, that'd give those
+    wrinkly brains over at the Alliance Naval Office a far better picture of our
+    numbers than I'd like. A sensor vessel will be tagging along as well, it'll be
+    useful out there. Once it arrives, you are cleared to depart. Safe travels.\r\n\r\n-
+    Vance\r"
+  MissionKey: fKPptYeLr0C3-EPvpvKL1w
+  Screenshot: {fileID: 21300000, guid: 5cc75af52e0b41344a58f4f2b95e27de, type: 3}
+  _graph:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0
