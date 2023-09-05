@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 1006082986, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
   m_Name: Mission1_Def
   m_EditorClassIdentifier: 
-  MissionName: Beachhead Secure
+  MissionName: Wide Open
   DetailText: Hunt down an Alliance patrol in deep space, securing a hyperspace emergence
     point for the rest of the battlegroup.
   PreBriefing: "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\

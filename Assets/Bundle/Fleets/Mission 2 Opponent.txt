@@ -427,7 +427,7 @@
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>eda19ef7-e5cf-4d05-8faa-e121241fbc09</Key>
-      <Name>Tornado Notice</Name>
+      <Name>Storm Warning</Name>
       <Cost>434</Cost>
       <Callsign />
       <Number>292</Number>

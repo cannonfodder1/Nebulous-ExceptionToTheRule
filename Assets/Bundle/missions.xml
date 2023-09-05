@@ -1,11 +1,13 @@
 <?xml version="1.0"?>
 <MissionLoaderManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <MissionGraphMappings>
-    <MissionGraphEntry MissionName="Beachhead Secure" GraphAddress="Assets/Bundle/Data/Mission1_Graph.asset"/>
-    <MissionGraphEntry MissionName="Under The Weather" GraphAddress="Assets/Bundle/Data/Mission2_Graph.asset"/>
+    <MissionGraphEntry MissionName="Wide Open" GraphAddress="Assets/Bundle/Data/Mission1_Graph.asset"/>
+    <MissionGraphEntry MissionName="Storm Warning" GraphAddress="Assets/Bundle/Data/Mission2_Graph.asset"/>
+    <MissionGraphEntry MissionName="Driving Rain" GraphAddress="Assets/Bundle/Data/Mission3_Graph.asset"/>
   </MissionGraphMappings>
   <MissionBattlespaceMappings>
-    <MissionBattlespaceEntry MissionName="Beachhead Secure" BattlespaceName="Abyssal"/>
-    <MissionBattlespaceEntry MissionName="Under The Weather" BattlespaceName="The Cliff"/>
+    <MissionBattlespaceEntry MissionName="Wide Open" BattlespaceName="Abyssal"/>
+    <MissionBattlespaceEntry MissionName="Storm Warning" BattlespaceName="The Cliff"/>
+    <MissionBattlespaceEntry MissionName="Driving Rain" BattlespaceName="Pillars"/>
   </MissionBattlespaceMappings>
 </MissionLoaderManifest>

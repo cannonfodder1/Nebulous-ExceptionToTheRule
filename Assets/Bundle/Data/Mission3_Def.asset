@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 1006082986, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
   m_Name: Mission3_Def
   m_EditorClassIdentifier: 
-  MissionName: Critical Misdirection
+  MissionName: Driving Rain
   DetailText: Engage in a desperate assault to take and hold a crucial supply station,
     against the full fury of the Alliance Navy.
   PreBriefing: Mission 3

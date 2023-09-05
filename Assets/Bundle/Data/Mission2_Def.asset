@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 1006082986, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
   m_Name: Mission2_Def
   m_EditorClassIdentifier: 
-  MissionName: Under The Weather
+  MissionName: Storm Warning
   DetailText: Silence the jammers of an Alliance taskforce among the asteroids of
     Kribensis, as the future of the raiding effort hangs in the balance.
   PreBriefing: "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\\\n\\\\\\
