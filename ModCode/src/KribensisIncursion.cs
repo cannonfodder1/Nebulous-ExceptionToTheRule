@@ -40,6 +40,8 @@ namespace KribensisIncursion
 
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(PauseAllBotPlayers) });
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SetGameTime) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SetShipPosition) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetMissionBattlespace) });
 		}
 	}
 

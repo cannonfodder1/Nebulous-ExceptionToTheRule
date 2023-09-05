@@ -11,8 +11,6 @@ namespace KribensisIncursion
 	{
 		public override bool Execute(IMissionGame gameControl)
 		{
-			Debug.Log("Executing PauseAllBotPlayers");
-
 			//BotSkirmishPlayer._botsPaused = Paused;
 
 			FieldInfo field = typeof(BotSkirmishPlayer).GetField("_botsPaused", BindingFlags.NonPublic | BindingFlags.Static);

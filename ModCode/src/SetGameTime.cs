@@ -12,8 +12,6 @@ namespace KribensisIncursion
 	{
 		public override bool Execute(IMissionGame gameControl)
 		{
-			Debug.Log("Executing SetGameTime");
-
 			//SkirmishGameManager.HandleTimeHackMessage({GameTime});
 
 			TimeHackMessage timeHack = new TimeHackMessage();

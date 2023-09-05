@@ -1,0 +1,2690 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7667741641541106672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2047810986, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Conditional Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 10915.352, y: 1897.687}
+  ports:
+    keys:
+    - Condition
+    - Previous
+    - BranchOne
+    - BranchTwo
+    values:
+    - _fieldName: Condition
+      _node: {fileID: -7667741641541106672}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Eliminated
+        node: {fileID: 3886319028087809588}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Previous
+      _node: {fileID: -7667741641541106672}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionFlowNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Next
+        node: {fileID: 2669218697831777427}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: BranchOne
+      _node: {fileID: -7667741641541106672}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionFlowNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: BranchTwo
+      _node: {fileID: -7667741641541106672}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionFlowNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  Previous: {fileID: 0}
+  BranchOne: {fileID: 0}
+  BranchTwo: {fileID: 0}
+  Condition: 0
+--- !u!114 &-7150591859273495035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2d7f204e98c9124ab0df13d4867e861, type: 3}
+  m_Name: Get Mission Battlespace
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5528, y: 1384}
+  ports:
+    keys:
+    - MaxPlayers
+    - HasCentralObjective
+    - CentralObjective
+    - HasTeamAHome
+    - TeamAHome
+    - HasTeamBHome
+    - TeamBHome
+    - DistributedObjectiveCount
+    - DistributedObjectives
+    values:
+    - _fieldName: MaxPlayers
+      _node: {fileID: -7150591859273495035}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: HasCentralObjective
+      _node: {fileID: -7150591859273495035}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: CentralObjective
+      _node: {fileID: -7150591859273495035}
+      _typeQualifiedName: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Input
+        node: {fileID: 7673668370740094817}
+        reroutePoints: []
+      - fieldName: Input
+        node: {fileID: -6258447821551251757}
+        reroutePoints: []
+      - fieldName: Input
+        node: {fileID: -1009987985063606130}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: HasTeamAHome
+      _node: {fileID: -7150591859273495035}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: TeamAHome
+      _node: {fileID: -7150591859273495035}
+      _typeQualifiedName: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: HasTeamBHome
+      _node: {fileID: -7150591859273495035}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: TeamBHome
+      _node: {fileID: -7150591859273495035}
+      _typeQualifiedName: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: DistributedObjectiveCount
+      _node: {fileID: -7150591859273495035}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: DistributedObjectives
+      _node: {fileID: -7150591859273495035}
+      _typeQualifiedName: UnityEngine.Vector3[], UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  MaxPlayers: 0
+  HasCentralObjective: 0
+  CentralObjective: {x: 0, y: 0, z: 0}
+  HasTeamAHome: 0
+  TeamAHome: {x: 0, y: 0, z: 0}
+  HasTeamBHome: 0
+  TeamBHome: {x: 0, y: 0, z: 0}
+  DistributedObjectiveCount: 0
+  DistributedObjectives: []
+--- !u!114 &-7136490567501666247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1568686782, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Logic
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 10131.352, y: 2057.687}
+  ports:
+    keys:
+    - Conditions
+    - Result
+    - Conditions 0
+    - Conditions 1
+    values:
+    - _fieldName: Conditions
+      _node: {fileID: -7136490567501666247}
+      _typeQualifiedName: System.Boolean[], mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Eliminated
+        node: {fileID: 3886319028087809588}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Result
+      _node: {fileID: -7136490567501666247}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Condition
+        node: {fileID: 2669218697831777427}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Conditions 0
+      _node: {fileID: -7136490567501666247}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Eliminated
+        node: {fileID: 3886319028087809588}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+    - _fieldName: Conditions 1
+      _node: {fileID: -7136490567501666247}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Eliminated
+        node: {fileID: -1726995078431856596}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 1
+  OP: 1
+  Conditions: 0000
+  Result: 0
+--- !u!114 &-7013277208232168589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1272597587, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Wait Time
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 9000, y: 2424}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: -7013277208232168589}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: -6668637564671052363}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -7013277208232168589}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Delay: 1
+--- !u!114 &-6904963580832635135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1272597587, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Wait Time
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 8200, y: 2424}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: -6904963580832635135}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -6904963580832635135}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: -6668637564671052363}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Delay: 1
+--- !u!114 &-6668637564671052363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1770207528, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog With Options
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 8456, y: 2424}
+  ports:
+    keys:
+    - Result
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: Result
+      _node: {fileID: -6668637564671052363}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Condition
+        node: {fileID: 7124043968587902799}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: PreviousStep
+      _node: {fileID: -6668637564671052363}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: -6904963580832635135}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -6668637564671052363}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: -7013277208232168589}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
+  Mood: 0
+  Line: "Did you read the anti-jamming tactics primer that I sent to all taskforce
+    leaders last week?\r"
+  LineAudio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+  OptionOneText: Of Course
+  OptionTwoText: Uh... No
+  Result: 0
+--- !u!114 &-6258447821551251757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1089009144, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Split Vector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5832, y: 1560}
+  ports:
+    keys:
+    - Input
+    - X
+    - Y
+    - Z
+    values:
+    - _fieldName: Input
+      _node: {fileID: -6258447821551251757}
+      _typeQualifiedName: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: CentralObjective
+        node: {fileID: -7150591859273495035}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: X
+      _node: {fileID: -6258447821551251757}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ValueA
+        node: {fileID: 2487374002809830786}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Y
+      _node: {fileID: -6258447821551251757}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Y
+        node: {fileID: 2049573411286176441}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Z
+      _node: {fileID: -6258447821551251757}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Z
+        node: {fileID: 2049573411286176441}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Input: {x: 0, y: 0, z: 0}
+  X: 0
+  Y: 0
+  Z: 0
+--- !u!114 &-5423810049275429734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1224716910, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Set Player Limited Actions
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6520, y: 2424}
+  ports:
+    keys:
+    - Player
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: Player
+      _node: {fileID: -5423810049275429734}
+      _typeQualifiedName: Game.SkirmishPlayer, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: HumanPlayerOut
+        node: {fileID: 3451488256739971326}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: PreviousStep
+      _node: {fileID: -5423810049275429734}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: FirstStep
+        node: {fileID: 8897310036686039868}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -5423810049275429734}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 1639107657520533214}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Player: {fileID: 0}
+  AvailableActions: 0
+--- !u!114 &-5055250671729901698
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -723222279, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Combine Vector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6360, y: 1432}
+  ports:
+    keys:
+    - X
+    - Y
+    - Z
+    - Combined
+    values:
+    - _fieldName: X
+      _node: {fileID: -5055250671729901698}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Result
+        node: {fileID: 3895666490551233377}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Y
+      _node: {fileID: -5055250671729901698}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Y
+        node: {fileID: 7673668370740094817}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Z
+      _node: {fileID: -5055250671729901698}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Z
+        node: {fileID: 7673668370740094817}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Combined
+      _node: {fileID: -5055250671729901698}
+      _typeQualifiedName: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Position
+        node: {fileID: 4997328113513726307}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  X: 0
+  Y: 0
+  Z: 0
+  Combined: {x: 0, y: 0, z: 0}
+--- !u!114 &-4308598396973893724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1370708908, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Create Objective
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 7864, y: 2424}
+  ports:
+    keys:
+    - Objective
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: Objective
+      _node: {fileID: -4308598396973893724}
+      _typeQualifiedName: Game.UI.ObjectiveItem, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 2
+      _dynamic: 0
+    - _fieldName: PreviousStep
+      _node: {fileID: -4308598396973893724}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 2208877811173651748}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -4308598396973893724}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 5833256630677932409}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Name: Eliminate Alliance Taskforce
+  Objective: {fileID: 0}
+--- !u!114 &-3470818744545631782
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 66471401, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Execute Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 8152, y: 3320}
+  ports:
+    keys:
+    - ExecuteCondition
+    - ContinuousEval
+    - AbortCondition
+    - FirstStep
+    - Previous
+    - Next
+    values:
+    - _fieldName: ExecuteCondition
+      _node: {fileID: -3470818744545631782}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ContinuousEval
+      _node: {fileID: -3470818744545631782}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: AbortCondition
+      _node: {fileID: -3470818744545631782}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: FirstStep
+      _node: {fileID: -3470818744545631782}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: -983119770755473299}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Previous
+      _node: {fileID: -3470818744545631782}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionFlowNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: BranchOne
+        node: {fileID: 7124043968587902799}
+        reroutePoints: []
+      - fieldName: Next
+        node: {fileID: 8222085353175001081}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Next
+      _node: {fileID: -3470818744545631782}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionFlowNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: 2669218697831777427}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  Previous: {fileID: 0}
+  Next: {fileID: 0}
+  ExecuteCondition: 1
+  ContinuousEval: 0
+  AbortCondition: 0
+  FirstStep: {fileID: 0}
+--- !u!114 &-2810772770876189512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840cae63b76fb9047b9df67889cf5e5d, type: 3}
+  m_Name: Pause All Bot Players
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 9336, y: 3416}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: -2810772770876189512}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 5833256630677932409}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -2810772770876189512}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Paused: 0
+--- !u!114 &-1781531273398912452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 642626612, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Float Math
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6072, y: 1304}
+  ports:
+    keys:
+    - ValueA
+    - ValueB
+    - Result
+    values:
+    - _fieldName: ValueA
+      _node: {fileID: -1781531273398912452}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: X
+        node: {fileID: -1009987985063606130}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ValueB
+      _node: {fileID: -1781531273398912452}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Result
+      _node: {fileID: -1781531273398912452}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: X
+        node: {fileID: -1645980766833306599}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  OP: 0
+  ValueA: 0
+  ValueB: 50
+  Result: 0
+--- !u!114 &-1726995078431856596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 382605031, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Player Details
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 9587.352, y: 2105.687}
+  ports:
+    keys:
+    - Player
+    - IsLocal
+    - ActiveOrderType
+    - Eliminated
+    values:
+    - _fieldName: Player
+      _node: {fileID: -1726995078431856596}
+      _typeQualifiedName: Game.SkirmishPlayer, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: BotPlayer
+        node: {fileID: 3487699143133763328}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: IsLocal
+      _node: {fileID: -1726995078431856596}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ActiveOrderType
+      _node: {fileID: -1726995078431856596}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Eliminated
+      _node: {fileID: -1726995078431856596}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Conditions 1
+        node: {fileID: -7136490567501666247}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Player: {fileID: 0}
+  IsLocal: 0
+  ActiveOrderType: 
+  Eliminated: 0
+--- !u!114 &-1645980766833306599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -723222279, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Combine Vector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6360, y: 1304}
+  ports:
+    keys:
+    - X
+    - Y
+    - Z
+    - Combined
+    values:
+    - _fieldName: X
+      _node: {fileID: -1645980766833306599}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Result
+        node: {fileID: -1781531273398912452}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Y
+      _node: {fileID: -1645980766833306599}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Y
+        node: {fileID: -1009987985063606130}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Z
+      _node: {fileID: -1645980766833306599}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Z
+        node: {fileID: -1009987985063606130}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Combined
+      _node: {fileID: -1645980766833306599}
+      _typeQualifiedName: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Position
+        node: {fileID: 8237178608981663833}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  X: 0
+  Y: 0
+  Z: 0
+  Combined: {x: 0, y: 0, z: 0}
+--- !u!114 &-1009987985063606130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1089009144, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Split Vector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5832, y: 1304}
+  ports:
+    keys:
+    - Input
+    - X
+    - Y
+    - Z
+    values:
+    - _fieldName: Input
+      _node: {fileID: -1009987985063606130}
+      _typeQualifiedName: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: CentralObjective
+        node: {fileID: -7150591859273495035}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: X
+      _node: {fileID: -1009987985063606130}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ValueA
+        node: {fileID: -1781531273398912452}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Y
+      _node: {fileID: -1009987985063606130}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Y
+        node: {fileID: -1645980766833306599}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Z
+      _node: {fileID: -1009987985063606130}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Z
+        node: {fileID: -1645980766833306599}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Input: {x: 0, y: 0, z: 0}
+  X: 0
+  Y: 0
+  Z: 0
+--- !u!114 &-983119770755473299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2030797003, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 8504, y: 3416}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: -983119770755473299}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: FirstStep
+        node: {fileID: -3470818744545631782}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -983119770755473299}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
+  Mood: 0
+  Lines:
+  - Text: Get this done and the Alliance will be off-balance, we'll have strategic
+      mobility restored to us. I have grand plans for this system. Grand fucking
+      plans, I tell you. Well, I'm not telling you yet, but you get me. Vance signing
+      off.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -871450329, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Mission3_Graph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 3451488256739971326}
+  - {fileID: 2669218697831777427}
+  - {fileID: 3886319028087809588}
+  - {fileID: 3487699143133763328}
+  - {fileID: -7136490567501666247}
+  - {fileID: -1726995078431856596}
+  - {fileID: -7667741641541106672}
+  - {fileID: 2208877811173651748}
+  - {fileID: -5423810049275429734}
+  - {fileID: -4308598396973893724}
+  - {fileID: -6668637564671052363}
+  - {fileID: 2923777014469059754}
+  - {fileID: 8897310036686039868}
+  - {fileID: 7124043968587902799}
+  - {fileID: 8222085353175001081}
+  - {fileID: -7013277208232168589}
+  - {fileID: -983119770755473299}
+  - {fileID: -3470818744545631782}
+  - {fileID: 5833256630677932409}
+  - {fileID: 1639107657520533214}
+  - {fileID: -2810772770876189512}
+  - {fileID: 2286673179549755786}
+  - {fileID: -6904963580832635135}
+  - {fileID: 8237178608981663833}
+  - {fileID: 8386716624725318672}
+  - {fileID: 3011925227920974023}
+  - {fileID: 4997328113513726307}
+  - {fileID: 1297609629536640485}
+  - {fileID: 8799280668130958638}
+  - {fileID: -1009987985063606130}
+  - {fileID: -1645980766833306599}
+  - {fileID: -1781531273398912452}
+  - {fileID: 7673668370740094817}
+  - {fileID: -5055250671729901698}
+  - {fileID: 3895666490551233377}
+  - {fileID: -6258447821551251757}
+  - {fileID: 2049573411286176441}
+  - {fileID: 2487374002809830786}
+  - {fileID: -7150591859273495035}
+--- !u!114 &1297609629536640485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1534519903, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Get Fleet Ship
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6616, y: 1560}
+  ports:
+    keys:
+    - Player
+    - ShipNumber
+    - Ship
+    values:
+    - _fieldName: Player
+      _node: {fileID: 1297609629536640485}
+      _typeQualifiedName: Game.SkirmishPlayer, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: HumanPlayerOut
+        node: {fileID: 3451488256739971326}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ShipNumber
+      _node: {fileID: 1297609629536640485}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Ship
+      _node: {fileID: 1297609629536640485}
+      _typeQualifiedName: Game.Units.ShipController, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Ship
+        node: {fileID: 8799280668130958638}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Player: {fileID: 0}
+  ShipNumber: 2
+  Ship: {fileID: 0}
+--- !u!114 &1639107657520533214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 840cae63b76fb9047b9df67889cf5e5d, type: 3}
+  m_Name: Pause All Bot Players
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6824, y: 2424}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: 1639107657520533214}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: -5423810049275429734}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: 1639107657520533214}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 2923777014469059754}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Paused: 1
+--- !u!114 &2049573411286176441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -723222279, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Combine Vector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6360, y: 1560}
+  ports:
+    keys:
+    - X
+    - Y
+    - Z
+    - Combined
+    values:
+    - _fieldName: X
+      _node: {fileID: 2049573411286176441}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Result
+        node: {fileID: 2487374002809830786}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Y
+      _node: {fileID: 2049573411286176441}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Y
+        node: {fileID: -6258447821551251757}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Z
+      _node: {fileID: 2049573411286176441}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Z
+        node: {fileID: -6258447821551251757}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Combined
+      _node: {fileID: 2049573411286176441}
+      _typeQualifiedName: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Position
+        node: {fileID: 8799280668130958638}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  X: 0
+  Y: 0
+  Z: 0
+  Combined: {x: 0, y: 0, z: 0}
+--- !u!114 &2208877811173651748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2030797003, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 7320, y: 2424}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: 2208877811173651748}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 2923777014469059754}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: 2208877811173651748}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: -4308598396973893724}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
+  Mood: 0
+  Lines:
+  - Text: Mission 3 Start
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+--- !u!114 &2286673179549755786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2030797003, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 7800, y: 3528}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: 2286673179549755786}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: FirstStep
+        node: {fileID: 8222085353175001081}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: 2286673179549755786}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
+  Mood: 0
+  Lines:
+  - Text: For fuck's sake, Leftenant. Stay on top of your emails. Well, I guess you
+      don't need to know most of it, because you're uniquely equipped for the job.
+      That bastard warship of yours has a military radar suite, the Parallax, which
+      can 'burn-through' jamming. Use the BRN command, then LCK the resulting pings
+      to get a workable track.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+  - Text: You'll have two cargo feeders joining you for this operation. They used
+      to be designed for hauling ore between the Eight Ball Belt and the Cordova
+      refineries. The refit plan has turned them into our heaviest combatants, with
+      makeshift armour and cargo of a more deadly variety. But they're slow and their
+      point defences are universally terrible.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+  - Text: 'The No Reply Needed is armed for ambush combat, with two rocket launchers
+      bolted on. Their Piranha rockets are deadly to unprotected ships in close quarters.
+      But a word of warning: ignore the fuel specs on those things. The effective
+      range is nowhere near the advertised 7km. If you launch beyond 3km you''ll
+      just be wasting ordnance.'
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+  - Text: The Read the Manual is hauling mine containers. Each holds a clutch of
+      Mattock spaceborne mines, and can carry them to a desired deployment point.
+      Mattocks need 90 seconds to arm once deployed, so place with care. And be wary
+      of them, they can be just as deadly to you as to your enemy. Keep your comms
+      turned on at all times when near an armed minefield.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+  - Text: To round it off, we reloaded the Exception's missile tubes. Half a load
+      of the Thunderheads you used last time, but the other half are Squalls. They
+      will home in on any jamming source without regard for chaff. If your Parallax
+      is unavailable, these are another option to break enemy jamming.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+  - Text: "That\u2019s about it. Remember, in case of jamming, BRN and LCK. If that
+      fails, you need to get closer, or retreat and try again at another angle. Launch
+      Squalls at the line of bearing marked with J if you think they have a chance
+      of breaking through PD."
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+--- !u!114 &2487374002809830786
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 642626612, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Float Math
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6072, y: 1560}
+  ports:
+    keys:
+    - ValueA
+    - ValueB
+    - Result
+    values:
+    - _fieldName: ValueA
+      _node: {fileID: 2487374002809830786}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: X
+        node: {fileID: -6258447821551251757}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ValueB
+      _node: {fileID: 2487374002809830786}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Result
+      _node: {fileID: 2487374002809830786}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: X
+        node: {fileID: 2049573411286176441}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  OP: 0
+  ValueA: 0
+  ValueB: -75
+  Result: 0
+--- !u!114 &2669218697831777427
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -374787105, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Wait For Condition
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 10487.291, y: 2264.1013}
+  ports:
+    keys:
+    - Condition
+    - Previous
+    - Next
+    values:
+    - _fieldName: Condition
+      _node: {fileID: 2669218697831777427}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Result
+        node: {fileID: -7136490567501666247}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Previous
+      _node: {fileID: 2669218697831777427}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionFlowNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Next
+        node: {fileID: -3470818744545631782}
+        reroutePoints: []
+      - fieldName: Next
+        node: {fileID: 8897310036686039868}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Next
+      _node: {fileID: 2669218697831777427}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionFlowNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: -7667741641541106672}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  Previous: {fileID: 0}
+  Next: {fileID: 0}
+  Condition: 0
+--- !u!114 &2923777014469059754
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1272597587, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Wait Time
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 7064, y: 2424}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: 2923777014469059754}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 1639107657520533214}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: 2923777014469059754}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 2208877811173651748}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Delay: 1
+--- !u!114 &3011925227920974023
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1534519903, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Get Fleet Ship
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6616, y: 1432}
+  ports:
+    keys:
+    - Player
+    - ShipNumber
+    - Ship
+    values:
+    - _fieldName: Player
+      _node: {fileID: 3011925227920974023}
+      _typeQualifiedName: Game.SkirmishPlayer, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: HumanPlayerOut
+        node: {fileID: 3451488256739971326}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ShipNumber
+      _node: {fileID: 3011925227920974023}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Ship
+      _node: {fileID: 3011925227920974023}
+      _typeQualifiedName: Game.Units.ShipController, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Ship
+        node: {fileID: 4997328113513726307}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Player: {fileID: 0}
+  ShipNumber: 1
+  Ship: {fileID: 0}
+--- !u!114 &3451488256739971326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1918823201, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Mission Start
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5431.291, y: 1704.1013}
+  ports:
+    keys:
+    - HumanPlayerOut
+    - Allies
+    - EnemyForce
+    - SetupSteps
+    - Next
+    - EnemyForce 0
+    values:
+    - _fieldName: HumanPlayerOut
+      _node: {fileID: 3451488256739971326}
+      _typeQualifiedName: Game.SkirmishPlayer, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Player
+        node: {fileID: 3886319028087809588}
+        reroutePoints: []
+      - fieldName: Player
+        node: {fileID: -5423810049275429734}
+        reroutePoints: []
+      - fieldName: Player
+        node: {fileID: 5833256630677932409}
+        reroutePoints: []
+      - fieldName: Player
+        node: {fileID: 1297609629536640485}
+        reroutePoints: []
+      - fieldName: Player
+        node: {fileID: 3011925227920974023}
+        reroutePoints: []
+      - fieldName: Player
+        node: {fileID: 8386716624725318672}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Allies
+      _node: {fileID: 3451488256739971326}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionStartNode+AddBotPlayer[], Nebulous,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: EnemyForce
+      _node: {fileID: 3451488256739971326}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionStartNode+AddBotPlayer[], Nebulous,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: SetupSteps
+      _node: {fileID: 3451488256739971326}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 8237178608981663833}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Next
+      _node: {fileID: 3451488256739971326}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionFlowNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: 8897310036686039868}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: EnemyForce 0
+      _node: {fileID: 3451488256739971326}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionStartNode+AddBotPlayer, Nebulous,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: AddBot
+        node: {fileID: 3487699143133763328}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 1
+  MapGeo: {fileID: 0}
+  AllowSpawnSelection: 0
+  HumanPlayer:
+    PlayerFleet: {fileID: 4900000, guid: 571a8ec7820b1cf4e88ac0b962125128, type: 3}
+    Colors:
+      BaseColor: {r: 0.25882354, g: 0.3647059, b: 0.5058824, a: 1}
+      StripeColor: {r: 0.9490196, g: 0.39215687, b: 0.1764706, a: 1}
+      FleetPrefix: OSPN
+    Badge: {fileID: 2800000, guid: 10e200715fc02e448a64ee88829a67ee, type: 3}
+  HumanPlayerOut: {fileID: 0}
+  Allies: []
+  EnemyForce:
+  - PlayerFleet: {fileID: 4900000, guid: 426adfa2ce2d21448bc2d857e5e8d941, type: 3}
+    Colors:
+      BaseColor: {r: 0.3803922, g: 0.4784314, b: 0.30980393, a: 1}
+      StripeColor: {r: 1, g: 1, b: 1, a: 1}
+      FleetPrefix: ANS
+    Badge: {fileID: 2800000, guid: bf60d913b8523874ebe53895ede0a183, type: 3}
+    Brain: {fileID: 11400000, guid: 49d307076c5af0348a7a192650837da9, type: 2}
+  SetupSteps: {fileID: 0}
+  Next: {fileID: 0}
+--- !u!114 &3487699143133763328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -472751859, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Get Enemy Player
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6136, y: 2056}
+  ports:
+    keys:
+    - AddBot
+    - BotPlayer
+    values:
+    - _fieldName: AddBot
+      _node: {fileID: 3487699143133763328}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionStartNode+AddBotPlayer, Nebulous,
+        Version=0.0.0.0, Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: EnemyForce 0
+        node: {fileID: 3451488256739971326}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: BotPlayer
+      _node: {fileID: 3487699143133763328}
+      _typeQualifiedName: Game.BotSkirmishPlayer, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Player
+        node: {fileID: -1726995078431856596}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  AddBot:
+    PlayerFleet: {fileID: 0}
+    Colors:
+      BaseColor: {r: 0.38, g: 0.48, b: 0.31, a: 1}
+      StripeColor: {r: 1, g: 1, b: 1, a: 1}
+      FleetPrefix: ANS
+    Badge: {fileID: 0}
+    Brain: {fileID: 0}
+  BotPlayer: {fileID: 0}
+--- !u!114 &3886319028087809588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 382605031, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Player Details
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 9587.352, y: 1897.687}
+  ports:
+    keys:
+    - Player
+    - IsLocal
+    - ActiveOrderType
+    - Eliminated
+    values:
+    - _fieldName: Player
+      _node: {fileID: 3886319028087809588}
+      _typeQualifiedName: Game.SkirmishPlayer, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: HumanPlayerOut
+        node: {fileID: 3451488256739971326}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: IsLocal
+      _node: {fileID: 3886319028087809588}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ActiveOrderType
+      _node: {fileID: 3886319028087809588}
+      _typeQualifiedName: System.String, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Eliminated
+      _node: {fileID: 3886319028087809588}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Conditions
+        node: {fileID: -7136490567501666247}
+        reroutePoints: []
+      - fieldName: Conditions 0
+        node: {fileID: -7136490567501666247}
+        reroutePoints: []
+      - fieldName: Condition
+        node: {fileID: -7667741641541106672}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Player: {fileID: 0}
+  IsLocal: 0
+  ActiveOrderType: 
+  Eliminated: 0
+--- !u!114 &3895666490551233377
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 642626612, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Float Math
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6072, y: 1432}
+  ports:
+    keys:
+    - ValueA
+    - ValueB
+    - Result
+    values:
+    - _fieldName: ValueA
+      _node: {fileID: 3895666490551233377}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: X
+        node: {fileID: 7673668370740094817}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ValueB
+      _node: {fileID: 3895666490551233377}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Result
+      _node: {fileID: 3895666490551233377}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: X
+        node: {fileID: -5055250671729901698}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  OP: 0
+  ValueA: 0
+  ValueB: -50
+  Result: 0
+--- !u!114 &4997328113513726307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d7239358b8b724bb377d759e47a5f3, type: 3}
+  m_Name: Set Ship Position
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6872, y: 1432}
+  ports:
+    keys:
+    - Ship
+    - Position
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: Ship
+      _node: {fileID: 4997328113513726307}
+      _typeQualifiedName: Game.Units.ShipController, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Ship
+        node: {fileID: 3011925227920974023}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Position
+      _node: {fileID: 4997328113513726307}
+      _typeQualifiedName: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Combined
+        node: {fileID: -5055250671729901698}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: PreviousStep
+      _node: {fileID: 4997328113513726307}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 8237178608981663833}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: 4997328113513726307}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 8799280668130958638}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Ship: {fileID: 0}
+  Position: {x: 0, y: 0, z: 0}
+--- !u!114 &5833256630677932409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1224716910, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Set Player Limited Actions
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 9048, y: 3416}
+  ports:
+    keys:
+    - Player
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: Player
+      _node: {fileID: 5833256630677932409}
+      _typeQualifiedName: Game.SkirmishPlayer, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: HumanPlayerOut
+        node: {fileID: 3451488256739971326}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: PreviousStep
+      _node: {fileID: 5833256630677932409}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: -4308598396973893724}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: 5833256630677932409}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: -2810772770876189512}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Player: {fileID: 0}
+  AvailableActions: -1
+--- !u!114 &7124043968587902799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2047810986, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Conditional Branch
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 7000, y: 3288}
+  ports:
+    keys:
+    - Condition
+    - Previous
+    - BranchOne
+    - BranchTwo
+    values:
+    - _fieldName: Condition
+      _node: {fileID: 7124043968587902799}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Result
+        node: {fileID: -6668637564671052363}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Previous
+      _node: {fileID: 7124043968587902799}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionFlowNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: BranchOne
+      _node: {fileID: 7124043968587902799}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionFlowNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: -3470818744545631782}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: BranchTwo
+      _node: {fileID: 7124043968587902799}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionFlowNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: 8222085353175001081}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  Previous: {fileID: 0}
+  BranchOne: {fileID: 0}
+  BranchTwo: {fileID: 0}
+  Condition: 0
+--- !u!114 &7673668370740094817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1089009144, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Split Vector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 5832, y: 1432}
+  ports:
+    keys:
+    - Input
+    - X
+    - Y
+    - Z
+    values:
+    - _fieldName: Input
+      _node: {fileID: 7673668370740094817}
+      _typeQualifiedName: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: CentralObjective
+        node: {fileID: -7150591859273495035}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: X
+      _node: {fileID: 7673668370740094817}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: ValueA
+        node: {fileID: 3895666490551233377}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Y
+      _node: {fileID: 7673668370740094817}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Y
+        node: {fileID: -5055250671729901698}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Z
+      _node: {fileID: 7673668370740094817}
+      _typeQualifiedName: System.Single, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections:
+      - fieldName: Z
+        node: {fileID: -5055250671729901698}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Input: {x: 0, y: 0, z: 0}
+  X: 0
+  Y: 0
+  Z: 0
+--- !u!114 &8222085353175001081
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 66471401, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Execute Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 7448, y: 3528}
+  ports:
+    keys:
+    - ExecuteCondition
+    - ContinuousEval
+    - AbortCondition
+    - FirstStep
+    - Previous
+    - Next
+    values:
+    - _fieldName: ExecuteCondition
+      _node: {fileID: 8222085353175001081}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ContinuousEval
+      _node: {fileID: 8222085353175001081}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: AbortCondition
+      _node: {fileID: 8222085353175001081}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: FirstStep
+      _node: {fileID: 8222085353175001081}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 2286673179549755786}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Previous
+      _node: {fileID: 8222085353175001081}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionFlowNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: BranchTwo
+        node: {fileID: 7124043968587902799}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Next
+      _node: {fileID: 8222085353175001081}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionFlowNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: -3470818744545631782}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  Previous: {fileID: 0}
+  Next: {fileID: 0}
+  ExecuteCondition: 1
+  ContinuousEval: 0
+  AbortCondition: 0
+  FirstStep: {fileID: 0}
+--- !u!114 &8237178608981663833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d7239358b8b724bb377d759e47a5f3, type: 3}
+  m_Name: Set Ship Position
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6872, y: 1304}
+  ports:
+    keys:
+    - Ship
+    - Position
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: Ship
+      _node: {fileID: 8237178608981663833}
+      _typeQualifiedName: Game.Units.ShipController, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Ship
+        node: {fileID: 8386716624725318672}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Position
+      _node: {fileID: 8237178608981663833}
+      _typeQualifiedName: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Combined
+        node: {fileID: -1645980766833306599}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: PreviousStep
+      _node: {fileID: 8237178608981663833}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: SetupSteps
+        node: {fileID: 3451488256739971326}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: 8237178608981663833}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 4997328113513726307}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Ship: {fileID: 0}
+  Position: {x: 0, y: 0, z: 0}
+--- !u!114 &8386716624725318672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1534519903, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Get Fleet Ship
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6616, y: 1304}
+  ports:
+    keys:
+    - Player
+    - ShipNumber
+    - Ship
+    values:
+    - _fieldName: Player
+      _node: {fileID: 8386716624725318672}
+      _typeQualifiedName: Game.SkirmishPlayer, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: HumanPlayerOut
+        node: {fileID: 3451488256739971326}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ShipNumber
+      _node: {fileID: 8386716624725318672}
+      _typeQualifiedName: System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Ship
+      _node: {fileID: 8386716624725318672}
+      _typeQualifiedName: Game.Units.ShipController, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Ship
+        node: {fileID: 8237178608981663833}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+  Player: {fileID: 0}
+  ShipNumber: 0
+  Ship: {fileID: 0}
+--- !u!114 &8799280668130958638
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38d7239358b8b724bb377d759e47a5f3, type: 3}
+  m_Name: Set Ship Position
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6872, y: 1560}
+  ports:
+    keys:
+    - Ship
+    - Position
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: Ship
+      _node: {fileID: 8799280668130958638}
+      _typeQualifiedName: Game.Units.ShipController, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Ship
+        node: {fileID: 1297609629536640485}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Position
+      _node: {fileID: 8799280668130958638}
+      _typeQualifiedName: UnityEngine.Vector3, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Combined
+        node: {fileID: 2049573411286176441}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: PreviousStep
+      _node: {fileID: 8799280668130958638}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 4997328113513726307}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: 8799280668130958638}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Ship: {fileID: 0}
+  Position: {x: 0, y: 0, z: 0}
+--- !u!114 &8897310036686039868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 66471401, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Execute Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 6088, y: 2200}
+  ports:
+    keys:
+    - ExecuteCondition
+    - ContinuousEval
+    - AbortCondition
+    - FirstStep
+    - Previous
+    - Next
+    values:
+    - _fieldName: ExecuteCondition
+      _node: {fileID: 8897310036686039868}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ContinuousEval
+      _node: {fileID: 8897310036686039868}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: AbortCondition
+      _node: {fileID: 8897310036686039868}
+      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+      connections: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: FirstStep
+      _node: {fileID: 8897310036686039868}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: -5423810049275429734}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Previous
+      _node: {fileID: 8897310036686039868}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionFlowNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Next
+        node: {fileID: 3451488256739971326}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Next
+      _node: {fileID: 8897310036686039868}
+      _typeQualifiedName: Missions.Nodes.Flow.MissionFlowNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: Previous
+        node: {fileID: 2669218697831777427}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  Previous: {fileID: 0}
+  Next: {fileID: 0}
+  ExecuteCondition: 1
+  ContinuousEval: 0
+  AbortCondition: 0
+  FirstStep: {fileID: 0}
