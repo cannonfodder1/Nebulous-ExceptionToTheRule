@@ -364,7 +364,10 @@ namespace KribensisIncursion
 
 				if (startNode != null)
 				{
-					lobbyPlayer.SetBadge(HullBadge.GetBadge(startNode.HumanPlayer.Badge.name));
+					if (startNode.HumanPlayer.Badge != null)
+					{
+						lobbyPlayer.SetBadge(HullBadge.GetBadge(startNode.HumanPlayer.Badge.name));
+					}
 				}
 			}
 		}
@@ -376,7 +379,16 @@ namespace KribensisIncursion
 	{
 		static bool Prefix(ref SkirmishLobbyPlayer __instance, ref HullBadge badge)
 		{
-			badge = HullBadge.GetBadge(badge.Texture.name);
+			if (badge != null)
+			{
+				if (badge.Texture != null)
+				{
+					if (badge.Texture.name != null)
+					{
+						badge = HullBadge.GetBadge(badge.Texture.name);
+					}
+				}
+			}
 
 			return true;
 		}
