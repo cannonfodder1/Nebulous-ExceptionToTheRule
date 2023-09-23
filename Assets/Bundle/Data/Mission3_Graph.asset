@@ -1829,7 +1829,7 @@ MonoBehaviour:
   MapGeo: {fileID: 0}
   AllowSpawnSelection: 0
   HumanPlayer:
-    PlayerFleet: {fileID: 4900000, guid: 571a8ec7820b1cf4e88ac0b962125128, type: 3}
+    PlayerFleet: {fileID: 4900000, guid: 25d1d5c2c145f024a9622cf940a4dab9, type: 3}
     Colors:
       BaseColor: {r: 0.25882354, g: 0.3647059, b: 0.5058824, a: 1}
       StripeColor: {r: 0.9490196, g: 0.39215687, b: 0.1764706, a: 1}
@@ -1838,7 +1838,7 @@ MonoBehaviour:
   HumanPlayerOut: {fileID: 0}
   Allies: []
   EnemyForce:
-  - PlayerFleet: {fileID: 4900000, guid: 426adfa2ce2d21448bc2d857e5e8d941, type: 3}
+  - PlayerFleet: {fileID: 4900000, guid: 4552f08e16a40ea48bfda965e1607bd2, type: 3}
     Colors:
       BaseColor: {r: 0.3803922, g: 0.4784314, b: 0.30980393, a: 1}
       StripeColor: {r: 1, g: 1, b: 1, a: 1}
