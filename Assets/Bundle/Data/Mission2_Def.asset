@@ -15,8 +15,8 @@ MonoBehaviour:
   MissionName: Storm Warning
   DetailText: Silence the jammers of an Alliance taskforce among the asteroids of
     Kribensis, as the future of the raiding effort hangs in the balance.
-  PreBriefing: "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\\\n\\\\\\
-    Nine weeks after The Divide \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\\\n\r\nOSPN
+  PreBriefing: "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\
+    Weeks since the Divide: 9 \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nOSPN
     NAVY-LINK COMM.\r\nVOICE TRANSCRIPT.\r\n\r\n--- N. Vance has joined the call
     ---\r\n\r\nV: Pick up, you bastard.\r\n\r\n--- B. Stratis has joined the call
     ---\r\n\r\nS: Reporting as ordered, Captain.\r\n\r\nV: As of this very moment
@@ -33,20 +33,20 @@ MonoBehaviour:
     forces away from their jumping off point at the gate to Bethel to react to our
     incursion. Which, as far as our official mission goes, is exactly what we were
     supposed to provoke. It's time to get out before -\r\n\r\nV: Cease the quitter
-    talk. If we just up and leave now, they'll go right back to their gate. We have
-    to stay in the system and remain a threat for as long as possible.\r\n\r\nS:
-    But ma'am - \r\n\r\nV: Enough. We can discuss strategy further once I tear this
-    fucking battleship apart.\r\n\r\nS: Where do you want me, then?\r\n\r\nV: As
-    I said, we don't have a lot of counters to jamming, but one of them is your cruiser.
-    We've been tracking the drive flares of an Alliance taskforce moving towards
-    one of our supply depots. You're close enough to interdict them at their jumping
-    off point. I want you to give them a bloody nose, and buy us the time we need
-    to get our shit together.\r\n\r\nS: Aye ma'am.\r\n\r\nV: I'm detaching a couple
-    of cargo feeders to join you, they should provide some additional - \r\n\r\n(background
-    voices detected) SPIKER! Spiker spiker spiker! Count four incoming, range three
-    kilo, bearing two-five-one by zero-six-four, speed -\r\n\r\nV: Oh fuck - \r\n\r\n(background
-    voices detected) PDTs are up, Bastion net engaging, splash one -\r\n\r\nV: Gotta
-    go!\r\n\r\n--- Connection Terminated ---\r\n\r"
+    talk. Every week we keep them occupied here is another week the shipyards have
+    to militarize more freighters for the gate blockade. We have to stay in the system
+    and remain a threat for as long as possible.\r\n\r\nS: But ma'am - \r\n\r\nV:
+    Enough. We can discuss strategy further once I tear this fucking battleship apart.\r\n\r\nS:
+    Where do you want me, then?\r\n\r\nV: As I said, we don't have a lot of counters
+    to jamming, but one of them is your cruiser. We've been tracking the drive flares
+    of an Alliance taskforce moving towards one of our supply depots. You're close
+    enough to interdict them at their jumping off point. I want you to give them
+    a bloody nose, and buy us the time we need to get our shit together.\r\n\r\nS:
+    Aye ma'am.\r\n\r\nV: I'm detaching a couple of cargo feeders to join you, they
+    should provide some additional - \r\n\r\n(background voices detected) SPIKER!
+    Spiker spiker spiker! Count four incoming, range three kilo, bearing two-five-one
+    by zero-six-four, speed -\r\n\r\nV: Oh fuck - \r\n\r\n(background voices detected)
+    PDTs are up, Bastion net engaging, splash one -\r\n\r\nV: Gotta go!\r"
   MissionKey: fKPptYeLr0C3-EPvpvKL1w
   Screenshot: {fileID: 21300000, guid: 65d3f993da0bf6d488622a5ac9a0ddfa, type: 3}
   _graph:

@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mission 1 Player</Name>
   <Version>3</Version>
-  <TotalPoints>2160</TotalPoints>
+  <TotalPoints>2180</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -201,12 +201,16 @@
       <SaveID xsi:nil="true" />
       <Key>c7e3e166-5c05-412a-876c-040c5f7f84ec</Key>
       <Name>Trespassers Will Be Shot</Name>
-      <Cost>280</Cost>
+      <Cost>300</Cost>
       <Callsign />
       <Number>267</Number>
       <SymbolOption>0</SymbolOption>
       <HullType>Stock/Tugboat</HullType>
       <SocketMap>
+        <HullSocket>
+          <Key>03vxralGq0CFx1XKxjOcBA</Key>
+          <ComponentName>Stock/C30 Cannon</ComponentName>
+        </HullSocket>
         <HullSocket>
           <Key>cIGspM4oYU2etRfjIcuCCA</Key>
           <ComponentName>Stock/R550 Early Warning Radar</ComponentName>
@@ -241,6 +245,11 @@
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
                 <Quantity>10000</Quantity>
               </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>MXhU7AdK-UqLHR12Ni-mfQ</MagazineKey>
+                <MunitionKey>Stock/100mm HE Shell</MunitionKey>
+                <Quantity>500</Quantity>
+              </MagSaveData>
             </Load>
           </ComponentData>
         </HullSocket>
@@ -271,6 +280,11 @@
             <string>cIGspM4oYU2etRfjIcuCCA</string>
           </MemberKeys>
         </WepGroup>
+        <WepGroup Name="100mm Casemate">
+          <MemberKeys>
+            <string>03vxralGq0CFx1XKxjOcBA</string>
+          </MemberKeys>
+        </WepGroup>
       </WeaponGroups>
       <TemplateMissileTypes />
     </Ship>
@@ -294,6 +308,7 @@ Terminal Maneuvers: None
 Contact Fuze, High Explosive, Shaped
 Armor: 54cm   Component: 960hp
 Blast Angle: 70 deg
+Damage Per Fragment: 50.0
 
 Body Integrity: 30 
 Programming Time: 8 s

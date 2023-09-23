@@ -15,21 +15,21 @@ MonoBehaviour:
   MissionName: Wide Open
   DetailText: Hunt down an Alliance patrol in deep space, securing a hyperspace emergence
     point for the rest of the battlegroup.
-  PreBriefing: "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\
-    Two weeks after The Divide \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nOSPN
+  PreBriefing: "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\
+    Weeks since the Divide: 2 \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nOSPN
     EMPEROR REVERSE. INTRASHIP MAIL.\r\nTO: BSTRATIS\r\nFROM: NOVANCE\r\n\r\nStratis,
-    \r\n\r\nI've got news for you. Constantine gave me one of his precious cruisers
-    from the Roclaren mothball yards, a rusty old bucket, but a true warship. It's
-    better than any of our converted freighters. And there's no way in hell I'm taking
-    it. I built my flagship with grit, spit, and a whole lot of duct tape, I'm not
-    trading her out just on the Old Man's say so. Also, equally as importantly, I'm
-    not driving one of these fuckin' missile-proof heavy-armoured military ships
+    \r\n\r\nI've got news for you. Constantine gave me one of the newly reactivated
+    cruisers from the Roclaren mothball yards, a rusty old bucket, but a true warship.
+    It's better than any of our converted freighters, and there's no way in hell
+    I'm taking it. I built my flagship with grit, spit, and a whole lot of duct tape,
+    I'm not trading her out just on the Old Man's say so. Also, equally as importantly,
+    I'm not driving one of these fuckin' missile-proof heavy-armoured military ships
     into battle, hell no, I'm a real spacer. So, getting back to my point: I figured
     this sort of cowardly asset would be right up your alley. I'll be sad to not
-    have you onboard to second-guess all my genius plans, but it's about time you
-    got a ship of your own. And don't tell Constantine about this, you hear? \r\n\r\n-
-    Vance\r\n\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\
-    Five weeks after The Divide \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nOSPN
+    have you as onboard as XO to second-guess all my genius plans, but it's about
+    time you got a ship of your own. And don't tell Constantine about this, you hear?
+    \r\n\r\n- Vance\r\n\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\
+    Weeks since the Divide: 5 \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nOSPN
     NAVY-LINK COMM.\r\nT: OSPN EXCEPTION TO THE RULE\r\nF: OSPN EMPEROR REVERSE\r\n\r\nStratis,\r\n\r\nHope
     you've settled into your new command, because it's go time. I just got off the
     phone with the Old Man: we're heading into Kribensis to do some old fashioned

@@ -278,7 +278,7 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
   Mood: 0
   Lines:
-  - Text: For fuck's sake, Leftenant. Stay on top of your emails. Well, I guess you
+  - Text: For fuck's sake, Stratis. Stay on top of your emails. Well, I guess you
       don't need to know most of it, because you're uniquely equipped for the job.
       That bastard warship of yours has a military radar suite, the Parallax, which
       can 'burn-through' jamming. Use the BRN command, then LCK the resulting pings
@@ -691,11 +691,11 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
   Mood: 0
   Lines:
-  - Text: Damn fine job, Leftenant. Search and rescue then return to the OSPN Emperor
-      Reverse for repair and resupply. Also, I got a message from the Otdel back
-      in Roclaren - apparently they're working on a present for us that could help
-      against Alliance jamming, something called a Bloodhound LRT? We'll go over
-      the specs when you get back here, but it sounds promising.
+  - Text: Damn fine job, Lieutenant Commander. Search and rescue then return to the
+      OSPN Emperor Reverse for repair and resupply. Also, I got a message from the
+      Otdel back in Roclaren - apparently they're working on a present for us that
+      could help against Alliance jamming, something called a Bloodhound LRT? We'll
+      go over the specs when you get back here, but it sounds promising.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &11400000

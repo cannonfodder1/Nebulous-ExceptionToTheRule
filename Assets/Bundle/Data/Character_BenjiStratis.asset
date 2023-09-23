@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 839186995, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
-  m_Name: Character_NovaVance
+  m_Name: Character_BenjiStratis
   m_EditorClassIdentifier: 
-  Name: CAPT Nova Vance
+  Name: LCDR Benji Stratis
   _normalPortraits:
-  - {fileID: 2800000, guid: dc46205cc9c599c4e9e4d4fd50d3ab82, type: 3}
+  - {fileID: 2800000, guid: 10e200715fc02e448a64ee88829a67ee, type: 3}
