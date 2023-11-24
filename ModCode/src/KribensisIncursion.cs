@@ -24,13 +24,50 @@ namespace KribensisIncursion
 		// Used later to determine which mod to load mission graphs from
 		public static string ModName = "Kribensis Incursion";
 
+		public static GameObject FacilityPrefab = null;
+
 		public void PostLoad()
 		{
-			// we're patching BundleManager so it's gotta happen PreLoad
+			// Thank you to SomeUsername6 for the below code!
+			// Here we grab the Facility from Station Capture mode
+
+			ScenarioGraph stationCapture = null;
+			foreach (ScenarioGraph scenario in BundleManager.Instance.AllScenarios)
+            {
+				if (scenario.ScenarioName == "Station Capture")
+                {
+					stationCapture = scenario;
+					break;
+                }
+            }
+			if (stationCapture == null)
+			{
+				Debug.LogError("Could not find ScenarioGraph by the name of Station Capture");
+				return;
+			}
+
+			GameObject facilityPrefab = null;
+			foreach (Node node in stationCapture.nodes)
+			{
+				CreateCapturePoint createCapturePoint = node as CreateCapturePoint;
+				if (createCapturePoint != null)
+				{
+					facilityPrefab = createCapturePoint.Prefab;
+					break;
+				}
+			}
+			if (facilityPrefab == null)
+			{
+				Debug.LogError("ScenarioGraph does not contain a CreateCapturePoint node");
+				return;
+			}
+
+			KribensisIncursion.FacilityPrefab = facilityPrefab;
 		}
 
 		public void PreLoad()
 		{
+			// we're patching BundleManager so the Harmony register has to happen in PreLoad
 			Harmony harmony = new Harmony("nebulous.kribensis-incursion");
 			harmony.PatchAll();
 
@@ -349,6 +386,39 @@ namespace KribensisIncursion
 					return;
                 }
 			}
+		}
+	}
+
+	// Copy the Facility model from the basegame Station Capture into our custom mission
+	[HarmonyPatch(typeof(MissionGraph), "InitializeLobby")]
+	class Patch_MissionGraph_InitializeLobby
+	{
+		static bool Prefix(ref MissionGraph __instance)
+		{
+			Mission mission = (Mission)Utilities.GetPrivateField(GameManager.Instance, "_mission");
+
+			if (mission != null
+			&& mission.Graph.name == __instance.name 
+			&& mission.MissionName == "Righteous Fire")
+			{
+				if (KribensisIncursion.FacilityPrefab == null)
+				{
+					Debug.LogError("FacilityPrefab was not correctly set prior to mission dynamic load");
+					return true;
+				}
+
+				foreach (Node node in __instance.nodes)
+				{
+					Debug.Log(node.GetType());
+					CreateCapturePoint createCapturePoint = node as CreateCapturePoint;
+					if (createCapturePoint != null)
+					{
+						createCapturePoint.Prefab = KribensisIncursion.FacilityPrefab;
+					}
+				}
+			}
+
+			return true;
 		}
 	}
 

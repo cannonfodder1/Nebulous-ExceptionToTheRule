@@ -3,11 +3,11 @@
   <MissionGraphMappings>
     <MissionGraphEntry MissionName="Wide Open" GraphAddress="Assets/Bundle/Data/Mission1_Graph.asset"/>
     <MissionGraphEntry MissionName="Storm Warning" GraphAddress="Assets/Bundle/Data/Mission2_Graph.asset"/>
-    <MissionGraphEntry MissionName="Driving Rain" GraphAddress="Assets/Bundle/Data/Mission3_Graph.asset"/>
+    <MissionGraphEntry MissionName="Righteous Fire" GraphAddress="Assets/Bundle/Data/Mission3_Graph.asset"/>
   </MissionGraphMappings>
   <MissionBattlespaceMappings>
     <MissionBattlespaceEntry MissionName="Wide Open" BattlespaceName="Abyssal"/>
     <MissionBattlespaceEntry MissionName="Storm Warning" BattlespaceName="The Cliff"/>
-    <MissionBattlespaceEntry MissionName="Driving Rain" BattlespaceName="Pillars"/>
+    <MissionBattlespaceEntry MissionName="Righteous Fire" BattlespaceName="Pillars"/>
   </MissionBattlespaceMappings>
 </MissionLoaderManifest>

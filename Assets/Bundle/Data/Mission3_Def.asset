@@ -13,9 +13,39 @@ MonoBehaviour:
   m_Name: Mission3_Def
   m_EditorClassIdentifier: 
   MissionName: Righteous Fire
-  DetailText: Engage in a desperate assault to take and hold a crucial supply station,
-    against the full fury of the Alliance Navy.
-  PreBriefing: Mission 3
+  DetailText: Command the tip of the spear in Vance's final throw of the dice. Stand
+    against the full fury of the Alliance Navy, and face the consequences.
+  PreBriefing: "\r\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\
+    Weeks since the Divide: 12 \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nAN-STELLARCOM
+    // KRIBENSIS BUOY 09-VVV-2\r\nRELAY IMMEDIATE. PRIORITY ONE\r\n\r\nMESSAGE HEADER
+    //\r\nXX: IDENT -: WO. SAMUEL ACE\r\n\r\nHey boss, I know I\u2019m not technically
+    supposed to have the permissions to slap Priority One on message traffic, but
+    if I didn\u2019t slam this through it would have taken days to get to you. Half
+    of our comms buoys are down pending maintenance right now, the budget for a replacement
+    system has been stalled in committee for the last seven years so it seems we\u2019re
+    stuck with this junk. Anyway, you should relay this to the Admiral. Like, right
+    now. We got real lucky here and I don\u2019t want it to go to waste. I know faking
+    message priorities is grounds for dishonourable discharge, but I think you\u2019ll
+    agree it\u2019s justified once you read the intercept.\r\n\r\nMESSAGE CONTENT
+    //\r\nXX: INTERCEPT -: OSPN EMPEROR REVERSE\r\n\r\n[corrupted data] ...ank you
+    all for coming. I\u2019ll get straight to the point: our logistical situation
+    is well and truly [EXPLETIVE REMOVED]. Now, as I\u2019m sure Stratis is keen
+    to remind us, this would normally mean a withdrawal from the system. However,
+    just yesterday reinforcements arrived in-system from Bethel, with some shiny
+    new tech that\u2019ll have those [EXPLETIVE REMOVED] in Shelter quaking in their
+    boots, but more importantly, a message from Constantine. \r\n\r\nOur home needs
+    three weeks. They haven\u2019t told me what\u2019s going to happen then, I assume
+    that\u2019ll be the peak of the force buildup on our side of the Kribensis-Bethel
+    gate, or maybe tha... [corrupted data] ...ay, we have our orders. The Old Man
+    asks for three weeks, and the OSPN shall answer.\r\n\r\nSo, the plan is as follows.
+    We\u2019re going to g... [corrupted data] ...nd now for the target list. First
+    up, Garibaldi, you\u2019ll be taking your monitors to the astrographic relay
+    in sect... [corrupted data] ...ight need a heavy breacher complement to take
+    that one. Finally, we come to the main prize of this operation. Naval Station
+    Zodiac-Five, or NAVSTA Z-5 for those in a hurry, is one of the two main refueling
+    stops for all Alliance Navy operations in the inner system. Z-5\u2019s garrison
+    should be light to medium, but I\u2019m assigning our cruiser, because I want
+    it [EXPLETIVE REMOVED] obliterated. That means you, Stra... [corrupted data]\r\n"
   MissionKey: fKPptYeLr0C3-EPvpvKL1w
   Screenshot: {fileID: 21300000, guid: a44acc1c43eb0184187defb8e4156013, type: 3}
   _graph:
