@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mission 2 Player</Name>
   <Version>3</Version>
-  <TotalPoints>3092</TotalPoints>
+  <TotalPoints>2980</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>375c83e1-ccd3-41b4-863a-7c9ea5aa5100</Key>
       <Name>Exception To The Rule</Name>
-      <Cost>1864</Cost>
+      <Cost>1824</Cost>
       <Callsign />
       <Number>36</Number>
       <SymbolOption>0</SymbolOption>
@@ -157,11 +157,11 @@
         </HullSocket>
         <HullSocket>
           <Key>hjHxzsG5iUCkaG0eGd52bA</Key>
-          <ComponentName>Stock/Boosted Reactor</ComponentName>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>Fp6_NyEq1E-ZGeZxM9kjUg</Key>
-          <ComponentName>Stock/Boosted Reactor</ComponentName>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>-XwaOMN6eUSsztvywrmXVQ</Key>
@@ -169,7 +169,7 @@
         </HullSocket>
         <HullSocket>
           <Key>26mxVeOdd0SB5ZSaG_hJ0w</Key>
-          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2zMLaokmU6GUJMYfS3N_Q</Key>
@@ -211,7 +211,7 @@
       <SaveID xsi:nil="true" />
       <Key>5e50f940-3195-44ad-b16d-5a6729c1f39e</Key>
       <Name>No Reply Needed</Name>
-      <Cost>702</Cost>
+      <Cost>568</Cost>
       <Callsign />
       <Number>632</Number>
       <SymbolOption>0</SymbolOption>
@@ -219,30 +219,30 @@
       <SocketMap>
         <HullSocket>
           <Key>4V6twrIUcEKE11tom-tDXQ</Key>
-          <ComponentName>Stock/C60 Cannon</ComponentName>
+          <ComponentName>Stock/C90 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>yN7f-9tEXEKlBNskqP6EbA</Key>
-          <ComponentName>Stock/RL36 Launcher</ComponentName>
+          <ComponentName>Stock/Container Stack Launcher</ComponentName>
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>OUxvrLUU7EWeC1Ljh0p5_w</MagazineKey>
-                <MunitionKey>Stock/S1 Rocket</MunitionKey>
-                <Quantity>36</Quantity>
+                <MagazineKey>rGg-2rBy3Ey6Pcj5IgV2-w</MagazineKey>
+                <MunitionKey>Stock/Rocket Container</MunitionKey>
+                <Quantity>2</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>Z2uDs34J-ESu64-i9YGnxQ</Key>
-          <ComponentName>Stock/RL36 Launcher</ComponentName>
+          <ComponentName>Stock/Container Stack Launcher</ComponentName>
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>xw6ioKskaUy4k6nUSzVQlQ</MagazineKey>
-                <MunitionKey>Stock/S1 Rocket</MunitionKey>
-                <Quantity>36</Quantity>
+                <MagazineKey>G1oLmPB8qUGsJqiwAWha8w</MagazineKey>
+                <MunitionKey>Stock/Rocket Container</MunitionKey>
+                <Quantity>2</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -265,14 +265,19 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>Hv6onKrvBkaO3jBg1TZaMQ</MagazineKey>
-                <MunitionKey>Stock/450mm HE Shell</MunitionKey>
-                <Quantity>250</Quantity>
-              </MagSaveData>
-              <MagSaveData>
                 <MagazineKey>oJ0nnIptoUmKri14qWPzKw</MagazineKey>
                 <MunitionKey>Stock/Flak Round</MunitionKey>
                 <Quantity>1200</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>ySBLe9QNu0mmcVHYd6jEmA</MagazineKey>
+                <MunitionKey>Stock/600mm HE Shell</MunitionKey>
+                <Quantity>200</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>mZdUq-Ue40OBlsqVjXol0Q</MagazineKey>
+                <MunitionKey>Stock/600mm Bomb Shell</MunitionKey>
+                <Quantity>100</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -303,7 +308,7 @@
         </HullSocket>
         <HullSocket>
           <Key>HvdEBsnpUUypPN4uW67paQ</Key>
-          <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>iDdlfFwKkUO9HbumzymceA</Key>
@@ -313,9 +318,17 @@
           <Key>DaqWEX-8gEeIzYrhp8NIMw</Key>
           <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
+        <HullSocket>
+          <Key>EvZ6JN5xV0aUlKEeeKxFTQ</Key>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>CU_oraqJxEaB3dTzZW2MkA</Key>
+          <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
+        </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="450mm Spinal">
+        <WepGroup Name="600mm Casemate">
           <MemberKeys>
             <string>4V6twrIUcEKE11tom-tDXQ</string>
           </MemberKeys>
@@ -327,7 +340,7 @@
       <SaveID xsi:nil="true" />
       <Key>03728fcb-f2a6-42cb-a961-17e43729503a</Key>
       <Name>Read The Manual</Name>
-      <Cost>526</Cost>
+      <Cost>588</Cost>
       <Callsign />
       <Number>476</Number>
       <SymbolOption>0</SymbolOption>
@@ -335,7 +348,7 @@
       <SocketMap>
         <HullSocket>
           <Key>4V6twrIUcEKE11tom-tDXQ</Key>
-          <ComponentName>Stock/C60 Cannon</ComponentName>
+          <ComponentName>Stock/C90 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>yN7f-9tEXEKlBNskqP6EbA</Key>
@@ -381,14 +394,19 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>Hv6onKrvBkaO3jBg1TZaMQ</MagazineKey>
-                <MunitionKey>Stock/450mm HE Shell</MunitionKey>
-                <Quantity>250</Quantity>
-              </MagSaveData>
-              <MagSaveData>
                 <MagazineKey>oJ0nnIptoUmKri14qWPzKw</MagazineKey>
                 <MunitionKey>Stock/Flak Round</MunitionKey>
                 <Quantity>1200</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>ERfDgcIAMUSegrR424NPDA</MagazineKey>
+                <MunitionKey>Stock/600mm HE Shell</MunitionKey>
+                <Quantity>200</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>QPQD5kIoD0OlgdaxvA_N3A</MagazineKey>
+                <MunitionKey>Stock/600mm Bomb Shell</MunitionKey>
+                <Quantity>100</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -419,7 +437,7 @@
         </HullSocket>
         <HullSocket>
           <Key>HvdEBsnpUUypPN4uW67paQ</Key>
-          <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>iDdlfFwKkUO9HbumzymceA</Key>
@@ -429,9 +447,17 @@
           <Key>DaqWEX-8gEeIzYrhp8NIMw</Key>
           <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
+        <HullSocket>
+          <Key>EvZ6JN5xV0aUlKEeeKxFTQ</Key>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>CU_oraqJxEaB3dTzZW2MkA</Key>
+          <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
+        </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="450mm Spinal">
+        <WepGroup Name="600mm Casemate">
           <MemberKeys>
             <string>4V6twrIUcEKE11tom-tDXQ</string>
           </MemberKeys>
@@ -514,6 +540,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -604,6 +631,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>

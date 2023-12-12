@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mission 1 Player</Name>
   <Version>3</Version>
-  <TotalPoints>2180</TotalPoints>
+  <TotalPoints>2140</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>375c83e1-ccd3-41b4-863a-7c9ea5aa5100</Key>
       <Name>Exception To The Rule</Name>
-      <Cost>1880</Cost>
+      <Cost>1840</Cost>
       <Callsign />
       <Number>36</Number>
       <SymbolOption>0</SymbolOption>
@@ -147,11 +147,11 @@
         </HullSocket>
         <HullSocket>
           <Key>hjHxzsG5iUCkaG0eGd52bA</Key>
-          <ComponentName>Stock/Boosted Reactor</ComponentName>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>Fp6_NyEq1E-ZGeZxM9kjUg</Key>
-          <ComponentName>Stock/Boosted Reactor</ComponentName>
+          <ComponentName>Stock/FR4800 Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>-XwaOMN6eUSsztvywrmXVQ</Key>
@@ -159,7 +159,7 @@
         </HullSocket>
         <HullSocket>
           <Key>26mxVeOdd0SB5ZSaG_hJ0w</Key>
-          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
+          <ComponentName>Stock/FR3300 Micro Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>c2zMLaokmU6GUJMYfS3N_Q</Key>
@@ -243,7 +243,7 @@
               <MagSaveData>
                 <MagazineKey>If5QBhxPV0y1xVordsLAIQ</MagazineKey>
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
-                <Quantity>10000</Quantity>
+                <Quantity>16000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>MXhU7AdK-UqLHR12Ni-mfQ</MagazineKey>
@@ -355,6 +355,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>

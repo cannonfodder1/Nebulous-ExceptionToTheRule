@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mission 3 Opponent</Name>
   <Version>3</Version>
-  <TotalPoints>7870</TotalPoints>
+  <TotalPoints>8293</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>d32209e3-d5bc-4dc1-a558-0b60991a8767</Key>
       <Name>Driving Rain</Name>
-      <Cost>1970</Cost>
+      <Cost>2047</Cost>
       <Callsign />
       <Number>29</Number>
       <SymbolOption>0</SymbolOption>
@@ -158,7 +158,7 @@
         </HullSocket>
         <HullSocket>
           <Key>lxkgmNwqjUua0sRee2pDJg</Key>
-          <ComponentName>Stock/FM30X 'Prowler' Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>_Aun-HW-DkOGytVmYSn5IQ</Key>
@@ -193,6 +193,10 @@
           <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
+          <Key>tnZD-B5Ls0qAyBtdz4yoTA</Key>
+          <ComponentName>Stock/Missile Programming Bus</ComponentName>
+        </HullSocket>
+        <HullSocket>
           <Key>S8ALcpOMYEqJog1v2q8UMQ</Key>
           <ComponentName>Stock/RM50 'Parallax' Radar</ComponentName>
         </HullSocket>
@@ -215,7 +219,7 @@
       <SaveID xsi:nil="true" />
       <Key>60e79b9d-7be5-47e4-8e08-0574c24df18a</Key>
       <Name>Righteous Fire</Name>
-      <Cost>1970</Cost>
+      <Cost>2047</Cost>
       <Callsign />
       <Number>44</Number>
       <SymbolOption>0</SymbolOption>
@@ -363,7 +367,7 @@
         </HullSocket>
         <HullSocket>
           <Key>lxkgmNwqjUua0sRee2pDJg</Key>
-          <ComponentName>Stock/FM30X 'Prowler' Drive</ComponentName>
+          <ComponentName>Stock/FM230 'Whiplash' Drive</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>_Aun-HW-DkOGytVmYSn5IQ</Key>
@@ -396,6 +400,10 @@
         <HullSocket>
           <Key>awwdeDnNs0G-RceQF1TByA</Key>
           <ComponentName>Stock/Ammunition Elevators</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tnZD-B5Ls0qAyBtdz4yoTA</Key>
+          <ComponentName>Stock/Missile Programming Bus</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>S8ALcpOMYEqJog1v2q8UMQ</Key>
@@ -683,7 +691,7 @@
       <SaveID xsi:nil="true" />
       <Key>e206e9a4-2f5d-45e2-af22-8cb3c784f88d</Key>
       <Name>Energy Transfer</Name>
-      <Cost>866</Cost>
+      <Cost>882</Cost>
       <Callsign />
       <Number>416</Number>
       <SymbolOption>1</SymbolOption>
@@ -833,7 +841,7 @@
       <SaveID xsi:nil="true" />
       <Key>15bf370b-e5e7-494a-af39-be8a152ba6e6</Key>
       <Name>Reverse Ideology</Name>
-      <Cost>866</Cost>
+      <Cost>882</Cost>
       <Callsign />
       <Number>310</Number>
       <SymbolOption>1</SymbolOption>
@@ -983,7 +991,7 @@
       <SaveID xsi:nil="true" />
       <Key>e9af0df3-23ef-47cd-98be-0f5842d48266</Key>
       <Name>Follow Through</Name>
-      <Cost>295</Cost>
+      <Cost>374</Cost>
       <Callsign />
       <Number>1489</Number>
       <SymbolOption>0</SymbolOption>
@@ -1004,7 +1012,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/E55 'Spotlight' Illuminator</ComponentName>
+          <ComponentName>Stock/RF101 'Bullseye' Radar</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
@@ -1063,7 +1071,7 @@
       <SaveID xsi:nil="true" />
       <Key>4958814c-521b-46cc-97fb-091b853ec851</Key>
       <Name>Crash Course</Name>
-      <Cost>295</Cost>
+      <Cost>374</Cost>
       <Callsign />
       <Number>1313</Number>
       <SymbolOption>0</SymbolOption>
@@ -1084,7 +1092,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/E55 'Spotlight' Illuminator</ComponentName>
+          <ComponentName>Stock/RF101 'Bullseye' Radar</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
@@ -1151,7 +1159,7 @@
       <SaveID xsi:nil="true" />
       <Key>61808505-36fc-46d7-a765-e4493d4bde38</Key>
       <Name>Check Ignition</Name>
-      <Cost>295</Cost>
+      <Cost>374</Cost>
       <Callsign />
       <Number>1190</Number>
       <SymbolOption>0</SymbolOption>
@@ -1172,7 +1180,7 @@
         </HullSocket>
         <HullSocket>
           <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/E55 'Spotlight' Illuminator</ComponentName>
+          <ComponentName>Stock/RF101 'Bullseye' Radar</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
@@ -1314,6 +1322,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>Weave</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -1416,6 +1425,7 @@ Failure Rate: 0 %</LongDescription>
             <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -1446,22 +1456,30 @@ Failure Rate: 0 %</LongDescription>
       <AssociatedTemplateName>SGT-375 Sidesword</AssociatedTemplateName>
       <Designation>SGT-375</Designation>
       <Nickname>Sidesword</Nickname>
-      <Description>DIRECT - SAH(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
-      <LongDescription>The SGT-375 Sidesword is a size 3 direct guidance missile.  It is based on the SGT-3 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Semi-Active Radar seeker.
+      <Description>DIRECT - &lt;color=#FBFF4C&gt;CMD&lt;/color&gt; - HE SHAPED</Description>
+      <LongDescription>The SGT-375 Sidesword is a size 3 direct guidance missile.  It is based on the SGT-3 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using command guidance from its launching ship.
 
 Control Method: DIRECT
 Targeting Modes:
-	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
-Primary Seeker: SEMI-ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+	&lt;b&gt;&lt;color=#FF2525&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+Primary Seeker: COMMAND (&lt;color=#FBFF4C&gt;Requires COMMS Enabled&lt;/color&gt;)
 
-280 m/s for 2,999 m, top speed in 1.8 s
-Terminal Maneuvers: None
+200 m/s for 3,093 m, top speed in 1.0 s
+Terminal Maneuvers: Corkscrew
 
 Contact Fuze, High Explosive, Shaped
 Armor: 104cm   Component: 3,600hp
 Blast Angle: 70 deg
-Damage Per Fragment: 50.0</LongDescription>
-      <Cost>5</Cost>
+Damage Per Fragment: 50.0
+
+Body Integrity: 160 
+Programming Time: 3 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 250 % (&lt;color=#4CFF72&gt;+150%&lt;/color&gt;)
+Boost-Phase Turn Rate: 200 % (&lt;color=#4CFF72&gt;+100%&lt;/color&gt;)
+Failure Rate: 0 %</LongDescription>
+      <Cost>14</Cost>
       <BodyKey>Stock/SGT-3 Body</BodyKey>
       <TemplateKey>14f62e1a-0a08-4c20-a8d9-a3dbfeec6519</TemplateKey>
       <BaseColor>
@@ -1479,26 +1497,29 @@ Damage Per Fragment: 50.0</LongDescription>
       <Sockets>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="ActiveSeekerSettings">
-            <ComponentKey>Stock/Fixed Semi-Active Radar Seeker</ComponentKey>
+          <InstalledComponent xsi:type="CommandSeekerSettings">
+            <ComponentKey>Stock/Command Receiver</ComponentKey>
             <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
-            <DetectPDTargets>false</DetectPDTargets>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/Cold Gas Bottle</ComponentKey>
+          </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
           <InstalledComponent xsi:type="DirectGuidanceSettings">
             <ComponentKey>Stock/Direct Guidance</ComponentKey>
             <Role>Offensive</Role>
-            <HotLaunch>false</HotLaunch>
+            <HotLaunch>true</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>None</Maneuvers>
+            <Maneuvers>Corkscrew</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
@@ -1517,9 +1538,9 @@ Damage Per Fragment: 50.0</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.836130738</A>
-              <B>0.08296951</B>
-              <C>0.08089975</C>
+              <A>0.197058454</A>
+              <B>0.221432865</B>
+              <C>0.5815087</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
