@@ -45,7 +45,7 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: 9f4525af73901814cad28e582586cc94, type: 2}
   Mood: 0
   Lines:
-  - Text: Missiles in the void. Stand by point defence, all hands brace for impact.
+  - Text: Missiles in the void! Stand by point defence, all hands brace for impact.
     Audio: {fileID: 8300000, guid: a5c23ca4d3c6a3b46ae0e84e7172c878, type: 3}
     AutoAdvance: 1
 --- !u!114 &-8997118931157874076
@@ -420,7 +420,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   GetGroupMethod: 2
-  Name: SGM-H-284 Typhoon
+  Name: SGM-210 Squall
   GroupNumber: 0
   WeaponGroups: []
   IsFiring: 0
