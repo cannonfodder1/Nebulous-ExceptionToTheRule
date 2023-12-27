@@ -412,11 +412,18 @@ namespace KribensisIncursion
 
 				foreach (Node node in __instance.nodes)
 				{
-					Debug.Log(node.GetType());
-					CreateCapturePoint createCapturePoint = node as CreateCapturePoint;
-					if (createCapturePoint != null)
+					if (node != null)
 					{
-						createCapturePoint.Prefab = KribensisIncursion.FacilityPrefab;
+						Debug.Log(node.GetType());
+						CreateCapturePoint createCapturePoint = node as CreateCapturePoint;
+						if (createCapturePoint != null)
+						{
+							createCapturePoint.Prefab = KribensisIncursion.FacilityPrefab;
+						}
+					}
+					else
+					{
+						Debug.LogError("Found null node while scanning for prefab insertion in mission graph: " + __instance.name);
 					}
 				}
 			}
