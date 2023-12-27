@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mission 2 Player</Name>
   <Version>3</Version>
-  <TotalPoints>2980</TotalPoints>
+  <TotalPoints>2977</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>375c83e1-ccd3-41b4-863a-7c9ea5aa5100</Key>
       <Name>Exception To The Rule</Name>
-      <Cost>1824</Cost>
+      <Cost>1854</Cost>
       <Callsign />
       <Number>36</Number>
       <SymbolOption>0</SymbolOption>
@@ -173,7 +173,7 @@
         </HullSocket>
         <HullSocket>
           <Key>c2zMLaokmU6GUJMYfS3N_Q</Key>
-          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+          <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>t3_3a8clbky2DQa0g_ODgg</Key>
@@ -209,25 +209,68 @@
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
-      <Key>5e50f940-3195-44ad-b16d-5a6729c1f39e</Key>
-      <Name>No Reply Needed</Name>
-      <Cost>568</Cost>
+      <Key>8f2e2fc8-62e9-4fe9-8bb6-0c8f395ddfda</Key>
+      <Name>Bought In Bulk</Name>
+      <Cost>1123</Cost>
       <Callsign />
-      <Number>632</Number>
+      <Number>47</Number>
       <SymbolOption>0</SymbolOption>
-      <HullType>Stock/Bulk Feeder</HullType>
+      <HullType>Stock/Bulk Hauler</HullType>
+      <HullConfig xsi:type="RandomHullConfiguration">
+        <PrimaryStructure>
+          <SegmentConfiguration>
+            <Key>c534a876-3f8a-4315-a194-5dda0f84c2b3</Key>
+            <Dressing>
+              <int>0</int>
+              <int>1</int>
+            </Dressing>
+          </SegmentConfiguration>
+          <SegmentConfiguration>
+            <Key>429f178e-e369-4f51-8054-2e01dd0abea1</Key>
+            <Dressing>
+              <int>1</int>
+              <int>0</int>
+              <int>1</int>
+              <int>1</int>
+              <int>1</int>
+            </Dressing>
+          </SegmentConfiguration>
+          <SegmentConfiguration>
+            <Key>a8bf77b9-b7e3-4498-bf91-d3e777a7f688</Key>
+            <Dressing />
+          </SegmentConfiguration>
+        </PrimaryStructure>
+        <SecondaryStructure>
+          <SecondaryStructureConfig>
+            <Key>42d07c1a-156b-4057-aaca-7a2024751423</Key>
+            <Segment>2</Segment>
+            <SnapPoint>0</SnapPoint>
+          </SecondaryStructureConfig>
+        </SecondaryStructure>
+        <HullTint>
+          <r>0.48936975</r>
+          <g>0.48936975</g>
+          <b>0.48936975</b>
+          <a>1</a>
+        </HullTint>
+        <TextureVariation>
+          <x>42.7580872</x>
+          <y>945.7567</y>
+          <z>-573.544067</z>
+        </TextureVariation>
+      </HullConfig>
       <SocketMap>
         <HullSocket>
-          <Key>4V6twrIUcEKE11tom-tDXQ</Key>
-          <ComponentName>Stock/C90 Cannon</ComponentName>
+          <Key>E9IMUD_Uz0661-nYgJh4Mg</Key>
+          <ComponentName>Stock/C54 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>yN7f-9tEXEKlBNskqP6EbA</Key>
+          <Key>auQ7ijGeX0evdikZQeBxTg</Key>
           <ComponentName>Stock/Container Stack Launcher</ComponentName>
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>rGg-2rBy3Ey6Pcj5IgV2-w</MagazineKey>
+                <MagazineKey>sQHTbNobvUiClg-oWz5XLg</MagazineKey>
                 <MunitionKey>Stock/Rocket Container</MunitionKey>
                 <Quantity>2</Quantity>
               </MagSaveData>
@@ -235,12 +278,16 @@
           </ComponentData>
         </HullSocket>
         <HullSocket>
-          <Key>Z2uDs34J-ESu64-i9YGnxQ</Key>
+          <Key>d3N-B_JnDUKAdVRBJ6nvFQ</Key>
+          <ComponentName>Stock/C54 Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>xvNT1_DYcUuSpU6rrmL_4A</Key>
           <ComponentName>Stock/Container Stack Launcher</ComponentName>
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>G1oLmPB8qUGsJqiwAWha8w</MagazineKey>
+                <MagazineKey>E5i3VsJMgk-P7FxEPrSk7g</MagazineKey>
                 <MunitionKey>Stock/Rocket Container</MunitionKey>
                 <Quantity>2</Quantity>
               </MagSaveData>
@@ -248,229 +295,170 @@
           </ComponentData>
         </HullSocket>
         <HullSocket>
-          <Key>gb6_3kWBY0KlEWeex3ruDg</Key>
-          <ComponentName>Stock/P20 Flak PDT</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>_y-Bd-EWjUeMIrmzG3UxvQ</Key>
-          <ComponentName>Stock/P20 Flak PDT</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>gDQghm5iik2syYcoJqUPFg</Key>
-          <ComponentName>Stock/Reinforced CIC</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>vtme83CXg0qDA4_YK6NqwA</Key>
-          <ComponentName>Stock/Reinforced Magazine</ComponentName>
-          <ComponentData xsi:type="BulkMagazineData">
-            <Load>
-              <MagSaveData>
-                <MagazineKey>oJ0nnIptoUmKri14qWPzKw</MagazineKey>
-                <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>1200</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>ySBLe9QNu0mmcVHYd6jEmA</MagazineKey>
-                <MunitionKey>Stock/600mm HE Shell</MunitionKey>
-                <Quantity>200</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>mZdUq-Ue40OBlsqVjXol0Q</MagazineKey>
-                <MunitionKey>Stock/600mm Bomb Shell</MunitionKey>
-                <Quantity>100</Quantity>
-              </MagSaveData>
-            </Load>
-          </ComponentData>
-        </HullSocket>
-        <HullSocket>
-          <Key>TTM8O-MUDky06__LwvSo8w</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>rGVFgJ8GyUePoRkz33c1sw</Key>
-          <ComponentName>Stock/Reinforced DC Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>_hUvj899GkWP0bnjDN1ODw</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>N4KIOsNqeUGVAUrx5OW3DQ</Key>
-          <ComponentName>Stock/Large DC Storage</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>9K_1ZNCgFESrvaoQMOH3yw</Key>
-          <ComponentName>Stock/Civilian Reactor</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>HNv6B-78FEuhV8YT9A6uZw</Key>
-          <ComponentName>Stock/CHI-777 Yard Drive</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>HvdEBsnpUUypPN4uW67paQ</Key>
-          <ComponentName>Stock/Ammunition Elevators</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>iDdlfFwKkUO9HbumzymceA</Key>
-          <ComponentName>Stock/Ammunition Elevators</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>DaqWEX-8gEeIzYrhp8NIMw</Key>
-          <ComponentName>Stock/Ammunition Elevators</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>EvZ6JN5xV0aUlKEeeKxFTQ</Key>
-          <ComponentName>Stock/Ammunition Elevators</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>CU_oraqJxEaB3dTzZW2MkA</Key>
-          <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
-        </HullSocket>
-      </SocketMap>
-      <WeaponGroups>
-        <WepGroup Name="600mm Casemate">
-          <MemberKeys>
-            <string>4V6twrIUcEKE11tom-tDXQ</string>
-          </MemberKeys>
-        </WepGroup>
-      </WeaponGroups>
-      <TemplateMissileTypes />
-    </Ship>
-    <Ship>
-      <SaveID xsi:nil="true" />
-      <Key>03728fcb-f2a6-42cb-a961-17e43729503a</Key>
-      <Name>Read The Manual</Name>
-      <Cost>588</Cost>
-      <Callsign />
-      <Number>476</Number>
-      <SymbolOption>0</SymbolOption>
-      <HullType>Stock/Bulk Feeder</HullType>
-      <SocketMap>
-        <HullSocket>
-          <Key>4V6twrIUcEKE11tom-tDXQ</Key>
-          <ComponentName>Stock/C90 Cannon</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>yN7f-9tEXEKlBNskqP6EbA</Key>
+          <Key>t0T4CSAPnEq4rvHAVl84-Q</Key>
           <ComponentName>Stock/Container Stack Launcher</ComponentName>
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>bD9RitQph0mIfqb6WACLvg</MagazineKey>
-                <MunitionKey>Stock/Mine Container</MunitionKey>
+                <MagazineKey>nRlxqr6O7EGlg0Luko5BTA</MagazineKey>
+                <MunitionKey>Stock/Rocket Container</MunitionKey>
                 <Quantity>2</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
         </HullSocket>
         <HullSocket>
-          <Key>Z2uDs34J-ESu64-i9YGnxQ</Key>
+          <Key>grYBjxIS3E--lmrqenuK8A</Key>
+          <ComponentName>Stock/C54 Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>8pltGexHAEyFL2ljOe0oMQ</Key>
+          <ComponentName>Stock/C54 Cannon</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>tcQfj6XOHUWFSAx_W0cc1A</Key>
           <ComponentName>Stock/Container Stack Launcher</ComponentName>
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>lRLabKUBqEqvWlJeV7dfSg</MagazineKey>
-                <MunitionKey>Stock/Mine Container</MunitionKey>
+                <MagazineKey>XKSNavEYFU2wlK7FN2m6sQ</MagazineKey>
+                <MunitionKey>Stock/Rocket Container</MunitionKey>
                 <Quantity>2</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
         </HullSocket>
         <HullSocket>
-          <Key>gb6_3kWBY0KlEWeex3ruDg</Key>
+          <Key>9EF9u0V1eUetleBnkQhHkA</Key>
           <ComponentName>Stock/P20 Flak PDT</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>_y-Bd-EWjUeMIrmzG3UxvQ</Key>
+          <Key>bxvsvg5znk6TqiIKq8H0kg</Key>
           <ComponentName>Stock/P20 Flak PDT</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>gDQghm5iik2syYcoJqUPFg</Key>
-          <ComponentName>Stock/Reinforced CIC</ComponentName>
+          <Key>I68tNng-K0yG-AoUx0HcSw</Key>
+          <ComponentName>Stock/P11 PDT</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>vtme83CXg0qDA4_YK6NqwA</Key>
-          <ComponentName>Stock/Reinforced Magazine</ComponentName>
+          <Key>Sb5-VSuwlkWpT6ViRiJ3vg</Key>
+          <ComponentName>Stock/P11 PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>6ZiODnoXqkaNWvaqyGjnwg</Key>
+          <ComponentName>Stock/P11 PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>87PSgg9GREmGU9MIRAXXhg</Key>
+          <ComponentName>Stock/P20 Flak PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>VDQhZPo-rkWkzwozat27fw</Key>
+          <ComponentName>Stock/P20 Flak PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>y1Cs8LR0KUyCKUAJBIOyOg</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>fYoX2amTl0KrZurPKjU9gg</Key>
+          <ComponentName>Stock/Damage Control Complex</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>3Ky8PvdxqUKMRXZa0xLF2A</Key>
+          <ComponentName>Stock/Citadel Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>oJ0nnIptoUmKri14qWPzKw</MagazineKey>
+                <MagazineKey>2ZMbijHVQUCBaptL_MsgPA</MagazineKey>
+                <MunitionKey>Stock/250mm HE Shell</MunitionKey>
+                <Quantity>1500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>nxWe-Gj750SerG7PN8neTA</MagazineKey>
+                <MunitionKey>Stock/250mm AP Shell</MunitionKey>
+                <Quantity>1500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>YXK16gSyeUSLTdHXKWDAfQ</MagazineKey>
+                <MunitionKey>Stock/20mm Slug</MunitionKey>
+                <Quantity>24000</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>Bgkih1cP7EyvjHKZfihKZA</MagazineKey>
                 <MunitionKey>Stock/Flak Round</MunitionKey>
                 <Quantity>1200</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>ERfDgcIAMUSegrR424NPDA</MagazineKey>
-                <MunitionKey>Stock/600mm HE Shell</MunitionKey>
-                <Quantity>200</Quantity>
-              </MagSaveData>
-              <MagSaveData>
-                <MagazineKey>QPQD5kIoD0OlgdaxvA_N3A</MagazineKey>
-                <MunitionKey>Stock/600mm Bomb Shell</MunitionKey>
-                <Quantity>100</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
         </HullSocket>
         <HullSocket>
-          <Key>TTM8O-MUDky06__LwvSo8w</Key>
+          <Key>T9TN0ZYumUaCxcSRjO_qTw</Key>
           <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>rGVFgJ8GyUePoRkz33c1sw</Key>
+          <Key>T4d-8WnA_UiHSJh6PXiXpA</Key>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>6LpDL27QuEW0PZCm35Nx5w</Key>
           <ComponentName>Stock/Reinforced DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>_hUvj899GkWP0bnjDN1ODw</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
+          <Key>QIOFQpQSKESIdNzf_JEFyA</Key>
+          <ComponentName>Stock/Reinforced DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>N4KIOsNqeUGVAUrx5OW3DQ</Key>
-          <ComponentName>Stock/Large DC Storage</ComponentName>
+          <Key>FVcPIcV_00eu62NQQK3oLg</Key>
+          <ComponentName>Stock/Reinforced DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>9K_1ZNCgFESrvaoQMOH3yw</Key>
+          <Key>1FrTJ5o850ynlq4dRDmMbA</Key>
+          <ComponentName>Stock/Reinforced CIC</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>vOzzHo4KfE60wZ3Q1s38GA</Key>
+          <ComponentName>Stock/CHI-7700 Drive</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>6evWdeLGT0uALe075-nhgw</Key>
           <ComponentName>Stock/Civilian Reactor</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>HNv6B-78FEuhV8YT9A6uZw</Key>
-          <ComponentName>Stock/CHI-777 Yard Drive</ComponentName>
+          <Key>JVCLf3RKKUOBEXaWWkVLMw</Key>
+          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>HvdEBsnpUUypPN4uW67paQ</Key>
+          <Key>JHJi2y5Xskytpw5-Qbu95A</Key>
           <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>iDdlfFwKkUO9HbumzymceA</Key>
+          <Key>yryHYXgMWEy969gRuaDO6w</Key>
+          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>MQyTgOLGCkyeljdvbkkFDA</Key>
           <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>DaqWEX-8gEeIzYrhp8NIMw</Key>
-          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+          <Key>S-rQo19r20K0L0PRer3yMw</Key>
+          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>EvZ6JN5xV0aUlKEeeKxFTQ</Key>
-          <ComponentName>Stock/Ammunition Elevators</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>CU_oraqJxEaB3dTzZW2MkA</Key>
+          <Key>M3mc7A4WOU-2fq5XgRSECA</Key>
           <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="600mm Casemate">
+        <WepGroup Name="250mm Casemate">
           <MemberKeys>
-            <string>4V6twrIUcEKE11tom-tDXQ</string>
+            <string>E9IMUD_Uz0661-nYgJh4Mg</string>
+            <string>d3N-B_JnDUKAdVRBJ6nvFQ</string>
+            <string>grYBjxIS3E--lmrqenuK8A</string>
+            <string>8pltGexHAEyFL2ljOe0oMQ</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
-      <InitialFormation>
-        <GuideKey>5e50f940-3195-44ad-b16d-5a6729c1f39e</GuideKey>
-        <RelativePosition>
-          <x>-26.5934372</x>
-          <y>25.0812683</y>
-          <z>-0.214057922</z>
-        </RelativePosition>
-      </InitialFormation>
       <TemplateMissileTypes />
     </Ship>
   </Ships>
@@ -496,6 +484,7 @@ Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
 Body Integrity: 30 
+Wall Thickness: 0.5
 Programming Time: 8 s
 Radar Signature Bonus: 100 %
 Boost-Phase Duration: 3 s
@@ -587,6 +576,7 @@ Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
 Body Integrity: 30 
+Wall Thickness: 0.5
 Programming Time: 8 s
 Radar Signature Bonus: 100 %
 Boost-Phase Duration: 3 s

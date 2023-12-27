@@ -1610,9 +1610,10 @@ MonoBehaviour:
   - {fileID: -1265349530481833996}
   - {fileID: -9000889346941087056}
   - {fileID: 309107353350134411}
-  - {fileID: 511017790021686172}
   - {fileID: 3553862442944443007}
   - {fileID: -8974062901765217121}
+  - {fileID: 829017669766302825}
+  - {fileID: 8426366656389583812}
 --- !u!114 &143373682714761020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1846,7 +1847,10 @@ MonoBehaviour:
       _node: {fileID: 370449845817141405}
       _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 8426366656389583812}
+        reroutePoints: []
       _direction: 1
       _connectionType: 1
       _typeConstraint: 0
@@ -1889,12 +1893,7 @@ MonoBehaviour:
       Don't try firing missiles at it, trust me.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: You can do this, Stratis. I know you never saw combat, but the stuff you
-      learned long ago at the naval academy is still useful. Remember it. Now get
-      out there and give 'em hell.
-    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
-    AutoAdvance: 0
---- !u!114 &511017790021686172
+--- !u!114 &829017669766302825
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1903,42 +1902,53 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: -1178996246, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
-  m_Name: Logic Invert
+  m_Script: {fileID: -2030797003, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog Sequence
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 5272, y: 72}
+  position: {x: 2968, y: 1368}
   ports:
     keys:
-    - In
-    - Out
+    - PreviousStep
+    - NextStep
     values:
-    - _fieldName: In
-      _node: {fileID: 511017790021686172}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
+    - _fieldName: PreviousStep
+      _node: {fileID: 829017669766302825}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
       connections:
-      - fieldName: Result
-        node: {fileID: 2916584997665245205}
+      - fieldName: NextStep
+        node: {fileID: 8426366656389583812}
         reroutePoints: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
-    - _fieldName: Out
-      _node: {fileID: 511017790021686172}
-      _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
-        PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: ExecuteCondition
-        node: {fileID: 7310576463811208300}
-        reroutePoints: []
+    - _fieldName: NextStep
+      _node: {fileID: 829017669766302825}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
       _direction: 1
-      _connectionType: 0
+      _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
-  In: 0
-  Out: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
+  Mood: 0
+  Lines:
+  - Text: If you have trouble doing all that in the stress of battle, you can make
+      it easier for yourself. Your command interface has Active Pause functionality,
+      but you need to enable it in your Accessibility settings. Once that's done,
+      you can toggle it by pressing CTRL-SPACE.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+  - Text: You can do this, Stratis. I know you never saw combat, but the stuff you
+      learned long ago at the naval academy is still useful. Remember it. Now get
+      out there and give 'em hell.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
 --- !u!114 &2614008801499102056
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2016,8 +2026,8 @@ MonoBehaviour:
       - fieldName: Conditions 0
         node: {fileID: -1265349530481833996}
         reroutePoints: []
-      - fieldName: In
-        node: {fileID: 511017790021686172}
+      - fieldName: AbortCondition
+        node: {fileID: 7310576463811208300}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -2615,10 +2625,7 @@ MonoBehaviour:
       _node: {fileID: 7310576463811208300}
       _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections:
-      - fieldName: Out
-        node: {fileID: 511017790021686172}
-        reroutePoints: []
+      connections: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
@@ -2636,7 +2643,10 @@ MonoBehaviour:
       _node: {fileID: 7310576463811208300}
       _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: Result
+        node: {fileID: 2916584997665245205}
+        reroutePoints: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
@@ -3101,6 +3111,58 @@ MonoBehaviour:
   - Text: The rest of my battlegroup is inbound, ETA less than an hour. You need
       to wipe out the patrol before then, we don't want them knowing how large this
       incursion actually is.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+--- !u!114 &8426366656389583812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2030797003, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2408, y: 1368}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: 8426366656389583812}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 370449845817141405}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: 8426366656389583812}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 829017669766302825}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: 9f4525af73901814cad28e582586cc94, type: 2}
+  Mood: 0
+  Lines:
+  - Text: Find the enemy with the EWR, set HDG toward them, LCK a target, and fire
+      away. Got it.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &8819814634259741163

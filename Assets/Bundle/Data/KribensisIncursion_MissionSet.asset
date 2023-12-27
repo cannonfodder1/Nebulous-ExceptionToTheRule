@@ -12,14 +12,14 @@ MonoBehaviour:
   m_Script: {fileID: -131367795, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
   m_Name: KribensisIncursion_MissionSet
   m_EditorClassIdentifier: 
-  CampaignName: Exception to the Rule
-  Description: 'Take command of the reactivated cruiser Exception to the Rule in
-    service to the fledgling Outlying Systems Protectorate Navy for a crucial mission
-    deep into Shelter Alliance territory.
-
-
-    NOTE: Completion of the basic set
-    of Fleet Academy tutorials is recommended before playing.'
+  CampaignName: Exception to the Rule (OSP Campaign)
+  Description: After a century without any external threat to bind them together,
+    tensions between the Shelter Alliance's member nations have exploded into open
+    war. The Outlying Systems Protectorate has claimed its independence, but how
+    long it will last remains to be seen. The Alliance Navy readies itself for an
+    assault through the Kribensis-Bethel hyperspace gate, aiming to crush the upstart
+    rebellion in one swift stroke. Take command of the reactivated cruiser OSPN Exception
+    to the Rule in the war's opening stage, and face down the behemoth that approaches.
   Screenshot: {fileID: 21300000, guid: a44acc1c43eb0184187defb8e4156013, type: 3}
   MissionNamePrefix: Mission
   Missions:

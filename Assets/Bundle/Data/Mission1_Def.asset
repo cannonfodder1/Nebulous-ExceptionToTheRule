@@ -13,11 +13,14 @@ MonoBehaviour:
   m_Name: Mission1_Def
   m_EditorClassIdentifier: 
   MissionName: Wide Open
-  DetailText: Hunt down an Alliance patrol in deep space, securing a hyperspace emergence
-    point for the rest of the battlegroup.
+  DetailText: The people of Bethel, Roclaren, and Pyxis have seized their freedom,
+    but it may not last the year. To buy time for the gate blockade to be assembled,
+    the OSP must take the war to the Alliance. Unexpectedly promoted into command,
+    prove yourself at the helm of your new ship. Hunt down an Alliance patrol in
+    deep space, securing a hyperspace emergence point for the rest of the battlegroup.
   PreBriefing: "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\
-    Weeks since the Divide: 2 \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nOSPN
-    EMPEROR REVERSE. INTRASHIP MAIL.\r\nTO: BSTRATIS\r\nFROM: NOVANCE\r\n\r\nStratis,
+    Weeks since the Divide: 5 \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nOSPN
+    EMPEROR REVERSE. INTRASHIP MAIL.\r\nFROM: NOVANCE\r\nTO: BSTRATIS\r\n\r\nStratis,
     \r\n\r\nI've got news for you. Constantine gave me one of the newly reactivated
     cruisers from the Roclaren mothball yards, a rusty old bucket, but a true warship.
     It's better than any of our converted freighters, and there's no way in hell
@@ -27,23 +30,18 @@ MonoBehaviour:
     into battle, hell no, I'm a real spacer. So, getting back to my point: I figured
     this sort of cowardly asset would be right up your alley. I'll be sad to not
     have you as onboard as XO to second-guess all my genius plans, but it's about
-    time you got a ship of your own. And don't tell Constantine about this, you hear?
-    \r\n\r\n- Vance\r\n\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\
-    Weeks since the Divide: 5 \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nOSPN
-    NAVY-LINK COMM.\r\nT: OSPN EXCEPTION TO THE RULE\r\nF: OSPN EMPEROR REVERSE\r\n\r\nStratis,\r\n\r\nHope
-    you've settled into your new command, because it's go time. I just got off the
-    phone with the Old Man: we're heading into Kribensis to do some old fashioned
-    convoy raiding. Defenses at home are far from ready - if the Alliance pushes
-    through the Kribensis-Bethel gate now, the OSP is well and truly fucked. Our
-    job is to blow up a few freighters, slow the enemy buildup on their side of the
-    gate, and buy Constantine some goddamn time. We're heading into hyperspace via
-    breach torpedo in under 48 hours, but I want you to take the Exception ahead
-    and clear the emergence zone for the rest of the battlegroup. I don't want the
-    Alliance having any spotters nearby when the rest of us arrive, that'd give those
-    wrinkly brains over at the Alliance Naval Office a far better picture of our
-    numbers than I'd like. A sensor vessel will be tagging along as well, it'll be
-    useful out there. Once it arrives, you are cleared to depart. Safe travels.\r\n\r\n-
-    Vance\r"
+    time you got a ship of your own.\r\n\r\nOkay, enough praise. You're going to
+    have to get this bitch and her crew into shape real fast, because we've got a
+    job to do. The reason we're getting new metal is because within the month, we'll
+    be heading into Kribensis to do some old fashioned convoy raiding. Defenses in
+    Bethel are far from ready - if the Alliance pushes through the Kribensis-Bethel
+    gate now, the OSP is well and truly fucked. Our job is to blow up a few freighters,
+    slow the enemy buildup on their side of the gate, and buy Constantine some goddamn
+    time. You'll probably be going in with the first wave, along with a sensor vessel
+    or two to clear out any pickets at the system edge, so yeah - get her ready ASAP.\r\n\r\nAlso,
+    I'm not supposed to be telling anyone the mission yet, just as I'm technically
+    not supposed to pawn off command of our most capable combat unit onto my trusty
+    XO, so keep this info to yourself, you hear?\r\n\r\n- Vance\r\n"
   MissionKey: fKPptYeLr0C3-EPvpvKL1w
   Screenshot: {fileID: 21300000, guid: 5cc75af52e0b41344a58f4f2b95e27de, type: 3}
   _graph:

@@ -13,40 +13,45 @@ MonoBehaviour:
   m_Name: Mission2_Def
   m_EditorClassIdentifier: 
   MissionName: Storm Warning
-  DetailText: Silence the jammers of an Alliance taskforce among the asteroids of
-    Kribensis, as the future of the raiding effort hangs in the balance.
-  PreBriefing: "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\
-    Weeks since the Divide: 9 \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nOSPN
+  DetailText: With the Alliance on the attack, the convoy raiding effort is in peril.
+    The asteroid belt of Kribensis blisters and boils with heavy jamming, as the
+    Alliance uses their electronic warfare superiority to cut down OSP raiding groups
+    one by one. There's only one ship in the battlegroup that can make a stand. Silence
+    the jammers, and bring this counteroffensive to a halt.
+  PreBriefing: "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\
+    Weeks since the Divide: 12 \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nOSPN
     NAVY-LINK COMM.\r\nVOICE TRANSCRIPT.\r\n\r\n--- N. Vance has joined the call
     ---\r\n\r\nV: Pick up, you bastard.\r\n\r\n--- B. Stratis has joined the call
     ---\r\n\r\nS: Reporting as ordered, Captain.\r\n\r\nV: As of this very moment
-    I am pinned under a rock by railguns and there's a fucking particle beam battleship
-    on my ass, so we need to keep this brief. Is your ship combat-capable?\r\n\r\nS:
-    We just got another two freighters and their escorts, no significant damage.\r\n\r\nV:
+    I am pinned under a rock and there's a squadron of beam destroyers on my ass,
+    so we need to keep this brief. Is your ship combat-capable?\r\n\r\nS: We just
+    got another two freighters and their escorts, no significant damage.\r\n\r\nV:
     You and the other raiding groups have been doing ace work, but whoever's in command
-    over there is being a massive pain in my ass. They've figured out we don't have
-    much in the way of counter-jamming tech, and have been pushing into our backline
-    and torching the supply dumps we set up around the system. At this rate, we'll
-    run out of fuel and missiles for offensive operations within the month.\r\n\r\nS:
-    So we're going to withdraw back to Roclaren, right?\r\n\r\nV: Are you fucking
-    high?\r\n\r\nS: Sounds to me like they've pulled a significant portion of their
-    forces away from their jumping off point at the gate to Bethel to react to our
-    incursion. Which, as far as our official mission goes, is exactly what we were
-    supposed to provoke. It's time to get out before -\r\n\r\nV: Cease the quitter
-    talk. Every week we keep them occupied here is another week the shipyards have
-    to militarize more freighters for the gate blockade. We have to stay in the system
-    and remain a threat for as long as possible.\r\n\r\nS: But ma'am - \r\n\r\nV:
-    Enough. We can discuss strategy further once I tear this fucking battleship apart.\r\n\r\nS:
-    Where do you want me, then?\r\n\r\nV: As I said, we don't have a lot of counters
-    to jamming, but one of them is your cruiser. We've been tracking the drive flares
-    of an Alliance taskforce moving towards one of our supply depots. You're close
-    enough to interdict them at their jumping off point. I want you to give them
-    a bloody nose, and buy us the time we need to get our shit together.\r\n\r\nS:
-    Aye ma'am.\r\n\r\nV: I'm detaching a couple of cargo feeders to join you, they
-    should provide some additional - \r\n\r\n(background voices detected) SPIKER!
+    over there is being a massive pain in my ass. There's an Alliance taskforce loose
+    in our rear area and they've been torching the supply dumps we set up around
+    the system. If they're allowed to continue running wild, we'll run out of the
+    fuel and missiles we need for offensive operations.\r\n\r\nS: So we're going
+    to withdraw back to Roclaren, right?\r\n\r\nV: Are you fucking high?\r\n\r\nS:
+    Sounds to me like they've pulled a significant portion of their forces away from
+    their jumping off point at the gate to Bethel to react to our incursion. Which,
+    as far as our official mission goes, is exactly what we were supposed to provoke.
+    It's time to get out before -\r\n\r\nV: Cease the quitter talk. Every week we
+    keep them occupied here is another week the shipyards have to militarize more
+    freighters for the gate blockade. We have to stay in the system and remain a
+    threat for as long as possible.\r\n\r\nS: But ma'am - \r\n\r\nV: Enough. We can
+    discuss strategy further once I tear these fucking destroyers apart.\r\n\r\nS:
+    Where do you want me, then?\r\n\r\nV: As I was saying, that marauding taskforce
+    has to be stopped. I sent a few other ships to do the job, but they were sent
+    packing by an ungodly amount of electronic warfare. And when it comes to dealing
+    with that shit, your cruiser has no equal. We've been tracking their drive flares,
+    and you're close enough to interdict them at their jumping off point before they
+    hit another one of our fuel caches. I want them smashed into dust.\r\n\r\nS:
+    Aye ma'am.\r\n\r\nV: I'm detaching a lineship to join you, it should provide
+    some additional firepower for - \r\n\r\n(background voices detected) SPIKER!
     Spiker spiker spiker! Count four incoming, range three kilo, bearing two-five-one
     by zero-six-four, speed -\r\n\r\nV: Oh fuck - \r\n\r\n(background voices detected)
-    PDTs are up, Bastion net engaging, splash one -\r\n\r\nV: Gotta go!\r"
+    PDTs are up, Bastion net engaging, splash one -\r\n\r\nV: Gotta go!\r\n\r\n---
+    Connection Terminated ---\r\n"
   MissionKey: fKPptYeLr0C3-EPvpvKL1w
   Screenshot: {fileID: 21300000, guid: 65d3f993da0bf6d488622a5ac9a0ddfa, type: 3}
   _graph:
