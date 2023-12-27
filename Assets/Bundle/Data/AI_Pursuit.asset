@@ -26,7 +26,7 @@ MonoBehaviour:
   WeaponDivisionPolicy: 1
   JammingPolicy: 1
   EMCONPolicy: 0
-  EngagementFormationPolicy: 1
+  EngagementFormationPolicy: 0
   EngagementMovementPolicy: 1
   EngagementRangePolicy: 1
   HVUProtectionPolicy: 0
