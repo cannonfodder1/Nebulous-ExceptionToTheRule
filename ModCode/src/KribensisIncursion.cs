@@ -22,7 +22,7 @@ namespace KribensisIncursion
     public class KribensisIncursion : IModEntryPoint
 	{
 		// Used later to determine which mod to load mission graphs from
-		public static string ModName = "Kribensis Incursion";
+		public static string ModName = "Exception To The Rule";
 
 		public static GameObject FacilityPrefab = null;
 
@@ -82,6 +82,9 @@ namespace KribensisIncursion
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SetShipPosition) });
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SetShipFormation) });
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetMissionBattlespace) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetPlayerPointValue) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetShipWithdrawn) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetShipDestroyed) });
 		}
 	}
 
@@ -354,7 +357,7 @@ namespace KribensisIncursion
 				return true;
 			}
 
-			Debug.Log("Proceeding to Execute following Node " + next.name);
+			Debug.Log("Proceeding to execute following node " + next.name);
 
 			return true;
 		}
