@@ -28,7 +28,7 @@ MonoBehaviour:
   EMCONPolicy: 0
   EngagementFormationPolicy: 0
   EngagementMovementPolicy: 1
-  EngagementRangePolicy: 3
+  EngagementRangePolicy: 0
   HVUProtectionPolicy: 0
   RetreatPolicy: 3
   CoverRetreatPolicy: 0

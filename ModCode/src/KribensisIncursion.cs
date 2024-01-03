@@ -85,6 +85,7 @@ namespace KribensisIncursion
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetPlayerPointValue) });
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetShipWithdrawn) });
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetShipDestroyed) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SpawnCalloutMarker) });
 		}
 	}
 
