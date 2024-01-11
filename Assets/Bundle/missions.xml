@@ -1,13 +1,19 @@
 <?xml version="1.0"?>
 <MissionLoaderManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <MissionGraphMappings>
-    <MissionGraphEntry MissionName="Wide Open" GraphAddress="Assets/Bundle/Data/Mission1_Graph.asset"/>
-    <MissionGraphEntry MissionName="Storm Warning" GraphAddress="Assets/Bundle/Data/Mission2_Graph.asset"/>
-    <MissionGraphEntry MissionName="Righteous Fire" GraphAddress="Assets/Bundle/Data/Mission3_Graph.asset"/>
+    <MissionGraphEntry MissionName="Wide Open [ENS]" GraphAddress="Assets/Bundle/Data/Mission1_Graph_E.asset"/>
+    <MissionGraphEntry MissionName="Storm Warning [ENS]" GraphAddress="Assets/Bundle/Data/Mission2_Graph_E.asset"/>
+    <MissionGraphEntry MissionName="Righteous Fire [ENS]" GraphAddress="Assets/Bundle/Data/Mission3_Graph_E.asset"/>
+    <MissionGraphEntry MissionName="Wide Open [LT]" GraphAddress="Assets/Bundle/Data/Mission1_Graph.asset"/>
+    <MissionGraphEntry MissionName="Storm Warning [LT]" GraphAddress="Assets/Bundle/Data/Mission2_Graph.asset"/>
+    <MissionGraphEntry MissionName="Righteous Fire [LT]" GraphAddress="Assets/Bundle/Data/Mission3_Graph.asset"/>
   </MissionGraphMappings>
   <MissionBattlespaceMappings>
-    <MissionBattlespaceEntry MissionName="Wide Open" BattlespaceName="Abyssal"/>
-    <MissionBattlespaceEntry MissionName="Storm Warning" BattlespaceName="The Cliff"/>
-    <MissionBattlespaceEntry MissionName="Righteous Fire" BattlespaceName="Pillars"/>
+    <MissionBattlespaceEntry MissionName="Wide Open [ENS]" BattlespaceName="Abyssal"/>
+    <MissionBattlespaceEntry MissionName="Storm Warning [ENS]" BattlespaceName="The Cliff"/>
+    <MissionBattlespaceEntry MissionName="Righteous Fire [ENS]" BattlespaceName="Pillars"/>
+    <MissionBattlespaceEntry MissionName="Wide Open [LT]" BattlespaceName="Abyssal"/>
+    <MissionBattlespaceEntry MissionName="Storm Warning [LT]" BattlespaceName="The Cliff"/>
+    <MissionBattlespaceEntry MissionName="Righteous Fire [LT]" BattlespaceName="Pillars"/>
   </MissionBattlespaceMappings>
 </MissionLoaderManifest>

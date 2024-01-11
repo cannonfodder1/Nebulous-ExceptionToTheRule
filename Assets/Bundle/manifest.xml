@@ -3,6 +3,7 @@
   <BasePath>Assets/Bundle</BasePath>
   <Namespace>WolfCampaignKribensis</Namespace>
   <MissionSets>
-    <Entry Name="Kribensis Incursion" Address="Data/KribensisIncursion_MissionSet.asset"/>
+    <Entry Name="Kribensis Incursion" Address="Data/MissionSet_ENS.asset"/>
+    <Entry Name="Kribensis Incursion" Address="Data/MissionSet_LT.asset"/>
   </MissionSets>
 </BundleManifest>

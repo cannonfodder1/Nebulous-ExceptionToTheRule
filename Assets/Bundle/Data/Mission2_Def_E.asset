@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1006082986, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Mission2_Def_E
+  m_EditorClassIdentifier: 
+  MissionName: Storm Warning [ENS]
+  DetailText: Description of mission
+  PreBriefing: Longer description of mission
+  MissionKey: TiY-6tw3O06vwS9_E4yhwg
+  Screenshot: {fileID: 0}
+  _graph:
+    m_AssetGUID: 
+    m_SubObjectName: 
+    m_SubObjectType: 
+    m_EditorAssetChanged: 0

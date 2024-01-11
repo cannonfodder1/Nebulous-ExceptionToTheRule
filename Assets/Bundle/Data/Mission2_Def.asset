@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 1006082986, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
   m_Name: Mission2_Def
   m_EditorClassIdentifier: 
-  MissionName: Storm Warning
+  MissionName: Storm Warning [LT]
   DetailText: With the Alliance on the attack, the convoy raiding effort is in peril.
     The asteroid belt of Kribensis blisters and boils with heavy jamming, as the
     Alliance uses their electronic warfare superiority to cut down OSP raiding groups
