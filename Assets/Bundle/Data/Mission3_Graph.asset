@@ -1990,7 +1990,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   Player: {fileID: 0}
-  ShipNumber: 2
+  ShipNumber: 6
   Ship: {fileID: 0}
 --- !u!114 &-6911711519261349939
 MonoBehaviour:
@@ -2263,10 +2263,10 @@ MonoBehaviour:
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: So they have to attack. They have to come at us, and destroy the OSP as
-      quickly as possible, just as they did to the miners in Argentium. They have
-      to keep the Alliance together, and the OSP is their sacrifice. But we're not
-      going back. If they want to save the Alliance, they need to stop looking for
-      a scapegoat and start looking in the mirror.
+      quickly as possible, just as they did to the miners in Argentium. To keep the
+      Alliance together, the OSP is their sacrifice. But we're not going back. If
+      they want to save the Alliance, they need to stop looking for a scapegoat and
+      start looking in the mirror.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &-6650725558575909519
@@ -4092,7 +4092,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   Player: {fileID: 0}
-  ShipNumber: 6
+  ShipNumber: 4
   Ship: {fileID: 0}
 --- !u!114 &-4308598396973893724
 MonoBehaviour:
@@ -6780,7 +6780,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   Player: {fileID: 0}
-  ShipNumber: 1
+  ShipNumber: 5
   Ship: {fileID: 0}
 --- !u!114 &-1614165789270024606
 MonoBehaviour:
@@ -6836,7 +6836,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   Player: {fileID: 0}
-  ShipNumber: 4
+  ShipNumber: 2
   Ship: {fileID: 0}
 --- !u!114 &-1560388480361217777
 MonoBehaviour:
@@ -7542,34 +7542,34 @@ MonoBehaviour:
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: The Exception will be on missile defence duty as usual, but the bulk of
-      this mission will fall on our new arrivals. Monitors were refitted to be our
-      heavy combatants, with armour even thicker than an Alliance cruiser, and it's
-      time to put them to the test. Their plasma cannons are going to be crucial
-      here, they can shred enemy armour and open holes for the rest of our firepower.
+      this mission will fall on our monitors. The new plasma cannons are our saving
+      grace, they can shred enemy armour and open holes for the rest of our firepower.
+      Ammo management is going to be crucial, all ships need to ensure the munition
+      best suited to the situation is the one being used.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: When engaging with plasma inside 5 km we should be able to immediately
       open up with 100mm HE-HC and obliterate the enemy. But beyond that range, it
-      may take two or three hits to the same spot, and we should fire 100mm AP until
-      the target's fully cooked. Complication here is that our main force, cruiser
-      and monitors, aren't particularly fast - we'll have to be careful to both set
-      up an ambush and keep a line of retreat open.
+      may take two or three hits to the same spot to fully shred it. If that happens,
+      we should fire 100mm AP until the target's sufficiently cooked, then switch
+      to HE-HC. Against corvettes and frigates, 100mm HE will tear them apart with
+      no plasma necessary.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: The Disassembly will be scouting ahead of the main formation. Your rocket
-      launchers won't be able to scratch capital ship armour, at least not until
-      they've been shredded by plasma. Focus on smaller ships, and try to hold your
-      rockets until the last moment, they're most effective within 2 km. The anti-missile
-      missiles in your tubes should be able to keep you safe, for a while. Use your
-      speed to pull back behind a rock if things get too hot.
+  - Text: Rapid, Highly, you two will be ranging ahead to take forward ambush positions.
+      Your rocket launchers won't be able to scratch capital ship armour, at least
+      not until they've been shredded by plasma. Focus on smaller ships, and try
+      to hold your rockets until the last moment, they're most effective within 2
+      km. The anti-missile missiles in your tubes should be able to keep you safe
+      until they run out. Rejoin the main formation or pull back behind a rock if
+      things get too hot.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: Smartest, you've got the other critical piece here, the Bloodhound LRT.
-      Move to an overwatch position with clear sightlines, and cue targets off of
-      the Exception's burnthrough pings if we can't establish a lock with our Bullseye.
-      The LRT's returns won't be as good as an actual lock, but it's better than
-      being completely jammed out. You can also use those Bellbird jammers to cover
-      yourself and the main formation.
+  - Text: The big complication here is that our main force, cruiser and monitors,
+      aren't particularly fast - we'll have to be careful to both set up an ambush
+      for our plasma and not be ambushed ourselves. The capital ships will try to
+      stay at range, but they've probably brought particle beams or torpedoes to
+      flush us out of cover.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: To your stations! We have capital ships to kill.
@@ -8104,10 +8104,11 @@ MonoBehaviour:
       _dynamic: 0
   PreviousStep: {fileID: 0}
   NextStep: {fileID: 0}
-  Character: {fileID: 11400000, guid: 9f4525af73901814cad28e582586cc94, type: 2}
+  Character: {fileID: 11400000, guid: 3c76c7799a7f85a4c944f2b174fe6491, type: 2}
   Mood: 0
   Lines:
-  - Text: Here they come.
+  - Text: Their drive flares just disappeared off our scopes. We're about to have
+      company.
     Audio: {fileID: 8300000, guid: dc6c92f011b77664bad7d6c9231fdaa7, type: 3}
     AutoAdvance: 1
 --- !u!114 &272909997228034863
@@ -9882,7 +9883,7 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: 9f4525af73901814cad28e582586cc94, type: 2}
   Mood: 0
   Lines:
-  - Text: Ensign, shut that asshole off. Is the taskforce ready to pull away?
+  - Text: Lieutenant, shut that asshole off. Is the taskforce ready to pull away?
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &2567726116132027196
@@ -10365,7 +10366,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   Player: {fileID: 0}
-  ShipNumber: 3
+  ShipNumber: 1
   Ship: {fileID: 0}
 --- !u!114 &3042221623311975197
 MonoBehaviour:
@@ -15320,7 +15321,7 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: 9f4525af73901814cad28e582586cc94, type: 2}
   Mood: 0
   Lines:
-  - Text: Ensign, bring us about - I believe our breaching teams have unfinished
+  - Text: Lieutenant, bring us about - I believe our breaching teams have unfinished
       business with Zodiac-Five.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
@@ -15620,7 +15621,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   Player: {fileID: 0}
-  ShipNumber: 5
+  ShipNumber: 3
   Ship: {fileID: 0}
 --- !u!114 &8897310036686039868
 MonoBehaviour:

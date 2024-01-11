@@ -45,8 +45,9 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
   Mood: 0
   Lines:
-  - Text: Looks like a light cruiser and some escorts. I recommend holding your missiles
-      until the escorts are taken care of, then focusing on the cruiser.
+  - Text: Looks like a light cruiser and some escorts... The presence of which means
+      the cruiser's defence grid is probably some weaksauce shit. Disabling the escorts
+      first might clear the way for your Thunderheads.
     Audio: {fileID: 8300000, guid: a5c23ca4d3c6a3b46ae0e84e7172c878, type: 3}
     AutoAdvance: 1
 --- !u!114 &-8997118931157874076
@@ -5372,8 +5373,8 @@ MonoBehaviour:
   - Text: Right, let's run down what you've got available. The Exception is an Ocello-class
       cruiser, more than a century old but still a solid workhorse with a medium
       range gun battery as primary armament. Her tubes are loaded with Thunderhead
-      cruise missiles for finishing off crippled targets - they probably won't be
-      able to break through an undamaged ship's PDTs.
+      IV cruise missiles. The IV variant was tuned to evade ballistic defences, but
+      gets hard stopped by flak turrets, so pick your targets carefully.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: Before leaving refit, the Exception's point defence grid was updated using

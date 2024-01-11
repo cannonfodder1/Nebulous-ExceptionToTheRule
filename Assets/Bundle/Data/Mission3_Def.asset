@@ -29,20 +29,21 @@ MonoBehaviour:
     stuck with this junk. Anyway, you should relay this to the Admiral. Like, right
     now. We got real lucky here and I don't want it to go to waste, with this we
     can nail the OSPN to the wall. I know faking message priorities is grounds for
-    dishonourable discharge, but I think you'll agree it's justified once you read
-    the intercept.\r\n\r\nMESSAGE CONTENT //\r\nXX: INTERCEPT -: OSPN EMPEROR REVERSE\r\n\r\n[corrupted
-    data] ...ank you all for coming. I'll get straight to the point: just yesterday
-    reinforcements arrived in-system from Bethel, with some shiny new tech that'll
-    have those [EXPLETIVE REMOVED] in Shelter quaking in their boots, but more importantly,
-    a message from Constantine. Our home needs three weeks. Those are our orders.
-    The Old Man asks for three weeks, and the OSPN shall answer.\r\n\r\nSo, the plan
-    is as follows. Naval Station Zodiac-Five, or NAVSTA Z-5 for those in a hurry,
-    is one of the two main refueling stops for all Alliance Navy operations in the
-    inner system. Z-5's garrison should be light after we pull it out of position
-    by hitting the diversionary targets which I'll cover in a second, but I'm assigning
-    our cruiser to this one, because even if the Alliance doesn't take the bait,
-    I want them [EXPLETIVE REMOVED] obliterated. That means you, Stra... [corrupted
-    data]\r\n\r\nMESSAGE ENDS //\r"
+    dishonourable discharge as per Alliance Navy Regulation 27-b, but I think you'll
+    agree it's justified here once you read the intercept.\r\n\r\nMESSAGE CONTENT
+    //\r\nXX: INTERCEPT -: OSPN EMPEROR REVERSE\r\n\r\n[corrupted data] ...ank you
+    all for coming. I'll get straight to the point: just yesterday reinforcements
+    arrived in-system from Bethel, with some shiny new tech that'll have those [EXPLETIVE
+    REMOVED] in Shelter quaking in their boots, but more importantly, a message from
+    Constantine. Our home needs three weeks. Those are our orders. The Old Man asks
+    for three weeks, and the OSPN shall answer.\r\n\r\nSo, the plan is as follows.
+    Naval Station Zodiac-Five, or NAVSTA Z-5 for those in a hurry, is one of the
+    two main refueling stops for all Alliance Navy operations in the inner system.
+    Z-5's garrison should be light after we pull it out of position by hitting the
+    diversionary targets which I'll cover in a second, but I'm assigning our cruiser
+    to this one, because even if the Alliance doesn't take the bait, I want them
+    [EXPLETIVE REMOVED] obliterated. That means you, Stra... [corrupted data]\r\n\r\nMESSAGE
+    ENDS //\r"
   MissionKey: fKPptYeLr0C3-EPvpvKL1w
   Screenshot: {fileID: 21300000, guid: 1261fcd609ee1db43a9060914cdafca9, type: 3}
   _graph:

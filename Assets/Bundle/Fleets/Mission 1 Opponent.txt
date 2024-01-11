@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mission 1 Opponent</Name>
   <Version>3</Version>
-  <TotalPoints>2745</TotalPoints>
+  <TotalPoints>2760</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>bb0f4d01-4cbb-4dbe-b328-576f7eac7d65</Key>
       <Name>Loaded Question</Name>
-      <Cost>1087</Cost>
+      <Cost>1105</Cost>
       <Callsign />
       <Number>149</Number>
       <SymbolOption>0</SymbolOption>
@@ -34,16 +34,7 @@
         </HullSocket>
         <HullSocket>
           <Key>BRMwuusKC02YrbFXRrrNzA</Key>
-          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>LSjnRgs1RE-Wk8xmpr9X9Q</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>7</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
+          <ComponentName>Stock/Mk64 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>vO1oPhlSuUih_cdAZk3Hqg</Key>
@@ -159,6 +150,7 @@
             <string>2QQdxC4UE0KOM42r82-ETQ</string>
             <string>IFKM9E04aUaHS0IoNDMShA</string>
             <string>vO1oPhlSuUih_cdAZk3Hqg</string>
+            <string>BRMwuusKC02YrbFXRrrNzA</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -168,7 +160,7 @@
       <SaveID xsi:nil="true" />
       <Key>a74daf50-ddef-45b5-a468-2afa44c82fa1</Key>
       <Name>Wide Open</Name>
-      <Cost>295</Cost>
+      <Cost>284</Cost>
       <Callsign />
       <Number>445</Number>
       <SymbolOption>0</SymbolOption>
@@ -193,11 +185,11 @@
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
-          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+          <ComponentName>Stock/Mk25 'Rebound' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>ZxY9ONYz80SiLNSObvjNzQ</Key>
-          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+          <ComponentName>Stock/Mk25 'Rebound' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>XPaYCjBqdEqBxEIsVLP0oA</Key>
@@ -217,14 +209,14 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>ORPwMWZIQEGyGFUR7Xpp_Q</MagazineKey>
-                <MunitionKey>Stock/20mm Slug</MunitionKey>
-                <Quantity>10000</Quantity>
-              </MagSaveData>
-              <MagSaveData>
                 <MagazineKey>7267WLAjGUarAn9EJie-2Q</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
                 <Quantity>400</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>evvY9N-EJki1vWJWZTgoRQ</MagazineKey>
+                <MunitionKey>Stock/Flak Round</MunitionKey>
+                <Quantity>300</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -267,7 +259,7 @@
       <SaveID xsi:nil="true" />
       <Key>7b2d7020-8a0a-4b24-a77d-04fff093a47b</Key>
       <Name>Zero Sum</Name>
-      <Cost>295</Cost>
+      <Cost>284</Cost>
       <Callsign />
       <Number>381</Number>
       <SymbolOption>0</SymbolOption>
@@ -292,11 +284,11 @@
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
-          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+          <ComponentName>Stock/Mk25 'Rebound' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>ZxY9ONYz80SiLNSObvjNzQ</Key>
-          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+          <ComponentName>Stock/Mk25 'Rebound' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>XPaYCjBqdEqBxEIsVLP0oA</Key>
@@ -316,14 +308,14 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>ORPwMWZIQEGyGFUR7Xpp_Q</MagazineKey>
-                <MunitionKey>Stock/20mm Slug</MunitionKey>
-                <Quantity>10000</Quantity>
-              </MagSaveData>
-              <MagSaveData>
                 <MagazineKey>7267WLAjGUarAn9EJie-2Q</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
                 <Quantity>400</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>SHO7QYTwtE6BrYhRnIQEkA</MagazineKey>
+                <MunitionKey>Stock/Flak Round</MunitionKey>
+                <Quantity>300</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -366,7 +358,7 @@
       <SaveID xsi:nil="true" />
       <Key>27348c72-a5a9-4d45-840f-4e12cbd2a5b4</Key>
       <Name>Rupture Rendition</Name>
-      <Cost>1068</Cost>
+      <Cost>1087</Cost>
       <Callsign />
       <Number>115</Number>
       <SymbolOption>1</SymbolOption>
@@ -408,11 +400,24 @@
         </HullSocket>
         <HullSocket>
           <Key>x21sadthgE2FtDWSJKINGQ</Key>
-          <ComponentName>Stock/Mk29 'Stonewall' PDT</ComponentName>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>IxKwpY5d9EicYRRTMn8xVw</Key>
-          <ComponentName>Stock/Mk29 'Stonewall' PDT</ComponentName>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>JpOU9MgWXEmfLcQoAK4otA</Key>
+          <ComponentName>Stock/VLS-1-23 Launcher</ComponentName>
+          <ComponentData xsi:type="CellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>mDWQydchXkWxcle1r5J9PA</MagazineKey>
+                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <Quantity>14</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>LCosRblddUCjPogeJ5eSeA</Key>
@@ -432,9 +437,9 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>sL-N4SsupkOYG-fxo9joNg</MagazineKey>
-                <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>900</Quantity>
+                <MagazineKey>EFx2ze2fcUmxdxVYdKDvSQ</MagazineKey>
+                <MunitionKey>Stock/20mm Slug</MunitionKey>
+                <Quantity>8000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -497,13 +502,14 @@
       <AssociatedTemplateName>SGM-222 Hurricane</AssociatedTemplateName>
       <Designation>SGM-222</Designation>
       <Nickname>Hurricane</Nickname>
-      <Description>DIRECT - &lt;color=#FBFF4C&gt;CMD&lt;/color&gt; - HE SHAPED</Description>
-      <LongDescription>The SGM-222 Hurricane is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using command guidance from its launching ship.
+      <Description>DIRECT - &lt;color=#FBFF4C&gt;CMD&lt;/color&gt;/ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
+      <LongDescription>The SGM-222 Hurricane is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using command guidance from its launching ship  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
 
 Control Method: DIRECT
 Targeting Modes:
-	&lt;b&gt;&lt;color=#FF2525&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
 Primary Seeker: COMMAND (&lt;color=#FBFF4C&gt;Requires COMMS Enabled&lt;/color&gt;)
+Backup Seeker(s): ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
 300 m/s for 8,743 m, top speed in 1.9 s
 Terminal Maneuvers: None
@@ -520,7 +526,7 @@ Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>7</Cost>
+      <Cost>8</Cost>
       <BodyKey>Stock/SGM-2 Body</BodyKey>
       <TemplateKey>eefeda36-4ed3-444b-8ba1-97b7f5f3ed19</TemplateKey>
       <BaseColor>
@@ -546,6 +552,12 @@ Failure Rate: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Fixed Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>

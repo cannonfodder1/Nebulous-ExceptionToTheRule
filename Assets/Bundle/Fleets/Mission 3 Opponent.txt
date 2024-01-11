@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mission 3 Opponent</Name>
   <Version>3</Version>
-  <TotalPoints>7814</TotalPoints>
+  <TotalPoints>7812</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -32,7 +32,7 @@
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>T_cUr0MXzUunIDDQC6AnMA</MagazineKey>
-                <MunitionKey>$MODMIS$/SGT-375 Sidesword-C</MunitionKey>
+                <MunitionKey>$MODMIS$/SGT-350 Mace II</MunitionKey>
                 <Quantity>4</Quantity>
               </MagSaveData>
             </MissileLoad>
@@ -224,7 +224,7 @@
       <SaveID xsi:nil="true" />
       <Key>afb62338-7cb7-4a7b-bd4d-b79731bcb55d</Key>
       <Name>Hurricane Omen</Name>
-      <Cost>438</Cost>
+      <Cost>437</Cost>
       <Callsign />
       <Number>465</Number>
       <SymbolOption>0</SymbolOption>
@@ -232,7 +232,7 @@
       <SocketMap>
         <HullSocket>
           <Key>PDKmGfvpykODc3XHDQ7WBw</Key>
-          <ComponentName>Stock/Mk62 Cannon</ComponentName>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>WwMGqYiU7E6lp7ID47phqA</Key>
@@ -260,9 +260,9 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>SuuptE_osEKZcSRAoF7moQ</MagazineKey>
-                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
-                <Quantity>300</Quantity>
+                <MagazineKey>b_-c_FiA60aPzTDhdSJjwA</MagazineKey>
+                <MunitionKey>Stock/20mm Slug</MunitionKey>
+                <Quantity>4000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -336,7 +336,7 @@
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>5mGrpk1XG02FDdW3PdchTw</MagazineKey>
-                <MunitionKey>$MODMIS$/SGT-375 Sidesword-C</MunitionKey>
+                <MunitionKey>$MODMIS$/SGT-350 Mace II</MunitionKey>
                 <Quantity>4</Quantity>
               </MagSaveData>
             </MissileLoad>
@@ -528,7 +528,7 @@
       <SaveID xsi:nil="true" />
       <Key>84751586-124e-442c-9ee8-14ec7fef4be8</Key>
       <Name>Monsoon Onset</Name>
-      <Cost>438</Cost>
+      <Cost>437</Cost>
       <Callsign />
       <Number>266</Number>
       <SymbolOption>0</SymbolOption>
@@ -536,7 +536,7 @@
       <SocketMap>
         <HullSocket>
           <Key>PDKmGfvpykODc3XHDQ7WBw</Key>
-          <ComponentName>Stock/Mk62 Cannon</ComponentName>
+          <ComponentName>Stock/Mk20 'Defender' PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>WwMGqYiU7E6lp7ID47phqA</Key>
@@ -564,9 +564,9 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>hnwCcvVgmEqhwL-6Lu5gtQ</MagazineKey>
-                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
-                <Quantity>300</Quantity>
+                <MagazineKey>_NLtW4-ZW0OVZ3d5m5nfvA</MagazineKey>
+                <MunitionKey>Stock/20mm Slug</MunitionKey>
+                <Quantity>4000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -889,7 +889,7 @@
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>66A5l_J7JkS_QZlfZ4dpaw</MagazineKey>
-                <MunitionKey>$MODMIS$/SGT-375 Sidesword-H</MunitionKey>
+                <MunitionKey>$MODMIS$/SGT-350 Mace III</MunitionKey>
                 <Quantity>6</Quantity>
               </MagSaveData>
             </MissileLoad>
@@ -969,7 +969,7 @@
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>66A5l_J7JkS_QZlfZ4dpaw</MagazineKey>
-                <MunitionKey>$MODMIS$/SGT-375 Sidesword-H</MunitionKey>
+                <MunitionKey>$MODMIS$/SGT-350 Mace III</MunitionKey>
                 <Quantity>6</Quantity>
               </MagSaveData>
             </MissileLoad>
@@ -1057,7 +1057,7 @@
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>66A5l_J7JkS_QZlfZ4dpaw</MagazineKey>
-                <MunitionKey>$MODMIS$/SGT-375 Sidesword-H</MunitionKey>
+                <MunitionKey>$MODMIS$/SGT-350 Mace III</MunitionKey>
                 <Quantity>6</Quantity>
               </MagSaveData>
             </MissileLoad>
@@ -1339,10 +1339,10 @@ Failure Rate: 0 %</LongDescription>
     </MissileTemplate>
     <MissileTemplate>
       <AssociatedTemplateName>SGT-375 Sidesword</AssociatedTemplateName>
-      <Designation>SGT-375</Designation>
-      <Nickname>Sidesword-H</Nickname>
+      <Designation>SGT-350</Designation>
+      <Nickname>Mace III</Nickname>
       <Description>DIRECT - &lt;color=#FBFF4C&gt;CMD&lt;/color&gt; - HE SHAPED</Description>
-      <LongDescription>The SGT-375 Sidesword-H is a size 3 direct guidance missile.  It is based on the SGT-3 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using command guidance from its launching ship.
+      <LongDescription>The SGT-350 Mace III is a size 3 direct guidance missile.  It is based on the SGT-3 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using command guidance from its launching ship.
 
 Control Method: DIRECT
 Targeting Modes:
@@ -1432,10 +1432,10 @@ Failure Rate: 0 %</LongDescription>
       </Sockets>
     </MissileTemplate>
     <MissileTemplate>
-      <Designation>SGT-375</Designation>
-      <Nickname>Sidesword-C</Nickname>
+      <Designation>SGT-350</Designation>
+      <Nickname>Mace II</Nickname>
       <Description>DIRECT - &lt;color=#FBFF4C&gt;CMD&lt;/color&gt; - HE SHAPED</Description>
-      <LongDescription>The SGT-375 Sidesword-C is a size 3 direct guidance missile.  It is based on the SGT-3 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using command guidance from its launching ship.
+      <LongDescription>The SGT-350 Mace II is a size 3 direct guidance missile.  It is based on the SGT-3 body, which is a heavy anti-ship torpedo.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using command guidance from its launching ship.
 
 Control Method: DIRECT
 Targeting Modes:

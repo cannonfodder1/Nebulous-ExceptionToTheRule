@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mission 1 Player</Name>
   <Version>3</Version>
-  <TotalPoints>2172</TotalPoints>
+  <TotalPoints>2236</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>375c83e1-ccd3-41b4-863a-7c9ea5aa5100</Key>
       <Name>Exception To The Rule</Name>
-      <Cost>1870</Cost>
+      <Cost>1934</Cost>
       <Callsign />
       <Number>36</Number>
       <SymbolOption>0</SymbolOption>
@@ -43,7 +43,7 @@
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>LULBYH0bJ0itmRLZpnRiUA</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-206 Thunderhead</MunitionKey>
+                <MunitionKey>$MODMIS$/SGM-206 Thunderhead IV</MunitionKey>
                 <Quantity>16</Quantity>
               </MagSaveData>
             </MissileLoad>
@@ -60,7 +60,7 @@
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>NVi6oSNhnkinfajL7Pfjug</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-206 Thunderhead</MunitionKey>
+                <MunitionKey>$MODMIS$/SGM-206 Thunderhead IV</MunitionKey>
                 <Quantity>16</Quantity>
               </MagSaveData>
             </MissileLoad>
@@ -298,9 +298,9 @@
     <MissileTemplate>
       <AssociatedTemplateName>SGM-206 Thunderhead</AssociatedTemplateName>
       <Designation>SGM-206</Designation>
-      <Nickname>Thunderhead</Nickname>
+      <Nickname>Thunderhead IV</Nickname>
       <Description>CRUISE - ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
-      <LongDescription>The SGM-206 Thunderhead is a size 2 waypoint-capable cruise missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker.
+      <LongDescription>The SGM-206 Thunderhead IV is a size 2 waypoint-capable cruise missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker.
 
 Control Method: CRUISE (Waypoint Capable)
 Targeting Modes:
@@ -308,7 +308,7 @@ Targeting Modes:
 Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
 200 m/s for 14,040 m, top speed in 1.1 s
-Terminal Maneuvers: None
+Terminal Maneuvers: Weave
 
 Contact Fuze, High Explosive, Shaped
 Armor: 54cm   Component: 960hp
@@ -322,7 +322,7 @@ Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>6</Cost>
+      <Cost>8</Cost>
       <BodyKey>Stock/SGM-2 Body</BodyKey>
       <TemplateKey>2882048f-862c-45f1-839d-128132ed441c</TemplateKey>
       <BaseColor>
@@ -357,7 +357,7 @@ Failure Rate: 0 %</LongDescription>
             <Role>Offensive</Role>
             <HotLaunch>false</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>None</Maneuvers>
+            <Maneuvers>Weave</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
               <TargetType>All</TargetType>

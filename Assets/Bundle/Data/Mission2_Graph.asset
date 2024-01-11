@@ -47,8 +47,8 @@ MonoBehaviour:
   Lines:
   - Text: If your Bullseye suite fails to lock a burnthrough ping, then you need
       to get closer. You can retreat behind cover and set up an ambush, or try and
-      charge right down their throats. Alternatively, you can try a Squall strike
-      and hope they can break through the jamming ship's point defences.
+      charge right down their throats. Alternatively, if you can survive long enough,
+      their jammers will eventually overheat and shut down, giving you an opening.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: Get this done and the Alliance will be off-balance, we'll have strategic
@@ -336,11 +336,11 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
   Mood: 0
   Lines:
-  - Text: For fuck's sake, Stratis. Stay on top of your emails. Well, I guess you
-      don't need to know most of it, because you're uniquely equipped for the job.
-      That bastard warship of yours has a military radar suite, the Parallax, which
-      can 'burnthrough' jamming. Use the BRN command, then LCK the resulting pings
-      to get a workable track.
+  - Text: Really? You'll be in for quite the experience, then. Probably a less lethal
+      one than some of the other squadrons, because you're uniquely equipped for
+      the job. That bastard warship of yours has a military radar suite, the Parallax,
+      which can 'burnthrough' jamming. Use the BRN command, then LCK the resulting
+      pings to get a workable track.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: You'll have one of our lineships joining you for this operation. Our battlegroup
@@ -360,15 +360,17 @@ MonoBehaviour:
   - Text: 'On her other side, the Onslaught has a surprise in store: eight rocket
       containers. These contraptions have a fairly long range and cruise capability
       for reaching around corners. When a target is acquired, each container will
-      deploy six Piranha rockets. Very effective against lighter ships, but if they''ve
-      got chaff deployed then the salvo may misfire.'
+      deploy six Piranha rockets. Very effective against lighter ships, but if they''re
+      sitting behind chaff, then the salvo may misfire. Best used against an advancing
+      enemy, so their chaff is deployed behind and is less effective.'
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: To round it off, we reloaded the Exception's missile tubes. Half a load
-      of the Thunderheads you used last time, but the other half are Squalls. They
-      will home in on any jamming source or search radar emissions without regard
-      for chaff, but the former is more reliable. When jammed, you can launch them
-      targeted on the line of bearing marked with J.
+  - Text: Speaking of missiles, we weren't able to get the Exception's tubes reloaded
+      in time for this engagement. You've got a little more than half load of the
+      Thunderheads you used last time. But their seekers will get jammed to hell
+      just like your shipboard radar. If you fancy yourself a clever captain, you
+      might be able to use their cruise capability to waypoint them in for an off-angle
+      attack, avoiding the enemy jamming cone.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &-5173520167894047499
@@ -605,7 +607,7 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: 9f4525af73901814cad28e582586cc94, type: 2}
   Mood: 0
   Lines:
-  - Text: Of course I read it, I read everything.
+  - Text: Yeah, dealt with some in my last convoy raid.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &-3682264639036304321
@@ -795,8 +797,7 @@ MonoBehaviour:
   NextStep: {fileID: 0}
   Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
   Mood: 0
-  Line: "Did you read the anti-jamming tactics primer that I sent to all taskforce
-    leaders last week?\r"
+  Line: You've gone up against Alliance jamming before, right? Know the procedure?
   LineAudio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
   OptionOneText: Of Course
   OptionTwoText: Uh... No
@@ -847,10 +848,7 @@ MonoBehaviour:
   Mood: 0
   Lines:
   - Text: Damn fine job, Lieutenant Commander. Search and rescue then return to the
-      OSPN Emperor Reverse for repair and resupply. Also, I got a message from the
-      Otdel back in Roclaren - apparently they're working on a present for us that
-      could help against Alliance jamming, something called a Bloodhound LRT? We'll
-      go over the specs when you get back here, but it sounds promising.
+      OSPN Emperor Reverse for repair and resupply.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &-1369923688295110849
@@ -1211,9 +1209,9 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
   Mood: 0
   Lines:
-  - Text: Of that I have no doubt. Get this done and the Alliance will be off-balance,
-      we'll have strategic mobility restored to us. I'm really counting on you here.
-      Vance signing off.
+  - Text: Excellent. Get this done and the Alliance will be off-balance, we'll have
+      strategic mobility restored to us. I'm really counting on you here. Vance signing
+      off.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &1722444704647734698
@@ -1879,7 +1877,7 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: 9f4525af73901814cad28e582586cc94, type: 2}
   Mood: 0
   Lines:
-  - Text: Uh, what primer? I must have missed that one.
+  - Text: Somehow, I haven't run into it yet.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &7381038876343861751

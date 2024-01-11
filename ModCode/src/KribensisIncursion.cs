@@ -29,7 +29,7 @@ namespace KribensisIncursion
 		public void PreLoad()
 		{
 			// we're patching BundleManager so the Harmony register has to happen in PreLoad
-			Harmony harmony = new Harmony("nebulous.kribensis-incursion");
+			Harmony harmony = new Harmony("nebulous.exception-to-the-rule");
 			harmony.PatchAll();
 
 			// Thank you to SomeUsername6 for the below code!
