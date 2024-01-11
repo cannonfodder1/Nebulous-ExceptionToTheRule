@@ -210,7 +210,7 @@
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>8f2e2fc8-62e9-4fe9-8bb6-0c8f395ddfda</Key>
-      <Name>Bought In Bulk</Name>
+      <Name>Onslaught of Abundance</Name>
       <Cost>1123</Cost>
       <Callsign />
       <Number>47</Number>
@@ -484,7 +484,6 @@ Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
 Body Integrity: 30 
-Wall Thickness: 0.5
 Programming Time: 8 s
 Radar Signature Bonus: 100 %
 Boost-Phase Duration: 3 s
@@ -576,7 +575,6 @@ Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
 Body Integrity: 30 
-Wall Thickness: 0.5
 Programming Time: 8 s
 Radar Signature Bonus: 100 %
 Boost-Phase Duration: 3 s

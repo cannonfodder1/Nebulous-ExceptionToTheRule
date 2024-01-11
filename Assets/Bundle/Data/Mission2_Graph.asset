@@ -346,7 +346,7 @@ MonoBehaviour:
   - Text: You'll have one of our lineships joining you for this operation. Our battlegroup
       doesn't have a ton of these, most of them are earmarked for the gate blockade
       that's being assembled, but in a year or two they'll be the main workhorse
-      of the OSPN. As you might have noticed, the Bought In Bulk has an asymmetric
+      of the OSPN. As you might have noticed, the Onslaught of Abundance has an asymmetric
       loadout, with 250mm cannons bristling on her left side only.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
@@ -357,7 +357,7 @@ MonoBehaviour:
       enemy, so the left broadside can bear to target.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: 'On her other side, the Bought In Bulk has a surprise in store: eight rocket
+  - Text: 'On her other side, the Onslaught has a surprise in store: eight rocket
       containers. These contraptions have a fairly long range and cruise capability
       for reaching around corners. When a target is acquired, each container will
       deploy six Piranha rockets. Very effective against lighter ships, but if they''ve

@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mission 3 Player</Name>
   <Version>3</Version>
-  <TotalPoints>5040</TotalPoints>
+  <TotalPoints>5016</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -210,7 +210,7 @@
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>bafc4523-9b9c-4bb0-9283-1ffd14f1adb2</Key>
-      <Name>Tyrannical Gaze</Name>
+      <Name>Smartest Person In The Room</Name>
       <Cost>413</Cost>
       <Callsign />
       <Number>91</Number>
@@ -296,7 +296,7 @@
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>08fa1248-31f3-42cf-87ee-c18a6b073cc8</Key>
-      <Name>Little Rebellion</Name>
+      <Name>Rapid Unplanned Disassembly</Name>
       <Cost>361</Cost>
       <Callsign />
       <Number>261</Number>
@@ -385,8 +385,8 @@
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>266201dd-e676-4c5c-be2f-104c09a7a636</Key>
-      <Name>Cause For Alarm</Name>
-      <Cost>603</Cost>
+      <Name>Disregard For Awkward Facts</Name>
+      <Cost>591</Cost>
       <Callsign />
       <Number>97</Number>
       <SymbolOption>0</SymbolOption>
@@ -406,11 +406,11 @@
         </HullSocket>
         <HullSocket>
           <Key>gb6_3kWBY0KlEWeex3ruDg</Key>
-          <ComponentName>Stock/P20 Flak PDT</ComponentName>
+          <ComponentName>Stock/P11 PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>_y-Bd-EWjUeMIrmzG3UxvQ</Key>
-          <ComponentName>Stock/P20 Flak PDT</ComponentName>
+          <ComponentName>Stock/P11 PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>gDQghm5iik2syYcoJqUPFg</Key>
@@ -442,9 +442,9 @@
                 <Quantity>2000</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>6hJsjXrnKUCc-Gu6ScNbeA</MagazineKey>
-                <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>900</Quantity>
+                <MagazineKey>u8Pzugpsk0eUydzsrIJYxQ</MagazineKey>
+                <MunitionKey>Stock/20mm Slug</MunitionKey>
+                <Quantity>20000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -483,7 +483,7 @@
         </HullSocket>
         <HullSocket>
           <Key>DaqWEX-8gEeIzYrhp8NIMw</Key>
-          <ComponentName>Stock/Energy Regulator</ComponentName>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>EvZ6JN5xV0aUlKEeeKxFTQ</Key>
@@ -512,8 +512,8 @@
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>8551d7cb-cffa-4d27-866d-e494ccbaba04</Key>
-      <Name>None The Wiser</Name>
-      <Cost>603</Cost>
+      <Name>Significant Charisma Deficit</Name>
+      <Cost>591</Cost>
       <Callsign />
       <Number>83</Number>
       <SymbolOption>0</SymbolOption>
@@ -533,11 +533,11 @@
         </HullSocket>
         <HullSocket>
           <Key>gb6_3kWBY0KlEWeex3ruDg</Key>
-          <ComponentName>Stock/P20 Flak PDT</ComponentName>
+          <ComponentName>Stock/P11 PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>_y-Bd-EWjUeMIrmzG3UxvQ</Key>
-          <ComponentName>Stock/P20 Flak PDT</ComponentName>
+          <ComponentName>Stock/P11 PDT</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>gDQghm5iik2syYcoJqUPFg</Key>
@@ -569,9 +569,9 @@
                 <Quantity>2000</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>6hJsjXrnKUCc-Gu6ScNbeA</MagazineKey>
-                <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>900</Quantity>
+                <MagazineKey>4T2vRfc1sES0xwup5Sw7XQ</MagazineKey>
+                <MunitionKey>Stock/20mm Slug</MunitionKey>
+                <Quantity>20000</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -610,7 +610,7 @@
         </HullSocket>
         <HullSocket>
           <Key>DaqWEX-8gEeIzYrhp8NIMw</Key>
-          <ComponentName>Stock/Energy Regulator</ComponentName>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>EvZ6JN5xV0aUlKEeeKxFTQ</Key>
@@ -639,7 +639,7 @@
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>bde4d826-8408-4d49-9c9d-a98f32852d95</Key>
-      <Name>Open For Business</Name>
+      <Name>Within Acceptable Tolerance</Name>
       <Cost>603</Cost>
       <Callsign />
       <Number>94</Number>
@@ -766,7 +766,7 @@
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>411b3931-54e0-4fd0-98c8-ee01fa47e23d</Key>
-      <Name>Do Unto Others</Name>
+      <Name>Hull Damage Builds Character</Name>
       <Cost>603</Cost>
       <Callsign />
       <Number>86</Number>

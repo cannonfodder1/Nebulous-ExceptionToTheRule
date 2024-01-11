@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mission 1 Player</Name>
   <Version>3</Version>
-  <TotalPoints>2170</TotalPoints>
+  <TotalPoints>2172</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -201,7 +201,7 @@
       <SaveID xsi:nil="true" />
       <Key>c7e3e166-5c05-412a-876c-040c5f7f84ec</Key>
       <Name>Trespassers Will Be Shot</Name>
-      <Cost>300</Cost>
+      <Cost>302</Cost>
       <Callsign />
       <Number>267</Number>
       <SymbolOption>0</SymbolOption>
@@ -248,6 +248,11 @@
               <MagSaveData>
                 <MagazineKey>MXhU7AdK-UqLHR12Ni-mfQ</MagazineKey>
                 <MunitionKey>Stock/100mm HE Shell</MunitionKey>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>KY_m3C_Py0ij-6O99PRutw</MagazineKey>
+                <MunitionKey>Stock/100mm AP Shell</MunitionKey>
                 <Quantity>500</Quantity>
               </MagSaveData>
             </Load>
@@ -311,7 +316,6 @@ Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
 Body Integrity: 30 
-Wall Thickness: 0.5
 Programming Time: 8 s
 Radar Signature Bonus: 100 %
 Boost-Phase Duration: 3 s

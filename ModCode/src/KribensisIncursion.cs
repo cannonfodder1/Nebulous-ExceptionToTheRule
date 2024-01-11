@@ -26,6 +26,29 @@ namespace KribensisIncursion
 
 		public static GameObject FacilityPrefab = null;
 
+		public void PreLoad()
+		{
+			// we're patching BundleManager so the Harmony register has to happen in PreLoad
+			Harmony harmony = new Harmony("nebulous.kribensis-incursion");
+			harmony.PatchAll();
+
+			// Thank you to SomeUsername6 for the below code!
+			// We need to cache the ports of our custom nodes for XNode before the mod scenarios are loaded
+			MethodInfo cachePortsMethodInfo = typeof(NodeDataCache).GetMethod("CachePorts", BindingFlags.NonPublic | BindingFlags.Static);
+
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(PauseAllBotPlayers) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SetGameTime) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(RotateShip90) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(RotateShip45) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SetShipPosition) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SetShipFormation) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetMissionBattlespace) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetPlayerPointValue) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetShipWithdrawn) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetShipDestroyed) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SpawnCalloutMarker) });
+		}
+
 		public void PostLoad()
 		{
 			// Thank you to SomeUsername6 for the below code!
@@ -63,29 +86,6 @@ namespace KribensisIncursion
 			}
 
 			KribensisIncursion.FacilityPrefab = facilityPrefab;
-		}
-
-		public void PreLoad()
-		{
-			// we're patching BundleManager so the Harmony register has to happen in PreLoad
-			Harmony harmony = new Harmony("nebulous.kribensis-incursion");
-			harmony.PatchAll();
-
-			// Thank you to SomeUsername6 for the below code!
-			// We need to cache the ports of our custom nodes for XNode before the mod scenarios are loaded
-			MethodInfo cachePortsMethodInfo = typeof(NodeDataCache).GetMethod("CachePorts", BindingFlags.NonPublic | BindingFlags.Static);
-
-			cachePortsMethodInfo.Invoke(null, new object[] { typeof(PauseAllBotPlayers) });
-			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SetGameTime) });
-			cachePortsMethodInfo.Invoke(null, new object[] { typeof(RotateShip90) });
-			cachePortsMethodInfo.Invoke(null, new object[] { typeof(RotateShip45) });
-			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SetShipPosition) });
-			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SetShipFormation) });
-			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetMissionBattlespace) });
-			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetPlayerPointValue) });
-			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetShipWithdrawn) });
-			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetShipDestroyed) });
-			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SpawnCalloutMarker) });
 		}
 	}
 

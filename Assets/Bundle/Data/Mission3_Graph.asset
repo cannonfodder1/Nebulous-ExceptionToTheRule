@@ -2255,18 +2255,18 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: 9f4525af73901814cad28e582586cc94, type: 2}
   Mood: 0
   Lines:
-  - Text: "I don\u2019t know, but they have to try something. The longer they wait,
-      the stronger we get, and the more useless the Alliance Navy looks. If the OSP
-      can secede and survive, the other member nations, especially the annexed territories,
-      might start to get ideas. It could be the end of the Alliance, if they don\u2019t
-      crush us here and now."
+  - Text: I don't know, but they have to try something. The longer they wait, the
+      stronger we get, and the more useless the Alliance Navy looks. If the OSP can
+      secede and survive, the other member nations, especially the annexed territories,
+      might start to get ideas. It could be the end of the Alliance, if they don't
+      crush us here and now.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: "So they have to attack. They have to come at us, and destroy the OSP as
-      quickly and brutally as possible, just as they did to the miners in Argentium.
-      They have to keep the Alliance together, and the OSP is their sacrifice. But
-      we\u2019re not going back. If they want to save the Alliance, they need to
-      stop looking for a scapegoat and start looking in the mirror."
+  - Text: So they have to attack. They have to come at us, and destroy the OSP as
+      quickly as possible, just as they did to the miners in Argentium. They have
+      to keep the Alliance together, and the OSP is their sacrifice. But we're not
+      going back. If they want to save the Alliance, they need to stop looking for
+      a scapegoat and start looking in the mirror.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &-6650725558575909519
@@ -7556,7 +7556,7 @@ MonoBehaviour:
       up an ambush and keep a line of retreat open.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: OSPN Little Rebellion, you'll scout ahead of the main formation. Your rocket
+  - Text: The Disassembly will be scouting ahead of the main formation. Your rocket
       launchers won't be able to scratch capital ship armour, at least not until
       they've been shredded by plasma. Focus on smaller ships, and try to hold your
       rockets until the last moment, they're most effective within 2 km. The anti-missile
@@ -7564,12 +7564,12 @@ MonoBehaviour:
       speed to pull back behind a rock if things get too hot.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: OSPN Tyrannical Gaze, you've got the other critical piece here, the Bloodhound
-      LRT. Move to an overwatch position with clear sightlines, and cue targets off
-      of the Exception's burnthrough pings if we can't establish a lock with our
-      Bullseye. The LRT's returns won't be as good as an actual lock, but it's better
-      than being completely jammed out. You can also use those Bellbird jammers to
-      cover yourself and the main formation.
+  - Text: Smartest, you've got the other critical piece here, the Bloodhound LRT.
+      Move to an overwatch position with clear sightlines, and cue targets off of
+      the Exception's burnthrough pings if we can't establish a lock with our Bullseye.
+      The LRT's returns won't be as good as an actual lock, but it's better than
+      being completely jammed out. You can also use those Bellbird jammers to cover
+      yourself and the main formation.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: To your stations! We have capital ships to kill.
@@ -13087,7 +13087,7 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: 9f4525af73901814cad28e582586cc94, type: 2}
   Mood: 0
   Lines:
-  - Text: We actually did it. Outstanding work, all of you. I couldn't have asked
+  - Text: We actually did it! Outstanding work, all of you. I couldn't have asked
       for a better crew.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
@@ -15324,11 +15324,11 @@ MonoBehaviour:
       business with Zodiac-Five.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: "We can win this. Like, actually win, not just survive. I didn\u2019t want
-      to believe it. But if we keep fighting as fiercely as we did today... the Navy
+  - Text: We can win this. Like, actually win, not just survive. I didn't want to
+      believe it. But if we keep fighting as fiercely as we did today... the Navy
       has held the Alliance together with fear, yet here we stand, unbroken. Once
-      the other member nations gather their courage, the Alliance doesn\u2019t stand
-      a chance."
+      the other member nations gather their courage, the Alliance doesn't stand a
+      chance.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &8823676147117756749
