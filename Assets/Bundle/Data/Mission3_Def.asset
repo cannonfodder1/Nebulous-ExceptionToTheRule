@@ -12,42 +12,50 @@ MonoBehaviour:
   m_Script: {fileID: 1006082986, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
   m_Name: Mission3_Def
   m_EditorClassIdentifier: 
-  MissionName: Righteous Fire
-  DetailText: "As the force buildup on both sides of the Kribensis-Bethel gate approaches
-    its zenith, the fluid opening stage of the war threatens to harden into a stalemate.
-    Deep in the fog of war, the factions execute their endgames. Lead your squadron
-    in a surprise attack against a crucial Alliance supply depot - but be wary, and
-    never trust the intel department.\r"
+  MissionName: Storm Warning
+  DetailText: With the Alliance on the attack, the convoy raiding effort is in peril.
+    The asteroid belt of Kribensis blisters and boils with heavy jamming, as the
+    Alliance uses their electronic warfare superiority to cut down OSP raiding groups
+    one by one. There's only one ship in the battlegroup that can make a stand. Silence
+    the jammers, and bring this counteroffensive to a halt.
   PreBriefing: "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\
-    Weeks since the Divide: 17 \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nAN-STELLARCOM
-    // KRIBENSIS BUOY 09-VVV-2\r\nRELAY IMMEDIATE. PRIORITY ONE\r\n\r\nMESSAGE HEADER
-    //\r\nXX: IDENT -: WO. SAMUEL ACE\r\n\r\nHey boss, I know I'm not technically
-    supposed to have the permissions to slap Priority One on message traffic, but
-    if I didn't slam this through it would have taken days to get to you. Half of
-    our comms buoys are down pending maintenance right now, the budget for a replacement
-    system has been stalled in committee for the last six years so it seems we're
-    stuck with this junk. Anyway, you should relay this to the Admiral. Like, right
-    now. We got real lucky here and I don't want it to go to waste, with this we
-    can nail the OSPN to the wall. I know faking message priorities is grounds for
-    dishonourable discharge as per Alliance Navy Regulation 27-b, but I think you'll
-    agree it's justified here once you read the intercept.\r\n\r\nMESSAGE CONTENT
-    //\r\nXX: INTERCEPT -: OSPN EMPEROR REVERSE\r\n\r\n[corrupted data] ...ank you
-    all for coming. I'll get straight to the point: just yesterday reinforcements
-    arrived in-system from Bethel, with some shiny new tech that'll have those [EXPLETIVE
-    REMOVED] in Shelter quaking in their boots, but more importantly, a message from
-    Constantine. Our home needs three weeks. Those are our orders. The Old Man asks
-    for three weeks, and the OSPN shall answer.\r\n\r\nSo, the plan is as follows.
-    Naval Station Zodiac-Five, or NAVSTA Z-5 for those in a hurry, is one of the
-    two main refueling stops for all Alliance Navy operations in the inner system.
-    Z-5's garrison should be light after we pull it out of position by hitting the
-    diversionary targets which I'll cover in a second, but I'm assigning our cruiser
-    to this one, because even if the Alliance doesn't take the bait, I want them
-    [EXPLETIVE REMOVED] obliterated. That means you, Stra... [corrupted data]\r\n\r\nMESSAGE
-    ENDS //\r"
+    Weeks since the Divide: 12 \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nOSPN
+    NAVY-LINK COMM.\r\nVOICE TRANSCRIPT.\r\n\r\n--- N. Vance has joined the call
+    ---\r\n\r\nV: Pick up, you bastard.\r\n\r\n--- B. Stratis has joined the call
+    ---\r\n\r\nS: Reporting as ordered, Captain.\r\n\r\nV: As of this very moment
+    I am pinned under a rock and there's a squadron of beam destroyers on my ass,
+    so we need to keep this brief. Is your ship combat-capable?\r\n\r\nS: We just
+    got another two freighters and their escorts, no significant damage.\r\n\r\nV:
+    You and the other raiding groups have been doing ace work, but whoever's in command
+    over there is being a massive pain in my ass. There's an Alliance taskforce loose
+    in our rear area and they've been torching the supply dumps we set up around
+    the system. If they're allowed to continue running wild, we'll run out of the
+    fuel and missiles we need for offensive operations.\r\n\r\nS: So we're going
+    to withdraw back to Roclaren, right?\r\n\r\nV: Are you fucking high?\r\n\r\nS:
+    Sounds to me like they've pulled a significant portion of their forces away from
+    their jumping off point at the gate to Bethel to react to our incursion. Which,
+    as far as our official mission goes, is exactly what we were supposed to provoke.
+    It's time to get out before -\r\n\r\nV: Cease the quitter talk. Every week we
+    keep them occupied here is another week the shipyards have to militarize more
+    freighters for the gate blockade. We have to stay in the system and remain a
+    threat for as long as possible.\r\n\r\nS: But ma'am - \r\n\r\nV: Enough. We can
+    discuss strategy further once I tear these fucking destroyers apart.\r\n\r\nS:
+    Where do you want me, then?\r\n\r\nV: As I was saying, that marauding taskforce
+    has to be stopped. I sent a few other ships to do the job, but they were sent
+    packing by an ungodly amount of electronic warfare. And when it comes to dealing
+    with that shit, your cruiser has no equal. We've been tracking their drive flares,
+    and you're close enough to interdict them at their jumping off point before they
+    hit another one of our fuel caches. I want them smashed into dust.\r\n\r\nS:
+    Aye ma'am.\r\n\r\nV: I'm detaching a lineship to join you, it should provide
+    some additional firepower for - \r\n\r\n(background voices detected) SPIKER!
+    Spiker spiker spiker! Count four incoming, range three kilo, bearing two-five-one
+    by zero-six-four, speed -\r\n\r\nV: Oh fuck - \r\n\r\n(background voices detected)
+    PDTs are up, Bastion net engaging, splash one -\r\n\r\nV: Gotta go!\r\n\r\n---
+    Connection Terminated ---\r\n"
   MissionKey: fKPptYeLr0C3-EPvpvKL1w
-  Screenshot: {fileID: 21300000, guid: 1261fcd609ee1db43a9060914cdafca9, type: 3}
+  Screenshot: {fileID: 21300000, guid: 65d3f993da0bf6d488622a5ac9a0ddfa, type: 3}
   _graph:
-    m_AssetGUID: b61e1df36cc6af64f9e39c865879154a
+    m_AssetGUID: 
     m_SubObjectName: 
     m_SubObjectType: 
     m_EditorAssetChanged: 0

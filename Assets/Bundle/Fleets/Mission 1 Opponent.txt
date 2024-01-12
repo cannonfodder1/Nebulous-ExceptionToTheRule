@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mission 1 Opponent</Name>
   <Version>3</Version>
-  <TotalPoints>2760</TotalPoints>
+  <TotalPoints>3040</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -160,7 +160,7 @@
       <SaveID xsi:nil="true" />
       <Key>a74daf50-ddef-45b5-a468-2afa44c82fa1</Key>
       <Name>Wide Open</Name>
-      <Cost>284</Cost>
+      <Cost>281</Cost>
       <Callsign />
       <Number>445</Number>
       <SymbolOption>0</SymbolOption>
@@ -168,20 +168,11 @@
       <SocketMap>
         <HullSocket>
           <Key>wDsRnL5nKkyYvKgD6VcPHg</Key>
-          <ComponentName>Stock/Mk64 Cannon</ComponentName>
+          <ComponentName>Stock/Mk62 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>hPBBUmN4dkCuTL0c8n5XeA</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>12</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
+          <ComponentName>Stock/Mk62 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
@@ -209,14 +200,14 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>7267WLAjGUarAn9EJie-2Q</MagazineKey>
-                <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>400</Quantity>
-              </MagSaveData>
-              <MagSaveData>
                 <MagazineKey>evvY9N-EJki1vWJWZTgoRQ</MagazineKey>
                 <MunitionKey>Stock/Flak Round</MunitionKey>
                 <Quantity>300</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>FMO8RIKR-EyUdASp8d2nyw</MagazineKey>
+                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
+                <Quantity>1200</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -239,9 +230,10 @@
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="Deck Gun">
+        <WepGroup Name="120mm Battery">
           <MemberKeys>
             <string>wDsRnL5nKkyYvKgD6VcPHg</string>
+            <string>Z48ot_dQfkWb6AVYjaM_gA</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -259,7 +251,7 @@
       <SaveID xsi:nil="true" />
       <Key>7b2d7020-8a0a-4b24-a77d-04fff093a47b</Key>
       <Name>Zero Sum</Name>
-      <Cost>284</Cost>
+      <Cost>281</Cost>
       <Callsign />
       <Number>381</Number>
       <SymbolOption>0</SymbolOption>
@@ -267,20 +259,11 @@
       <SocketMap>
         <HullSocket>
           <Key>wDsRnL5nKkyYvKgD6VcPHg</Key>
-          <ComponentName>Stock/Mk64 Cannon</ComponentName>
+          <ComponentName>Stock/Mk62 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>Z48ot_dQfkWb6AVYjaM_gA</Key>
-          <ComponentName>Stock/VLS-1-46 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
-            <MissileLoad>
-              <MagSaveData>
-                <MagazineKey>hPBBUmN4dkCuTL0c8n5XeA</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>12</Quantity>
-              </MagSaveData>
-            </MissileLoad>
-          </ComponentData>
+          <ComponentName>Stock/Mk62 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>IUdNSVZm2Eu9n3F5HnSAng</Key>
@@ -308,14 +291,14 @@
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>7267WLAjGUarAn9EJie-2Q</MagazineKey>
-                <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>400</Quantity>
-              </MagSaveData>
-              <MagSaveData>
                 <MagazineKey>SHO7QYTwtE6BrYhRnIQEkA</MagazineKey>
                 <MunitionKey>Stock/Flak Round</MunitionKey>
                 <Quantity>300</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>etFNX7Ijc0WVcHUVkjAolg</MagazineKey>
+                <MunitionKey>Stock/120mm HE Shell</MunitionKey>
+                <Quantity>1200</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -338,8 +321,9 @@
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="Deck Gun">
+        <WepGroup Name="120mm Battery">
           <MemberKeys>
+            <string>Z48ot_dQfkWb6AVYjaM_gA</string>
             <string>wDsRnL5nKkyYvKgD6VcPHg</string>
           </MemberKeys>
         </WepGroup>
@@ -358,7 +342,7 @@
       <SaveID xsi:nil="true" />
       <Key>27348c72-a5a9-4d45-840f-4e12cbd2a5b4</Key>
       <Name>Rupture Rendition</Name>
-      <Cost>1087</Cost>
+      <Cost>1373</Cost>
       <Callsign />
       <Number>115</Number>
       <SymbolOption>1</SymbolOption>
@@ -370,8 +354,8 @@
           <ComponentData xsi:type="ResizableCellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>aE2cPPoKwkOXHpvt7lR6dQ</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-222 Hurricane</MunitionKey>
+                <MagazineKey>Lbd0-br-3EuqecuBLz4blQ</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-284 Typhoon</MunitionKey>
                 <Quantity>24</Quantity>
               </MagSaveData>
             </MissileLoad>
@@ -387,8 +371,8 @@
           <ComponentData xsi:type="ResizableCellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>EKqWdAk6sUSWY3sKYis7xw</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-222 Hurricane</MunitionKey>
+                <MagazineKey>TVKthiOsUEe-OFmnAO9fVA</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-284 Typhoon</MunitionKey>
                 <Quantity>24</Quantity>
               </MagSaveData>
             </MissileLoad>
@@ -414,7 +398,7 @@
               <MagSaveData>
                 <MagazineKey>mDWQydchXkWxcle1r5J9PA</MagazineKey>
                 <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
-                <Quantity>14</Quantity>
+                <Quantity>12</Quantity>
               </MagSaveData>
             </MissileLoad>
           </ComponentData>
@@ -499,55 +483,58 @@
   </Ships>
   <MissileTypes>
     <MissileTemplate>
-      <AssociatedTemplateName>SGM-222 Hurricane</AssociatedTemplateName>
-      <Designation>SGM-222</Designation>
-      <Nickname>Hurricane</Nickname>
-      <Description>DIRECT - &lt;color=#FBFF4C&gt;CMD&lt;/color&gt;/ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
-      <LongDescription>The SGM-222 Hurricane is a size 2 direct guidance missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using command guidance from its launching ship  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
+      <AssociatedTemplateName>SGM-H-284 Typhoon</AssociatedTemplateName>
+      <Designation>SGM-H-284</Designation>
+      <Nickname>Typhoon</Nickname>
+      <Description>DIRECT - ARAD(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
+      <LongDescription>The SGM-H-284 Typhoon is a size 2 direct guidance missile.  It is based on the SGM-H-2 body, which is a multi-purpose hybrid missile designed to penetrate point defense grids.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Radar Anti-Radiation seeker  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
 
 Control Method: DIRECT
 Targeting Modes:
 	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
-Primary Seeker: COMMAND (&lt;color=#FBFF4C&gt;Requires COMMS Enabled&lt;/color&gt;)
+Primary Seeker: ANTI-RADIATION (All &lt;color=#4CFF72&gt;RADAR&lt;/color&gt; Signals)
 Backup Seeker(s): ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
 
-300 m/s for 8,743 m, top speed in 1.9 s
-Terminal Maneuvers: None
+Cruise: 215 m/s for 8,440 m, top speed in 1.6 s
+Sprint: 665 m/s for 4,448 m, top speed in 0.7 s
+   Stage Trigger on Target Detection (&lt;color=#FBFF4C&gt;Direction-Only Seeker&lt;/color&gt;)
+Terminal Maneuvers: Corkscrew
 
 Contact Fuze, High Explosive, Shaped
-Armor: 60cm   Component: 1,200hp
+Armor: 54cm   Component: 960hp
 Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
-Body Integrity: 30 
-Programming Time: 8 s
+Body Integrity: 25 
+Programming Time: 10 s
 Radar Signature Bonus: 100 %
 Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>8</Cost>
-      <BodyKey>Stock/SGM-2 Body</BodyKey>
-      <TemplateKey>eefeda36-4ed3-444b-8ba1-97b7f5f3ed19</TemplateKey>
+      <Cost>14</Cost>
+      <BodyKey>Stock/SGM-H-2 Body</BodyKey>
+      <TemplateKey>e55ed44e-8a41-4f94-9c73-6c39ce5a6c85</TemplateKey>
       <BaseColor>
-        <r>1</r>
-        <g>1</g>
-        <b>1</b>
+        <r>0.3333271</r>
+        <g>0.3333271</g>
+        <b>0.3333271</b>
         <a>1</a>
       </BaseColor>
       <StripeColor>
-        <r>0.160784319</r>
-        <g>0.596078455</g>
-        <b>0.160784319</b>
+        <r>0.217692524</r>
+        <g>0.8988853</g>
+        <b>0.9999999</b>
         <a>1</a>
       </StripeColor>
       <Sockets>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="CommandSeekerSettings">
-            <ComponentKey>Stock/Command Receiver</ComponentKey>
+          <InstalledComponent xsi:type="PassiveARHSeekerSettings">
+            <ComponentKey>Stock/Fixed Anti-Radiation Seeker</ComponentKey>
             <Mode>Targeting</Mode>
             <RejectUnvalidated>false</RejectUnvalidated>
+            <TargetType>All</TargetType>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
@@ -566,7 +553,7 @@ Failure Rate: 0 %</LongDescription>
             <Role>Offensive</Role>
             <HotLaunch>false</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>None</Maneuvers>
+            <Maneuvers>Corkscrew</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
               <TargetType>All</TargetType>
@@ -574,7 +561,7 @@ Failure Rate: 0 %</LongDescription>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
             </DefensiveDoctrine>
-            <ApproachAngleControl>true</ApproachAngleControl>
+            <ApproachAngleControl>false</ApproachAngleControl>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
@@ -584,13 +571,24 @@ Failure Rate: 0 %</LongDescription>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
-          <Size>5</Size>
+          <Size>3</Size>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.750913262</A>
-              <B>0.125836253</B>
-              <C>0.123250484</C>
+              <A>0.329333365</A>
+              <B>0.670666635</B>
+              <C>0</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.3266541</A>
+              <B>-1.77388362E-08</B>
+              <C>0.6733459</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>

@@ -21,10 +21,11 @@ MonoBehaviour:
     rebellion in one swift stroke. Take command of the reactivated cruiser OSPN Exception
     to the Rule in the war's opening stage, and face down the behemoth that approaches.
   Screenshot: {fileID: 21300000, guid: a44acc1c43eb0184187defb8e4156013, type: 3}
-  MissionNamePrefix: Mission
+  MissionNamePrefix: Engagement
   Missions:
   - {fileID: 11400000, guid: 7564285a94ccfb34c80235f2ec0134fd, type: 2}
   - {fileID: 11400000, guid: 4268ba353b58ed746badf1ae7ff30d1a, type: 2}
+  - {fileID: 11400000, guid: ed7d419e3d9f86744aaacb4bd653c875, type: 2}
   - {fileID: 11400000, guid: e00029016c098434e850169719a8ae18, type: 2}
   AllMissionsAvailable: 1
   _modId: 0

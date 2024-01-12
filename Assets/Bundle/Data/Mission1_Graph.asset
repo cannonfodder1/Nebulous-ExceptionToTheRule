@@ -45,9 +45,9 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
   Mood: 0
   Lines:
-  - Text: Looks like a light cruiser and some escorts... The presence of which means
-      the cruiser's defence grid is probably some weaksauce shit. Disabling the escorts
-      first might clear the way for your Thunderheads.
+  - Text: Looks like a light cruiser and some escorts... Unless they have missiles,
+      the cruiser is the more dangerous threat by far. I'd make it your priority
+      target.
     Audio: {fileID: 8300000, guid: a5c23ca4d3c6a3b46ae0e84e7172c878, type: 3}
     AutoAdvance: 1
 --- !u!114 &-8997118931157874076
@@ -1318,7 +1318,7 @@ MonoBehaviour:
       StripeColor: {r: 1, g: 1, b: 1, a: 1}
       FleetPrefix: ANS
     Badge: {fileID: 2800000, guid: bf60d913b8523874ebe53895ede0a183, type: 3}
-    Brain: {fileID: 11400000, guid: 49d307076c5af0348a7a192650837da9, type: 2}
+    Brain: {fileID: 11400000, guid: 9a7bb114d0734674c835d3606e7ba27f, type: 2}
   SetupSteps: {fileID: 0}
   Next: {fileID: 0}
 --- !u!114 &-6941938329244445496
@@ -1395,7 +1395,7 @@ MonoBehaviour:
       _typeConstraint: 0
       _dynamic: 0
   GetGroupMethod: 2
-  Name: SGM-222 Hurricane
+  Name: SGM-222 Hurricane III
   GroupNumber: 0
   WeaponGroups: []
   IsFiring: 0
@@ -4377,7 +4377,7 @@ MonoBehaviour:
       _dynamic: 0
   PreviousStep: {fileID: 0}
   NextStep: {fileID: 0}
-  GameTime: 45
+  GameTime: 30
 --- !u!114 &-527194598716319564
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5378,23 +5378,28 @@ MonoBehaviour:
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: Before leaving refit, the Exception's point defence grid was updated using
-      a handful of Aurora PDTs we gained from a defecting supply ship. The ship also
-      sports a very expensive and incredibly useful Bullseye FCR, which can lock
-      any target within 9km, improving weapon accuracy by a metric shit-ton. Use
-      the LCK button in the orders menu.
+      a handful of Aurora PDTs we acquired from a defector. The ship also sports
+      a very expensive and incredibly useful Bullseye FCR, which can lock any target
+      within 9km, improving weapon accuracy by a metric shit-ton. Use the LCK button
+      in the orders menu. After that, fire away with the 250mm battery - use HE versus
+      small ships, or AP against cruisers and capitals.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: The battle doctrine from last century when the Ocello-class was in active
-      service says that it was designed to fight the enemy bow-on. It's a bitch to
-      try and land a solid hit on this beast from the narrow frontal aspect. Use
-      the HDG order in the direction of loyalist scum to point the bow towards them.
+  - Text: The battle doctrine from the Graznovian war when the Ocello-class was in
+      active service says that it was designed to fight the enemy bow-on. It's a
+      bitch to try and land a solid hit on this beast from the narrow frontal aspect.
+      Use the HDG order in the direction of loyalist scum to point the bow towards
+      them. Bow-tanking, as we call it, also means you can fire all four PDTs against
+      missile threats, compared to the two PDTs that each broadside can muster.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: Next up, the Trespassers. She's a Draugr-class tugboat - like most of our
-      ships, built for civilian use and only recently militarized. Ships like these
+      ships, built for civilian use and only recently militarized. Boats like these
       can't take much of a punch, their armour and point defences are not up to par,
-      so keep her out of the line of fire or within the point defence bubble of the
-      Exception.
+      so keep her out of the line of fire or stay within the point defence bubble
+      of the Exception. If forced into fighting, she has a casemate that can tango
+      with small threats using 100mm HE or contribute damage against medium ships
+      with 100mm AP.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: However, her refit plan did include one very important asset - the Early
@@ -5640,8 +5645,8 @@ MonoBehaviour:
   Mood: 0
   Lines:
   - Text: Benji, that's a beam destroyer! You have to keep your distance, otherwise
-      the Exception is fucking dead! Stay outside 5 km at all costs, 6 km if you
-      can.
+      the Exception is fucking dead! Maximum range on it is 6 km, with effectiveness
+      increasing the closer you get.
     Audio: {fileID: 8300000, guid: a5c23ca4d3c6a3b46ae0e84e7172c878, type: 3}
     AutoAdvance: 1
 --- !u!114 &829017669766302825
