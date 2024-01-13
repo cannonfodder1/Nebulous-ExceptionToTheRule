@@ -4291,21 +4291,6 @@ MonoBehaviour:
       at its finest.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: Speaking of that weapon, the C90 is nice and simple, with only two ammo
-      types in the 600mm calibre. Lob bombs at groups of small ships, or swap to
-      HE-SH rounds for anything larger, not that there's anything here to warrant
-      that. The area bombs are time-fused to explode just short of the track you
-      target, so for best effect, target the rearmost ship in their formation.
-    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
-    AutoAdvance: 0
-  - Text: Also, you may have noticed the monitors have missile launchers. Ignore
-      those, we don't have the missile inventory to spare, and they're not going
-      to be useful against a frigate swarm anyway. Hurricane missiles are command-guided,
-      they go for the bouncing dot of the track you target. Without the Exception
-      around to provide consistent fire control, they'll be too easy to jam out against
-      anything smaller than a capital ship.
-    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
-    AutoAdvance: 0
   - Text: On the flip side, monitors are quite slow and their point defence firing
       arcs are garbage. Compensating for that last weakness, you've got two escorting
       tugboats. Each of them has four Grazer PDTs, which are the closest thing to
@@ -4314,12 +4299,28 @@ MonoBehaviour:
       Each tugboat can only fire two Grazers at once before redlining their reactors.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
+  - Text: 'Your main tool of choice for this engagement will be the 600mm cannon.
+      It has two specialized ammo types: area bombs and HE-SH rounds. Lob bombs at
+      groups of small ships, or swap to HE-SH for anything larger, not that there''s
+      anything here to warrant that. The area bombs are time-fused to explode just
+      short of the track you target, so for best effect, target the rearmost ship
+      in their formation.'
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+  - Text: Also, you may have noticed the monitors have missile launchers. Do not
+      fire them, we need to conserve what few missiles we have left, and they're
+      not going to be that useful against a frigate swarm anyway. Hurricane missiles
+      are command-guided, they go for the bouncing dot of the track you target. Without
+      the Exception around to provide consistent target lock, anything smaller than
+      a capital ship will be able to jam them out easily.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
   - Text: And the final piece of this squadron, the Long Range Tracker, or the 'Bloodhound'
-      LRT. Compared to the EWR, it has a lower range, a much narrower cone, but most
-      importantly, great track accuracy. Since the Exception isn't here to provide
+      LRT. Compared to the EWR, it has a lower range and a much narrower cone, but
+      most importantly, great track accuracy. Since the Exception isn't here to provide
       burnthrough capability, you'll have to use the EWR in the direction of jamming
       to pick up tracks, then shine the LRT on the track you want to fire at. But
-      if the enemy gets close enough to jam it out, you're fucked.
+      if the enemy gets close enough to jam it out, you're hooped.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: This engagement is going to be all about range control. You've got two
@@ -5486,7 +5487,7 @@ MonoBehaviour:
       StripeColor: {r: 1, g: 1, b: 1, a: 1}
       FleetPrefix: ANS
     Badge: {fileID: 2800000, guid: bf60d913b8523874ebe53895ede0a183, type: 3}
-    Brain: {fileID: 11400000, guid: 49d307076c5af0348a7a192650837da9, type: 2}
+    Brain: {fileID: 11400000, guid: c29bfb9ac9993b1498b56bef291f90b2, type: 2}
   SetupSteps: {fileID: 0}
   Next: {fileID: 0}
 --- !u!114 &1045174369610402746
@@ -5659,16 +5660,16 @@ MonoBehaviour:
       going to be blasted into dust scattered across several light-years.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: As far as we can tell, the opposition here is going to be eight ships,
-      probably on the small side. Don't laugh, the Alliance frigate is an absolute
-      menace in a large group. Their low signature makes them able to hide behind
-      jamming incredibly well, to the point that your eyeballs are a better fire
-      control method than a fucking radar array.
+  - Text: As far as we can tell, the opposition here is going to be eight small ships,
+      they arrived in a tight formation which probably means frigates. Don't underestimate
+      them, the Alliance frigate is an absolute menace in a large group. They can
+      carry a surprising amount of firepower, and since it's split up among so many
+      hulls, there's no single target to take out with a missile strike.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: We need this Alliance force dealt with ASAP, so they can't get eyes on
-      the ships coming out of hyperspace. If they do, well. Losing the element of
-      surprise would significantly complicate my plans, and that's just not permissible.
+  - Text: We need this frigate swarm dealt with ASAP, so they can't get eyes on the
+      ships coming out of hyperspace. If they do, well. Losing the element of surprise
+      would significantly complicate my plans, and that's just not permissible.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &1180188077048081746
