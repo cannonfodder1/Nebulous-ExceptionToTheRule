@@ -5,7 +5,7 @@ using Missions;
 using Missions.Nodes.Sequenced;
 using Networking;
 
-namespace KribensisIncursion
+namespace ExceptionToTheRule
 {
     [NodeWidth(200)]
 	public class SetGameTime : SequencedNode

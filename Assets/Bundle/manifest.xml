@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <BundleManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <BasePath>Assets/Bundle</BasePath>
-  <Namespace>WolfCampaignKribensis</Namespace>
+  <Namespace>WolfCampaignETTR</Namespace>
   <MissionSets>
-    <Entry Name="Kribensis Incursion" Address="Data/KribensisIncursion_MissionSet.asset"/>
+    <Entry Name="Exception To The Rule" Address="Data/ExceptionToTheRule_MissionSet.asset"/>
   </MissionSets>
 </BundleManifest>

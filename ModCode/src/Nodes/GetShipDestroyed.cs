@@ -2,7 +2,7 @@ using UnityEngine;
 using XNode;
 using Game.Units;
 
-namespace KribensisIncursion
+namespace ExceptionToTheRule
 {
 	[NodeWidth(200)]
 	public class GetShipDestroyed : Node

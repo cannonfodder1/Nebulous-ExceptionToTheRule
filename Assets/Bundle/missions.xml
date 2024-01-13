@@ -12,4 +12,7 @@
     <MissionBattlespaceEntry MissionName="Calculated Hubris" BattlespaceName="Canyon"/>
     <MissionBattlespaceEntry MissionName="Righteous Fire" BattlespaceName="Pillars"/>
   </MissionBattlespaceMappings>
+  <MissionsWithStations>
+    <string>Righteous Fire</string>
+  </MissionsWithStations>
 </MissionLoaderManifest>

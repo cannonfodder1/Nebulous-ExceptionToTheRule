@@ -4,15 +4,13 @@ using Game;
 using Missions;
 using Missions.Nodes.Sequenced;
 
-namespace KribensisIncursion
+namespace ExceptionToTheRule
 {
     [NodeWidth(200)]
 	public class PauseAllBotPlayers : SequencedNode
 	{
 		public override bool Execute(IMissionGame gameControl)
 		{
-			Debug.Log("Executing PauseAllBotPlayers");
-
 			//BotSkirmishPlayer._botsPaused = Paused;
 
 			FieldInfo field = typeof(BotSkirmishPlayer).GetField("_botsPaused", BindingFlags.NonPublic | BindingFlags.Static);

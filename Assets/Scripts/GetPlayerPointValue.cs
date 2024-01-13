@@ -1,8 +1,9 @@
 using UnityEngine;
 using XNode;
 using Game;
+using Game.Units;
 
-namespace KribensisIncursion
+namespace ExceptionToTheRule
 {
     [NodeWidth(200)]
 	public class GetPlayerPointValue : Node
@@ -12,14 +13,21 @@ namespace KribensisIncursion
 			SkirmishPlayer player = base.GetInputValue<SkirmishPlayer>("Player", null);
 			if (player != null)
 			{
-				Debug.Log(player.PlayerName + " = " + player.PlayerFleet.FleetValue + "/" + player.PlayerFleet.InitialFleetValue);
 				if (port.fieldName == "TotalPointValue")
 				{
 					return player.PlayerFleet.InitialFleetValue;
 				}
 				else if (port.fieldName == "IntactPointValue")
 				{
-					return player.PlayerFleet.FleetValue;
+					int intactPoints = 0;
+					foreach (ShipController ship in player.PlayerFleet.FleetShipControllers)
+                    {
+						if (!ship.IsEliminated)
+                        {
+							intactPoints += ship.Ship.GetPointCost(true);
+                        }
+					}
+					return intactPoints;
 				}
                 else
                 {

@@ -5,7 +5,7 @@ using Game.Map;
 using Missions.Nodes.Flow;
 using System.Linq;
 
-namespace KribensisIncursion
+namespace ExceptionToTheRule
 {
     [NodeWidth(200)]
 	public class GetMissionBattlespace : Node

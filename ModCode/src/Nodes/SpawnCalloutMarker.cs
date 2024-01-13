@@ -8,7 +8,7 @@ using Game.Orders.Inputs;
 using Game.Orders.Tasks;
 using Utility;
 
-namespace KribensisIncursion
+namespace ExceptionToTheRule
 {
     [NodeWidth(200)]
 	public class SpawnCalloutMarker : SequencedNode

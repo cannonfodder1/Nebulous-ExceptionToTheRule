@@ -3,7 +3,7 @@ using System.Reflection;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace KribensisIncursion
+namespace ExceptionToTheRule
 {
     public class Utilities
     {

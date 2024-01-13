@@ -3,24 +3,22 @@ using UnityEngine;
 using Game;
 using Missions;
 using Missions.Nodes.Sequenced;
+using Networking;
 
-namespace KribensisIncursion
+namespace ExceptionToTheRule
 {
     [NodeWidth(200)]
 	public class SetGameTime : SequencedNode
 	{
 		public override bool Execute(IMissionGame gameControl)
 		{
-			Debug.Log("Executing SetGameTime");
+			//SkirmishGameManager.HandleTimeHackMessage({GameTime});
 
-			//SkirmishGameManager._gameEndTime = GameTime;
+			TimeHackMessage timeHack = new TimeHackMessage();
+			timeHack.TimeLimit = GameTime * 60;
 
-			FieldInfo field = typeof(SkirmishGameManager).GetField("_gameEndTime", BindingFlags.NonPublic | BindingFlags.Instance);
-
-			if (field != null)
-			{
-				field.SetValue(SkirmishGameManager.Instance, GameTime);
-			}
+			MethodInfo method = SkirmishGameManager.Instance.GetType().GetMethod("HandleTimeHackMessage", BindingFlags.NonPublic | BindingFlags.Instance);
+			method.Invoke(SkirmishGameManager.Instance, new object[] { timeHack });
 
 			return true;
 		}

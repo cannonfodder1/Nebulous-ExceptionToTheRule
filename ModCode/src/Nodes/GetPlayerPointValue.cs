@@ -3,7 +3,7 @@ using XNode;
 using Game;
 using Game.Units;
 
-namespace KribensisIncursion
+namespace ExceptionToTheRule
 {
     [NodeWidth(200)]
 	public class GetPlayerPointValue : Node

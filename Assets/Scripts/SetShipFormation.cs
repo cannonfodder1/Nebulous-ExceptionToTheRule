@@ -3,7 +3,7 @@ using Missions;
 using Missions.Nodes.Sequenced;
 using Game.Units;
 
-namespace KribensisIncursion
+namespace ExceptionToTheRule
 {
     [NodeWidth(250)]
 	public class SetShipFormation : SequencedNode

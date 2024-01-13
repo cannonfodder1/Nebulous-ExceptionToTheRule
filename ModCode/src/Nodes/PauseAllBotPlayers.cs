@@ -4,7 +4,7 @@ using Game;
 using Missions;
 using Missions.Nodes.Sequenced;
 
-namespace KribensisIncursion
+namespace ExceptionToTheRule
 {
     [NodeWidth(200)]
 	public class PauseAllBotPlayers : SequencedNode
