@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mission 4 Player</Name>
   <Version>3</Version>
-  <TotalPoints>3658</TotalPoints>
+  <TotalPoints>3516</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <Description>Difficulty: &lt;color=green&gt;EASY&lt;/color&gt;
 
@@ -13,7 +13,7 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
       <SaveID xsi:nil="true" />
       <Key>94cb2476-50e1-4e75-8198-7da1703e438e</Key>
       <Name>Momentary Lapse of Sanity</Name>
-      <Cost>784</Cost>
+      <Cost>712</Cost>
       <Callsign />
       <Number>41</Number>
       <SymbolOption>0</SymbolOption>
@@ -135,7 +135,7 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
       <SaveID xsi:nil="true" />
       <Key>27bfa816-e822-4b4f-b291-460ee3db3f86</Key>
       <Name>Utterly Deranged Statement</Name>
-      <Cost>784</Cost>
+      <Cost>712</Cost>
       <Callsign />
       <Number>68</Number>
       <SymbolOption>0</SymbolOption>
@@ -257,7 +257,7 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
       <SaveID xsi:nil="true" />
       <Key>31db41a3-7d0d-48f7-86d1-1f890f5475e7</Key>
       <Name>Astounding Lack of Planning</Name>
-      <Cost>784</Cost>
+      <Cost>712</Cost>
       <Callsign />
       <Number>47</Number>
       <SymbolOption>0</SymbolOption>
@@ -483,7 +483,7 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
       <SaveID xsi:nil="true" />
       <Key>da36e49c-0fdb-4f41-91eb-03a5da8617be</Key>
       <Name>Not On My Watch</Name>
-      <Cost>329</Cost>
+      <Cost>366</Cost>
       <Callsign />
       <Number>181</Number>
       <SymbolOption>0</SymbolOption>
@@ -515,16 +515,24 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
         </HullSocket>
         <HullSocket>
           <Key>-PqoLKimSUOZtKMLo5QHXg</Key>
+          <ComponentName>Stock/Large DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>DakKS2gy6UyM58u3YG-HfQ</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>peqaYrE39UupWCXPY_PgoA</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>yx64jSFFokK4DQnbYNlOzA</MagazineKey>
+                <MagazineKey>Cf_VROvgIki4IQVsJ4X1pA</MagazineKey>
                 <MunitionKey>Stock/100mm HE Shell</MunitionKey>
-                <Quantity>500</Quantity>
+                <Quantity>1000</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>Y0gJF7MWD02PLwJGMEO3AA</MagazineKey>
+                <MagazineKey>YcYm0dwGjUSjQtAOkVbJpg</MagazineKey>
                 <MunitionKey>Stock/100mm AP Shell</MunitionKey>
                 <Quantity>500</Quantity>
               </MagSaveData>
@@ -532,16 +540,8 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
           </ComponentData>
         </HullSocket>
         <HullSocket>
-          <Key>DakKS2gy6UyM58u3YG-HfQ</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>peqaYrE39UupWCXPY_PgoA</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
           <Key>6OieSH0A6kKFmquctn9_aQ</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>NSAbhn9brE-aAirJFIYG-Q</Key>
@@ -573,7 +573,7 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
       <SaveID xsi:nil="true" />
       <Key>801e0837-760b-425e-aa84-9e8403bde794</Key>
       <Name>Get Off My Lawn</Name>
-      <Cost>329</Cost>
+      <Cost>366</Cost>
       <Callsign />
       <Number>130</Number>
       <SymbolOption>0</SymbolOption>
@@ -605,16 +605,24 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
         </HullSocket>
         <HullSocket>
           <Key>-PqoLKimSUOZtKMLo5QHXg</Key>
+          <ComponentName>Stock/Large DC Locker</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>DakKS2gy6UyM58u3YG-HfQ</Key>
+          <ComponentName>Stock/Berthing</ComponentName>
+        </HullSocket>
+        <HullSocket>
+          <Key>peqaYrE39UupWCXPY_PgoA</Key>
           <ComponentName>Stock/Reinforced Magazine</ComponentName>
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>yx64jSFFokK4DQnbYNlOzA</MagazineKey>
+                <MagazineKey>AuTOenA5M0WbOCtfxSvQ3A</MagazineKey>
                 <MunitionKey>Stock/100mm HE Shell</MunitionKey>
-                <Quantity>500</Quantity>
+                <Quantity>1000</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>Y0gJF7MWD02PLwJGMEO3AA</MagazineKey>
+                <MagazineKey>9U_U1QsV7kSg7z8WUpVfHw</MagazineKey>
                 <MunitionKey>Stock/100mm AP Shell</MunitionKey>
                 <Quantity>500</Quantity>
               </MagSaveData>
@@ -622,16 +630,8 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
           </ComponentData>
         </HullSocket>
         <HullSocket>
-          <Key>DakKS2gy6UyM58u3YG-HfQ</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
-          <Key>peqaYrE39UupWCXPY_PgoA</Key>
-          <ComponentName>Stock/Rapid DC Locker</ComponentName>
-        </HullSocket>
-        <HullSocket>
           <Key>6OieSH0A6kKFmquctn9_aQ</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>NSAbhn9brE-aAirJFIYG-Q</Key>
@@ -674,7 +674,7 @@ Targeting Modes:
 Primary Seeker: COMMAND (&lt;color=#FBFF4C&gt;Requires COMMS Enabled&lt;/color&gt;)
 
 300 m/s for 7,110 m, top speed in 1.8 s
-Terminal Maneuvers: Corkscrew
+Terminal Maneuvers: None
 
 Contact Fuze, High Explosive, Shaped
 Armor: 60cm   Component: 1,200hp
@@ -688,7 +688,7 @@ Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>10</Cost>
+      <Cost>7</Cost>
       <BodyKey>Stock/SGM-2 Body</BodyKey>
       <TemplateKey>eefeda36-4ed3-444b-8ba1-97b7f5f3ed19</TemplateKey>
       <BaseColor>
@@ -722,7 +722,7 @@ Failure Rate: 0 %</LongDescription>
             <Role>Offensive</Role>
             <HotLaunch>false</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
-            <Maneuvers>Corkscrew</Maneuvers>
+            <Maneuvers>None</Maneuvers>
             <DefensiveDoctrine>
               <TargetSizeMask>12</TargetSizeMask>
               <TargetType>All</TargetType>
