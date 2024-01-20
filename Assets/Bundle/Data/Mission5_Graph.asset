@@ -1556,7 +1556,7 @@ MonoBehaviour:
   m_Name: Get Mission Battlespace
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2824, y: 552}
+  position: {x: 2920, y: 552}
   ports:
     keys:
     - MaxPlayers
@@ -2772,6 +2772,94 @@ MonoBehaviour:
   - Text: The situation's changed. I've changed.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
+--- !u!114 &-6105452130896416779
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbe2ae934bf40654ab34a78af1af6f49, type: 3}
+  m_Name: Order Form With Ship
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2616, y: 952}
+  ports:
+    keys:
+    - ShipLeader
+    - ShipFollower
+    - Player
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: ShipLeader
+      _node: {fileID: -6105452130896416779}
+      _typeQualifiedName: Game.Units.ShipController, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Ship
+        node: {fileID: 8386716624725318672}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ShipFollower
+      _node: {fileID: -6105452130896416779}
+      _typeQualifiedName: Game.Units.ShipController, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Ship
+        node: {fileID: 8886281425286571589}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Player
+      _node: {fileID: -6105452130896416779}
+      _typeQualifiedName: Game.HumanSkirmishPlayer, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: HumanPlayerOut
+        node: {fileID: 3451488256739971326}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: PreviousStep
+      _node: {fileID: -6105452130896416779}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 6212855915105141124}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -6105452130896416779}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 7462225698729346361}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  ShipLeader: {fileID: 0}
+  ShipFollower: {fileID: 0}
+  Offset: {x: 12.5, y: 25, z: 0}
+  Player: {fileID: 0}
 --- !u!114 &-5951178125421772706
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4086,6 +4174,9 @@ MonoBehaviour:
       connections:
       - fieldName: Ship
         node: {fileID: 7462225698729346361}
+        reroutePoints: []
+      - fieldName: ShipFollower
+        node: {fileID: 2145579823151088111}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -6306,6 +6397,94 @@ MonoBehaviour:
   BranchOne: {fileID: 0}
   BranchTwo: {fileID: 0}
   Condition: 0
+--- !u!114 &-2025595706814431936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbe2ae934bf40654ab34a78af1af6f49, type: 3}
+  m_Name: Order Form With Ship
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2616, y: 760}
+  ports:
+    keys:
+    - ShipLeader
+    - ShipFollower
+    - Player
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: ShipLeader
+      _node: {fileID: -2025595706814431936}
+      _typeQualifiedName: Game.Units.ShipController, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Ship
+        node: {fileID: 8386716624725318672}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ShipFollower
+      _node: {fileID: -2025595706814431936}
+      _typeQualifiedName: Game.Units.ShipController, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Ship
+        node: {fileID: -1614165789270024606}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Player
+      _node: {fileID: -2025595706814431936}
+      _typeQualifiedName: Game.HumanSkirmishPlayer, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: HumanPlayerOut
+        node: {fileID: 3451488256739971326}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: PreviousStep
+      _node: {fileID: -2025595706814431936}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 840825509505897044}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -2025595706814431936}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 6212855915105141124}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  ShipLeader: {fileID: 0}
+  ShipFollower: {fileID: 0}
+  Offset: {x: -25, y: 0, z: 0}
+  Player: {fileID: 0}
 --- !u!114 &-1831296317949215704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6830,6 +7009,9 @@ MonoBehaviour:
       connections:
       - fieldName: Ship
         node: {fileID: 840825509505897044}
+        reroutePoints: []
+      - fieldName: ShipFollower
+        node: {fileID: -2025595706814431936}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -8062,6 +8244,10 @@ MonoBehaviour:
   - {fileID: -6660542652186953079}
   - {fileID: 5177263601374964582}
   - {fileID: 8642967512161968866}
+  - {fileID: 8037071739226479930}
+  - {fileID: -2025595706814431936}
+  - {fileID: -6105452130896416779}
+  - {fileID: 2145579823151088111}
 --- !u!114 &56223873617402030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8476,7 +8662,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: NextStep
-        node: {fileID: 4997328113513726307}
+        node: {fileID: 8037071739226479930}
         reroutePoints: []
       _direction: 0
       _connectionType: 1
@@ -8488,7 +8674,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: PreviousStep
-        node: {fileID: 6212855915105141124}
+        node: {fileID: -2025595706814431936}
         reroutePoints: []
       _direction: 1
       _connectionType: 1
@@ -9555,6 +9741,94 @@ MonoBehaviour:
   ValueA: 0
   ValueB: -300
   Result: 0
+--- !u!114 &2145579823151088111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbe2ae934bf40654ab34a78af1af6f49, type: 3}
+  m_Name: Order Form With Ship
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2616, y: 1144}
+  ports:
+    keys:
+    - ShipLeader
+    - ShipFollower
+    - Player
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: ShipLeader
+      _node: {fileID: 2145579823151088111}
+      _typeQualifiedName: Game.Units.ShipController, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Ship
+        node: {fileID: 8386716624725318672}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ShipFollower
+      _node: {fileID: 2145579823151088111}
+      _typeQualifiedName: Game.Units.ShipController, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Ship
+        node: {fileID: -4312963202067192322}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Player
+      _node: {fileID: 2145579823151088111}
+      _typeQualifiedName: Game.HumanSkirmishPlayer, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: HumanPlayerOut
+        node: {fileID: 3451488256739971326}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: PreviousStep
+      _node: {fileID: 2145579823151088111}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 7462225698729346361}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: 2145579823151088111}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 8302547495026853945}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  ShipLeader: {fileID: 0}
+  ShipFollower: {fileID: 0}
+  Offset: {x: -12.5, y: 25, z: 0}
+  Player: {fileID: 0}
 --- !u!114 &2151654711821336282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10361,6 +10635,9 @@ MonoBehaviour:
       - fieldName: Ship
         node: {fileID: 4997328113513726307}
         reroutePoints: []
+      - fieldName: ShipFollower
+        node: {fileID: 8037071739226479930}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -10807,6 +11084,18 @@ MonoBehaviour:
         reroutePoints: []
       - fieldName: Player
         node: {fileID: 2958558910605681580}
+        reroutePoints: []
+      - fieldName: Player
+        node: {fileID: 2145579823151088111}
+        reroutePoints: []
+      - fieldName: Player
+        node: {fileID: -6105452130896416779}
+        reroutePoints: []
+      - fieldName: Player
+        node: {fileID: -2025595706814431936}
+        reroutePoints: []
+      - fieldName: Player
+        node: {fileID: 8037071739226479930}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -12169,7 +12458,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: PreviousStep
-        node: {fileID: 840825509505897044}
+        node: {fileID: 8037071739226479930}
         reroutePoints: []
       _direction: 1
       _connectionType: 1
@@ -13143,7 +13432,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: NextStep
-        node: {fileID: 840825509505897044}
+        node: {fileID: -2025595706814431936}
         reroutePoints: []
       _direction: 0
       _connectionType: 1
@@ -13155,7 +13444,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: PreviousStep
-        node: {fileID: 7462225698729346361}
+        node: {fileID: -6105452130896416779}
         reroutePoints: []
       _direction: 1
       _connectionType: 1
@@ -14059,7 +14348,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: NextStep
-        node: {fileID: 6212855915105141124}
+        node: {fileID: -6105452130896416779}
         reroutePoints: []
       _direction: 0
       _connectionType: 1
@@ -14071,7 +14360,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: PreviousStep
-        node: {fileID: 8302547495026853945}
+        node: {fileID: 2145579823151088111}
         reroutePoints: []
       _direction: 1
       _connectionType: 1
@@ -14693,6 +14982,94 @@ MonoBehaviour:
   - Text: Everyone knows what they need to do. Let's get to it.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
+--- !u!114 &8037071739226479930
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbe2ae934bf40654ab34a78af1af6f49, type: 3}
+  m_Name: Order Form With Ship
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 2616, y: 568}
+  ports:
+    keys:
+    - ShipLeader
+    - ShipFollower
+    - Player
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: ShipLeader
+      _node: {fileID: 8037071739226479930}
+      _typeQualifiedName: Game.Units.ShipController, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Ship
+        node: {fileID: 8386716624725318672}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: ShipFollower
+      _node: {fileID: 8037071739226479930}
+      _typeQualifiedName: Game.Units.ShipController, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: Ship
+        node: {fileID: 3011925227920974023}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: Player
+      _node: {fileID: 8037071739226479930}
+      _typeQualifiedName: Game.HumanSkirmishPlayer, Nebulous, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: HumanPlayerOut
+        node: {fileID: 3451488256739971326}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: PreviousStep
+      _node: {fileID: 8037071739226479930}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 4997328113513726307}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: 8037071739226479930}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 840825509505897044}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  ShipLeader: {fileID: 0}
+  ShipFollower: {fileID: 0}
+  Offset: {x: 25, y: 0, z: 0}
+  Player: {fileID: 0}
 --- !u!114 &8159666640452854803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14836,7 +15213,7 @@ MonoBehaviour:
   m_Name: Create Capture Point
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 2696, y: 1160}
+  position: {x: 2920, y: 1160}
   ports:
     keys:
     - Name
@@ -14911,7 +15288,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: NextStep
-        node: {fileID: 7462225698729346361}
+        node: {fileID: 2145579823151088111}
         reroutePoints: []
       _direction: 0
       _connectionType: 1
@@ -15155,6 +15532,18 @@ MonoBehaviour:
       connections:
       - fieldName: Ship
         node: {fileID: 8237178608981663833}
+        reroutePoints: []
+      - fieldName: ShipLeader
+        node: {fileID: 8037071739226479930}
+        reroutePoints: []
+      - fieldName: ShipLeader
+        node: {fileID: -2025595706814431936}
+        reroutePoints: []
+      - fieldName: ShipLeader
+        node: {fileID: -6105452130896416779}
+        reroutePoints: []
+      - fieldName: ShipLeader
+        node: {fileID: 2145579823151088111}
         reroutePoints: []
       _direction: 1
       _connectionType: 0
@@ -15615,6 +16004,9 @@ MonoBehaviour:
       connections:
       - fieldName: Ship
         node: {fileID: 6212855915105141124}
+        reroutePoints: []
+      - fieldName: ShipFollower
+        node: {fileID: -6105452130896416779}
         reroutePoints: []
       _direction: 1
       _connectionType: 0

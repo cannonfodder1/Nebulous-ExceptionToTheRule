@@ -24,7 +24,7 @@ namespace ExceptionToTheRule
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(PauseAllBotPlayers) });
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SetGameTime) });
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SetShipPosition) });
-			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SetShipFormation) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(OrderFormWithShip) });
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetMissionBattlespace) });
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetPlayerPointValue) });
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetShipWithdrawn) });
