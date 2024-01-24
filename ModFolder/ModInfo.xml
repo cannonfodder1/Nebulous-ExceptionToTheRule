@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ModInfo xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <ModName>Exception To The Rule</ModName>
+  <ModDescription>Adds the Exception To The Rule singleplayer mini-campaign to the campaigns/tutorials selection screen, with an original story told from the perspective of the OSP in the opening months of the rebellion. Made by NotSoLoneWolf, with many thanks to Marshall for writing the game's official lore.</ModDescription>
+  <ModVer>1.0.0</ModVer>
+  <Assemblies>
+    <string>Mono.Cecil.dll</string>
+    <string>MonoMod.Utils.dll</string>
+    <string>MonoMod.RuntimeDetour.dll</string>
+    <string>0Harmony.dll</string>
+    <string>ExceptionToTheRule.dll</string>
+  </Assemblies>
+  <AssetBundles>
+    <string>exceptiontotherule</string>
+  </AssetBundles>
+  <Dependencies>
+    <unsignedLong>3138206791</unsignedLong>
+  </Dependencies>
+  <PreviewImage>C:\Program Files (x86)\Steam\steamapps\common\Nebulous\Mods\ExceptionToTheRule\preview.png</PreviewImage>
+  <GameVer>0.3.1</GameVer>
+</ModInfo>
