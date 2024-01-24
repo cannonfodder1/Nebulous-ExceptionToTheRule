@@ -1890,6 +1890,60 @@ MonoBehaviour:
   OP: 1
   Conditions: 000000
   Result: 0
+--- !u!114 &-7031663266265489220
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2030797003, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 19640, y: 1160}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: -7031663266265489220}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: -1560880377772403556}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -7031663266265489220}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 8642967512161968866}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
+  Mood: 0
+  Lines:
+  - Text: Well, those wankers have to try something. The longer they wait, the stronger
+      we get, and the more useless the Alliance Navy looks. If the OSP can secede
+      and not get immediately stomped into the dirt, the other member nations, especially
+      the Graznovians, might start to get ideas. If they don't crush us soon...
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
 --- !u!114 &-7013277208232168589
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1927,7 +1981,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: PreviousStep
-        node: {fileID: 56223873617402030}
+        node: {fileID: -6636399033633774791}
         reroutePoints: []
       _direction: 1
       _connectionType: 1
@@ -1935,7 +1989,7 @@ MonoBehaviour:
       _dynamic: 0
   PreviousStep: {fileID: 0}
   NextStep: {fileID: 0}
-  Delay: 90
+  Delay: 30
 --- !u!114 &-6988900609146967273
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2245,28 +2299,20 @@ MonoBehaviour:
       _node: {fileID: -6660542652186953079}
       _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
         Culture=neutral, PublicKeyToken=null
-      connections: []
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: -2353158901500575848}
+        reroutePoints: []
       _direction: 1
       _connectionType: 1
       _typeConstraint: 0
       _dynamic: 0
   PreviousStep: {fileID: 0}
   NextStep: {fileID: 0}
-  Character: {fileID: 11400000, guid: 9f4525af73901814cad28e582586cc94, type: 2}
+  Character: {fileID: 11400000, guid: 3c76c7799a7f85a4c944f2b174fe6491, type: 2}
   Mood: 0
   Lines:
-  - Text: I don't know, but they have to try something. The longer they wait, the
-      stronger we get, and the more useless the Alliance Navy looks. If the OSP can
-      secede and survive, the other member nations, especially the annexed territories,
-      might start to get ideas. It could be the end of the Alliance, if they don't
-      crush us here and now.
-    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
-    AutoAdvance: 0
-  - Text: So they have to attack. They have to come at us, and destroy the OSP as
-      quickly as possible, just as they did to the miners in Argentium. To keep the
-      Alliance together, the OSP is their sacrifice. But we're not going back. If
-      they want to save the Alliance, they need to stop looking for a scapegoat and
-      start looking in the mirror.
+  - Text: Uh, not exactly. We got mousetrapped, we had to retreat.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &-6650725558575909519
@@ -2325,6 +2371,52 @@ MonoBehaviour:
   Player: {fileID: 0}
   ShipNumber: 6
   Ship: {fileID: 0}
+--- !u!114 &-6636399033633774791
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1272597587, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Wait Time
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 8968, y: 2152}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: -6636399033633774791}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: -7013277208232168589}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -6636399033633774791}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: -2926282242024740151}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Delay: 30
 --- !u!114 &-6632306122677841321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4318,6 +4410,58 @@ MonoBehaviour:
   Y: 0
   Z: 0
   Combined: {x: 0, y: 0, z: 0}
+--- !u!114 &-4092803875263076561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2030797003, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 18760, y: 1624}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: -4092803875263076561}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 5235355680272916336}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -4092803875263076561}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: 9f4525af73901814cad28e582586cc94, type: 2}
+  Mood: 0
+  Lines:
+  - Text: Agreed. The Alliance has to attack. They have to come at us, no matter
+      the cost, and destroy the OSP as quickly as possible, just as they did to the
+      miners in Argentium. To keep the Alliance united in fear, the OSP is their
+      sacrifice. But we're never going back. They need to stop looking for a scapegoat
+      and start looking in the mirror.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
 --- !u!114 &-3965856597396286788
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5326,6 +5470,58 @@ MonoBehaviour:
   MoveStatus: 0
   CurrentMoveTarget: {x: 0, y: 0, z: 0}
   Throttle: 0
+--- !u!114 &-3078514076627961398
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2030797003, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 16920, y: 1160}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: -3078514076627961398}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 8686947508830511518}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -3078514076627961398}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 329653364366285120}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: 3c76c7799a7f85a4c944f2b174fe6491, type: 2}
+  Mood: 0
+  Lines:
+  - Text: There was a bit of a speedbump, but we're back on it now. We'll have the
+      refueling pier and the loading docks in hand shortly.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
 --- !u!114 &-3065380013976490585
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5629,6 +5825,52 @@ MonoBehaviour:
   Y: 0
   Z: 0
   Combined: {x: 0, y: 0, z: 0}
+--- !u!114 &-2926282242024740151
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1272597587, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Wait Time
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 9224, y: 2152}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: -2926282242024740151}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: -6636399033633774791}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -2926282242024740151}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 56223873617402030}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Delay: 30
 --- !u!114 &-2894120108702683386
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6005,6 +6247,61 @@ MonoBehaviour:
   Player: {fileID: 0}
   ShipNumber: 1
   Ship: {fileID: 0}
+--- !u!114 &-2353158901500575848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2030797003, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 17128, y: 1624}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: -2353158901500575848}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: -6660542652186953079}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -2353158901500575848}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: -1969299758364936328}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
+  Mood: 0
+  Lines:
+  - Text: Damn. It's a similar story for the diversionary attacks, too. At least
+      we have definite proof that our mission succeeded - it will take time for all
+      these ambush forces to get back to the gate and resupply, and by then it'll
+      be too late. Constantine will have the blockade up and running soon, with over
+      twenty lineships all fully armed and armoured.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
 --- !u!114 &-2349665420658201559
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6485,6 +6782,68 @@ MonoBehaviour:
   ShipFollower: {fileID: 0}
   Offset: {x: -25, y: 0, z: 0}
   Player: {fileID: 0}
+--- !u!114 &-1969299758364936328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2030797003, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 17672, y: 1624}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: -1969299758364936328}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: -2353158901500575848}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -1969299758364936328}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 5235355680272916336}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: 3c76c7799a7f85a4c944f2b174fe6491, type: 2}
+  Mood: 0
+  Lines:
+  - Text: 'Twenty?! That''s more lineships than they have capitals in the rimward
+      garrison fleets! There''s no way they''d win a gate transit assault against
+      that with what they have on hand. Maybe if they bring in First Fleet and Third
+      Fleet from the coreward border, but, y''know, the Alliance''s infrastructure
+      is fucking terrible. '
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+  - Text: I'd be surprised if what's left of the gate network didn't just shit itself
+      and collapse under the weight of that many ships moving through. Not to mention
+      how much fuel they're going to need, moving across seven whole star systems
+      to get here. And do those ships even have ammo? Remember that corruption scandal
+      a couple years back with Second Fleet?
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
 --- !u!114 &-1831296317949215704
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7020,6 +7379,68 @@ MonoBehaviour:
   Player: {fileID: 0}
   ShipNumber: 2
   Ship: {fileID: 0}
+--- !u!114 &-1560880377772403556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2030797003, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 19096, y: 1160}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: -1560880377772403556}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 2370615156679286552}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: -1560880377772403556}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: -7031663266265489220}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: 3c76c7799a7f85a4c944f2b174fe6491, type: 2}
+  Mood: 0
+  Lines:
+  - Text: 'Twenty?! That''s more lineships than they have capitals in the rimward
+      garrison fleets! There''s no way they''d win a gate transit assault against
+      that with what they have on hand. Maybe if they bring in First Fleet and Third
+      Fleet from the coreward border, but, y''know, the Alliance''s infrastructure
+      is fucking terrible. '
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+  - Text: I'd be surprised if what's left of the gate network didn't just shit itself
+      and collapse under the weight of that many ships moving through. Not to mention
+      how much fuel they're going to need, moving across seven whole star systems
+      to get here. And do those ships even have ammo? Remember that corruption scandal
+      a couple years back with Second Fleet?
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
 --- !u!114 &-1560388480361217777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8248,6 +8669,19 @@ MonoBehaviour:
   - {fileID: -2025595706814431936}
   - {fileID: -6105452130896416779}
   - {fileID: 2145579823151088111}
+  - {fileID: -2353158901500575848}
+  - {fileID: -1969299758364936328}
+  - {fileID: 5235355680272916336}
+  - {fileID: -4092803875263076561}
+  - {fileID: 8686947508830511518}
+  - {fileID: -3078514076627961398}
+  - {fileID: 329653364366285120}
+  - {fileID: 6048619464155678643}
+  - {fileID: 2370615156679286552}
+  - {fileID: -1560880377772403556}
+  - {fileID: -7031663266265489220}
+  - {fileID: -6636399033633774791}
+  - {fileID: -2926282242024740151}
 --- !u!114 &56223873617402030
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8273,7 +8707,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: NextStep
-        node: {fileID: -7013277208232168589}
+        node: {fileID: -2926282242024740151}
         reroutePoints: []
       _direction: 0
       _connectionType: 1
@@ -8424,6 +8858,57 @@ MonoBehaviour:
   Y: 0
   Z: 0
   Combined: {x: 0, y: 0, z: 0}
+--- !u!114 &329653364366285120
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2030797003, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 17464, y: 1160}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: 329653364366285120}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: -3078514076627961398}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: 329653364366285120}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 6048619464155678643}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
+  Mood: 0
+  Lines:
+  - Text: How large of a speedbump are we talking?
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
 --- !u!114 &667776986068647614
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9991,6 +10476,62 @@ MonoBehaviour:
   Lines:
   - Text: "Aye sir. All ships are at condition one, we\u2019re just waiting on the
       breaching teams, they\u2019re shuttling back on board now."
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+--- !u!114 &2370615156679286552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2030797003, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 18552, y: 1160}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: 2370615156679286552}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 6048619464155678643}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: 2370615156679286552}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: -1560880377772403556}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
+  Mood: 0
+  Lines:
+  - Text: Holy shit, how the fuck - nevermind. Load up what you can, torch what you
+      can't. We're getting out of this system. The diversionary attacks got ambushed
+      as well, though nothing near what you faced. Now we've got clear proof our
+      mission here is accomplished. By the time all these ambush forces get back
+      to the gate, Constantine will have the blockade up and running, with over twenty
+      lineships all fully armed and armoured.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &2371930914506474428
@@ -11628,11 +12169,10 @@ MonoBehaviour:
       _dynamic: 0
   PreviousStep: {fileID: 0}
   NextStep: {fileID: 0}
-  Character: {fileID: 11400000, guid: 3c76c7799a7f85a4c944f2b174fe6491, type: 2}
+  Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
   Mood: 0
   Lines:
-  - Text: By the time we get back to Roclaren, Bethel will have the blockade up and
-      running. Do you think the Alliance is still going to try a gate assault?
+  - Text: Stratis, Hashim, what's the sitrep? Have you taken Zodiac-Five yet?
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &3942909014997716808
@@ -12740,7 +13280,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: PreviousStep
-        node: {fileID: 8642967512161968866}
+        node: {fileID: 8686947508830511518}
         reroutePoints: []
       _direction: 1
       _connectionType: 1
@@ -12751,7 +13291,7 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: 3c76c7799a7f85a4c944f2b174fe6491, type: 2}
   Mood: 0
   Lines:
-  - Text: Nor we a better captain!
+  - Text: Nor we a greater captain!
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &5200589013968466846
@@ -12827,6 +13367,60 @@ MonoBehaviour:
   BranchOne: {fileID: 0}
   BranchTwo: {fileID: 0}
   Condition: 0
+--- !u!114 &5235355680272916336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2030797003, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 18216, y: 1624}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: 5235355680272916336}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: -1969299758364936328}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: 5235355680272916336}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: -4092803875263076561}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
+  Mood: 0
+  Lines:
+  - Text: Well, those wankers have to try something. The longer they wait, the stronger
+      we get, and the more useless the Alliance Navy looks. If the OSP can secede
+      and not get immediately stomped into the dirt, the other member nations, especially
+      the Graznovians, might start to get ideas. If they don't crush us soon...
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
 --- !u!114 &5430763647407249710
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13200,6 +13794,57 @@ MonoBehaviour:
   ContinuousEval: 0
   AbortCondition: 0
   FirstStep: {fileID: 0}
+--- !u!114 &6048619464155678643
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2030797003, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 18008, y: 1160}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: 6048619464155678643}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 329653364366285120}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: 6048619464155678643}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: 2370615156679286552}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: 3c76c7799a7f85a4c944f2b174fe6491, type: 2}
+  Mood: 0
+  Lines:
+  - Text: Two capital ships.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
 --- !u!114 &6118741175508822329
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13378,7 +14023,7 @@ MonoBehaviour:
   Mood: 0
   Lines:
   - Text: We actually did it! Outstanding work, all of you. I couldn't have asked
-      for a better crew.
+      for better spacers.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &6212855915105141124
@@ -15678,7 +16323,7 @@ MonoBehaviour:
   m_Name: Dialog Sequence
   m_EditorClassIdentifier: 
   graph: {fileID: 11400000}
-  position: {x: 16376, y: 1160}
+  position: {x: 20184, y: 1160}
   ports:
     keys:
     - PreviousStep
@@ -15690,7 +16335,7 @@ MonoBehaviour:
         Culture=neutral, PublicKeyToken=null
       connections:
       - fieldName: NextStep
-        node: {fileID: 5177263601374964582}
+        node: {fileID: -7031663266265489220}
         reroutePoints: []
       _direction: 0
       _connectionType: 1
@@ -15710,15 +16355,61 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: 9f4525af73901814cad28e582586cc94, type: 2}
   Mood: 0
   Lines:
-  - Text: Lieutenant, bring us about - I believe our breaching teams have unfinished
-      business with Zodiac-Five.
+  - Text: Agreed. If the green-and-whites take another round of losses like this
+      one, they're finished. The Navy has held the Alliance together with fear, yet
+      here we stand, unbroken. Once the other member nations gather their courage,
+      we can decentralize these stars and build a better home from the ashes.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: We can win this. Like, actually win, not just survive. I didn't want to
-      believe it. But if we keep fighting as fiercely as we did today... the Navy
-      has held the Alliance together with fear, yet here we stand, unbroken. Once
-      the other member nations gather their courage, the Alliance doesn't stand a
-      chance.
+--- !u!114 &8686947508830511518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -2030797003, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
+  m_Name: Dialog Sequence
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 16376, y: 1160}
+  ports:
+    keys:
+    - PreviousStep
+    - NextStep
+    values:
+    - _fieldName: PreviousStep
+      _node: {fileID: 8686947508830511518}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: NextStep
+        node: {fileID: 5177263601374964582}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+    - _fieldName: NextStep
+      _node: {fileID: 8686947508830511518}
+      _typeQualifiedName: Missions.Nodes.Sequenced.SequencedNode, Nebulous, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: PreviousStep
+        node: {fileID: -3078514076627961398}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 0
+      _dynamic: 0
+  PreviousStep: {fileID: 0}
+  NextStep: {fileID: 0}
+  Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
+  Mood: 0
+  Lines:
+  - Text: Stratis, Hashim, what's the sitrep? Have you taken Zodiac-Five yet?
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &8823676147117756749

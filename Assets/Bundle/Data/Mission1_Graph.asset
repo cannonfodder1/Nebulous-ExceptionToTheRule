@@ -519,7 +519,8 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: 9f4525af73901814cad28e582586cc94, type: 2}
   Mood: 0
   Lines:
-  - Text: Loud and clear, Captain.
+  - Text: Loud and clear, Captain. We've made emergence from hyperspace, alive and
+      intact.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &-8338737692547315432
@@ -5387,7 +5388,7 @@ MonoBehaviour:
     AutoAdvance: 0
   - Text: The battle doctrine from the Graznovian war when the Ocello-class was in
       active service says that it was designed to fight the enemy bow-on. It's a
-      bitch to try and land a solid hit on this beast from the narrow frontal aspect.
+      bitch to try and land a solid hit on this beast from the angled frontal aspect.
       Use the HDG order in the direction of loyalist scum to point the bow towards
       them. Bow-tanking, as we call it, also means you can fire all four PDTs against
       missile threats, compared to the two PDTs that each broadside can muster.
@@ -9891,17 +9892,22 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
   Mood: 0
   Lines:
-  - Text: 'Good to hear you made it out of hyper alive and intact. Now it''s time
-      to get to work. The Alliance Navy manual on System Defence 101 says you put
-      at least something watching every lagrange point at the system edge, and those
-      bastards always stick to procedure. There''s bound to be a patrol or something
-      here. They probably already detected your arrival and are moving to investigate. '
+  - Text: Glad to hear some good news for once. We've lost a fourth ship to this
+      damned place, and more are reporting damage and radiation casualties. I mean,
+      I knew the attrition rate on gateless travel was bad, but... We need to emerge
+      to realspace as soon as possible, which means you have to get to work.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: The rest of my battlegroup is inbound, ETA less than an hour. You need
-      to wipe out the patrol before then, we don't want them knowing how large this
-      incursion actually is. But first you've got to find them. I'll throw up some
-      likely locations on the tacmap.
+  - Text: The Alliance Navy manual on System Defence 101 says you put at least something
+      watching every lagrange point at the system edge, and those bastards always
+      stick to procedure. There's bound to be a patrol or something here. They probably
+      already detected your arrival and are moving to investigate.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+  - Text: The rest of the battlegroup will be at the emergence point in about half
+      an hour, assuming nothing else goes wrong. You need to take out the patrol
+      before then, we don't want the Alliance getting a count of our numbers when
+      we emerge.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &8353177395704288331

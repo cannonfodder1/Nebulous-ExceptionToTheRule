@@ -52,7 +52,7 @@ namespace ExceptionToTheRule
 
 			Missions.Mission mission = (Missions.Mission)Utilities.GetPrivateField(SkirmishLobbyManager.Instance, "_mission");
 
-			if (mission.MissionName == "Calculated Hubris")
+			if (mission != null && mission.MissionName == "Calculated Hubris")
 			{
 				__result = new List<Vector3>();
 				for (int i = 0; i < count; i++)
