@@ -4327,13 +4327,13 @@ MonoBehaviour:
       Each tugboat can only fire two Grazers at once before redlining their reactors.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: "Your main tool of choice for this engagement will be the 600mm cannon.
+  - Text: 'Your main tool of choice for this engagement will be the 600mm cannon.
       It has two specialized ammo types: area bombs and HE-SH rounds. The bombs are
-      best against groups of small ships. They\u2019re time-fused to explode just
-      short of the track you target, so for best effect, target the rearmost ship
-      in their formation. They can also be fired on a position if you're really desperate.
-      Swap to HE-SH rounds to execute targets crippled from the bombs, or to engage
-      larger ships."
+      best at crippling groups of small ships, but they can''t confirm kills. They''re
+      time-fused to explode just short of the track you target, so for best effect,
+      target the rearmost ship in their formation. They can also be fired on a position
+      if you''re really desperate. Swap to HE-SH rounds to execute targets crippled
+      from the bombs, or to engage larger ships.'
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: Also, you may have noticed the monitors have missile launchers. Do not

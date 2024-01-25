@@ -5373,17 +5373,25 @@ MonoBehaviour:
   Lines:
   - Text: Right, let's run down what you've got available. The Exception is an Ocello-class
       cruiser, more than a century old but still a solid workhorse with a medium
-      range gun battery as primary armament. Her tubes are loaded with Thunderhead
-      IV cruise missiles. The IV variant was tuned to evade ballistic defences, but
-      gets hard stopped by flak turrets, so pick your targets carefully.
+      range gun battery as primary armament and a secondary complement of missile
+      tubes. In terms of point defences, she used to be fitted with Defender PDTs,
+      but during refit we swapped them out for a handful of Aurora PDTs we acquired
+      from a defector.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: Before leaving refit, the Exception's point defence grid was updated using
-      a handful of Aurora PDTs we acquired from a defector. The ship also sports
-      a very expensive and incredibly useful Bullseye FCR, which can lock any target
-      within 9km, improving weapon accuracy by a metric shit-ton. Use the LCK button
-      in the orders menu. After that, fire away with the 250mm battery - use HE versus
-      small ships, or AP against cruisers and capitals.
+  - Text: The ship's tubes are loaded with Thunderhead IV cruise missiles. The IV
+      variant was tuned to evade ballistic guns, but gets hard stopped by flak turrets,
+      so probe the enemy with a smaller salvo first and pick your targets carefully.
+      The urge to fire everything can be strong at times, but with a launch volume
+      of only six missiles per salvo, you're better off waiting until your cannons
+      can damage the target and reduce its defences.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+  - Text: The ship also sports a very expensive and incredibly useful Bullseye FCR,
+      which can lock any target within 9km, improving weapon accuracy by a metric
+      shit-ton. Use the LCK button in the orders menu. After that, fire away with
+      the 250mm battery - use HE versus small ships, or AP against cruisers and capitals.
+      However, it can take a while to finish off a larger ship without missile support.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: The battle doctrine from the Graznovian war when the Ocello-class was in
@@ -9907,7 +9915,7 @@ MonoBehaviour:
   - Text: The rest of the battlegroup will be at the emergence point in about half
       an hour, assuming nothing else goes wrong. You need to take out the patrol
       before then, we don't want the Alliance getting a count of our numbers when
-      we emerge.
+      we emerge. I'll throw up some likely locations on the tacmap.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &8353177395704288331
