@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mission 5 Player</Name>
   <Version>3</Version>
-  <TotalPoints>5024</TotalPoints>
+  <TotalPoints>5240</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>375c83e1-ccd3-41b4-863a-7c9ea5aa5100</Key>
       <Name>Exception To The Rule</Name>
-      <Cost>1934</Cost>
+      <Cost>1890</Cost>
       <Callsign />
       <Number>36</Number>
       <SymbolOption>0</SymbolOption>
@@ -47,10 +47,6 @@
                 <Quantity>16</Quantity>
               </MagSaveData>
             </MissileLoad>
-            <ConfiguredSize>
-              <x>1</x>
-              <y>2</y>
-            </ConfiguredSize>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -64,10 +60,6 @@
                 <Quantity>16</Quantity>
               </MagSaveData>
             </MissileLoad>
-            <ConfiguredSize>
-              <x>1</x>
-              <y>2</y>
-            </ConfiguredSize>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -97,7 +89,7 @@
         </HullSocket>
         <HullSocket>
           <Key>4NKBOsswyUGpVA-YP-T5ng</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
+          <ComponentName>Stock/Small Workshop</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>bzRgWNrBdE6BjUaGy8G1tg</Key>
@@ -201,7 +193,7 @@
       <SaveID xsi:nil="true" />
       <Key>08fa1248-31f3-42cf-87ee-c18a6b073cc8</Key>
       <Name>Rapid Unplanned Disassembly</Name>
-      <Cost>361</Cost>
+      <Cost>355</Cost>
       <Callsign />
       <Number>261</Number>
       <SymbolOption>0</SymbolOption>
@@ -290,7 +282,7 @@
       <SaveID xsi:nil="true" />
       <Key>92f6d6af-a8d5-4b8e-b25d-19f22b3db7e5</Key>
       <Name>Highly Mobile Catastrophe</Name>
-      <Cost>361</Cost>
+      <Cost>355</Cost>
       <Callsign />
       <Number>294</Number>
       <SymbolOption>0</SymbolOption>
@@ -379,7 +371,7 @@
       <SaveID xsi:nil="true" />
       <Key>266201dd-e676-4c5c-be2f-104c09a7a636</Key>
       <Name>Disregard For Awkward Facts</Name>
-      <Cost>591</Cost>
+      <Cost>664</Cost>
       <Callsign />
       <Number>97</Number>
       <SymbolOption>0</SymbolOption>
@@ -387,11 +379,11 @@
       <SocketMap>
         <HullSocket>
           <Key>4V6twrIUcEKE11tom-tDXQ</Key>
-          <ComponentName>Stock/C81 Plasma Cannon</ComponentName>
+          <ComponentName>Stock/C90 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>yN7f-9tEXEKlBNskqP6EbA</Key>
-          <ComponentName>Stock/T30 Cannon</ComponentName>
+          <ComponentName>Stock/T81 Plasma Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>Z2uDs34J-ESu64-i9YGnxQ</Key>
@@ -417,27 +409,37 @@
               <MagSaveData>
                 <MagazineKey>KblzZ552rECscsGAuVwaYw</MagazineKey>
                 <MunitionKey>Stock/400mm Plasma Ampoule</MunitionKey>
-                <Quantity>250</Quantity>
+                <Quantity>200</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>UBY3z4DBkkiwTvRdOp-N0g</MagazineKey>
                 <MunitionKey>Stock/100mm AP Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>500</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>KEzDBuQJn0eqJNK5729-tw</MagazineKey>
                 <MunitionKey>Stock/100mm HE Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>500</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>JF1cRbTMkEOGMhQpysYdVw</MagazineKey>
                 <MunitionKey>Stock/100mm HE-HC Shell</MunitionKey>
-                <Quantity>2000</Quantity>
+                <Quantity>1000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>u8Pzugpsk0eUydzsrIJYxQ</MagazineKey>
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
                 <Quantity>20000</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>Nsp8VyMoDUykV88HW-7syQ</MagazineKey>
+                <MunitionKey>Stock/600mm HE Shell</MunitionKey>
+                <Quantity>150</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>qyf4VQnUJEaF721DNmA_5Q</MagazineKey>
+                <MunitionKey>Stock/600mm Bomb Shell</MunitionKey>
+                <Quantity>50</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -452,7 +454,7 @@
         </HullSocket>
         <HullSocket>
           <Key>_hUvj899GkWP0bnjDN1ODw</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
+          <ComponentName>Stock/Auxiliary Steering</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>N4KIOsNqeUGVAUrx5OW3DQ</Key>
@@ -468,15 +470,15 @@
         </HullSocket>
         <HullSocket>
           <Key>HvdEBsnpUUypPN4uW67paQ</Key>
-          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>iDdlfFwKkUO9HbumzymceA</Key>
-          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>DaqWEX-8gEeIzYrhp8NIMw</Key>
-          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>EvZ6JN5xV0aUlKEeeKxFTQ</Key>
@@ -488,15 +490,19 @@
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="Plasma Casemate">
+        <WepGroup Name="100mm Battery">
+          <MemberKeys>
+            <string>Z2uDs34J-ESu64-i9YGnxQ</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="600mm Spinal">
           <MemberKeys>
             <string>4V6twrIUcEKE11tom-tDXQ</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="100mm Battery">
+        <WepGroup Name="Plasma Turret">
           <MemberKeys>
             <string>yN7f-9tEXEKlBNskqP6EbA</string>
-            <string>Z2uDs34J-ESu64-i9YGnxQ</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -506,7 +512,7 @@
       <SaveID xsi:nil="true" />
       <Key>8551d7cb-cffa-4d27-866d-e494ccbaba04</Key>
       <Name>Significant Charisma Deficit</Name>
-      <Cost>591</Cost>
+      <Cost>664</Cost>
       <Callsign />
       <Number>83</Number>
       <SymbolOption>0</SymbolOption>
@@ -514,11 +520,11 @@
       <SocketMap>
         <HullSocket>
           <Key>4V6twrIUcEKE11tom-tDXQ</Key>
-          <ComponentName>Stock/C81 Plasma Cannon</ComponentName>
+          <ComponentName>Stock/C90 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>yN7f-9tEXEKlBNskqP6EbA</Key>
-          <ComponentName>Stock/T30 Cannon</ComponentName>
+          <ComponentName>Stock/T81 Plasma Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>Z2uDs34J-ESu64-i9YGnxQ</Key>
@@ -544,27 +550,37 @@
               <MagSaveData>
                 <MagazineKey>KblzZ552rECscsGAuVwaYw</MagazineKey>
                 <MunitionKey>Stock/400mm Plasma Ampoule</MunitionKey>
-                <Quantity>250</Quantity>
+                <Quantity>200</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>UBY3z4DBkkiwTvRdOp-N0g</MagazineKey>
                 <MunitionKey>Stock/100mm AP Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>500</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>KEzDBuQJn0eqJNK5729-tw</MagazineKey>
                 <MunitionKey>Stock/100mm HE Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>500</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>JF1cRbTMkEOGMhQpysYdVw</MagazineKey>
                 <MunitionKey>Stock/100mm HE-HC Shell</MunitionKey>
-                <Quantity>2000</Quantity>
+                <Quantity>1000</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>4T2vRfc1sES0xwup5Sw7XQ</MagazineKey>
+                <MagazineKey>u8Pzugpsk0eUydzsrIJYxQ</MagazineKey>
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
                 <Quantity>20000</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>Nsp8VyMoDUykV88HW-7syQ</MagazineKey>
+                <MunitionKey>Stock/600mm HE Shell</MunitionKey>
+                <Quantity>150</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>qyf4VQnUJEaF721DNmA_5Q</MagazineKey>
+                <MunitionKey>Stock/600mm Bomb Shell</MunitionKey>
+                <Quantity>50</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -579,7 +595,7 @@
         </HullSocket>
         <HullSocket>
           <Key>_hUvj899GkWP0bnjDN1ODw</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
+          <ComponentName>Stock/Auxiliary Steering</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>N4KIOsNqeUGVAUrx5OW3DQ</Key>
@@ -595,15 +611,15 @@
         </HullSocket>
         <HullSocket>
           <Key>HvdEBsnpUUypPN4uW67paQ</Key>
-          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>iDdlfFwKkUO9HbumzymceA</Key>
-          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>DaqWEX-8gEeIzYrhp8NIMw</Key>
-          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>EvZ6JN5xV0aUlKEeeKxFTQ</Key>
@@ -615,15 +631,19 @@
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="Plasma Casemate">
+        <WepGroup Name="100mm Battery">
+          <MemberKeys>
+            <string>Z2uDs34J-ESu64-i9YGnxQ</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="600mm Spinal">
           <MemberKeys>
             <string>4V6twrIUcEKE11tom-tDXQ</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="100mm Battery">
+        <WepGroup Name="Plasma Turret">
           <MemberKeys>
             <string>yN7f-9tEXEKlBNskqP6EbA</string>
-            <string>Z2uDs34J-ESu64-i9YGnxQ</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -633,7 +653,7 @@
       <SaveID xsi:nil="true" />
       <Key>bde4d826-8408-4d49-9c9d-a98f32852d95</Key>
       <Name>Within Acceptable Tolerance</Name>
-      <Cost>593</Cost>
+      <Cost>656</Cost>
       <Callsign />
       <Number>94</Number>
       <SymbolOption>0</SymbolOption>
@@ -641,11 +661,11 @@
       <SocketMap>
         <HullSocket>
           <Key>4V6twrIUcEKE11tom-tDXQ</Key>
-          <ComponentName>Stock/C81 Plasma Cannon</ComponentName>
+          <ComponentName>Stock/C90 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>yN7f-9tEXEKlBNskqP6EbA</Key>
-          <ComponentName>Stock/T30 Cannon</ComponentName>
+          <ComponentName>Stock/T81 Plasma Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>Z2uDs34J-ESu64-i9YGnxQ</Key>
@@ -671,27 +691,37 @@
               <MagSaveData>
                 <MagazineKey>KblzZ552rECscsGAuVwaYw</MagazineKey>
                 <MunitionKey>Stock/400mm Plasma Ampoule</MunitionKey>
-                <Quantity>250</Quantity>
+                <Quantity>200</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>UBY3z4DBkkiwTvRdOp-N0g</MagazineKey>
                 <MunitionKey>Stock/100mm AP Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>500</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>KEzDBuQJn0eqJNK5729-tw</MagazineKey>
                 <MunitionKey>Stock/100mm HE Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>500</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>JF1cRbTMkEOGMhQpysYdVw</MagazineKey>
                 <MunitionKey>Stock/100mm HE-HC Shell</MunitionKey>
-                <Quantity>2000</Quantity>
+                <Quantity>1000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>6hJsjXrnKUCc-Gu6ScNbeA</MagazineKey>
                 <MunitionKey>Stock/Flak Round</MunitionKey>
                 <Quantity>900</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>yxddfJtq_E-Wb86PAdsy9A</MagazineKey>
+                <MunitionKey>Stock/600mm HE Shell</MunitionKey>
+                <Quantity>150</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>fqATF84mW0i9lK4xbOKCcw</MagazineKey>
+                <MunitionKey>Stock/600mm Bomb Shell</MunitionKey>
+                <Quantity>50</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -706,7 +736,7 @@
         </HullSocket>
         <HullSocket>
           <Key>_hUvj899GkWP0bnjDN1ODw</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
+          <ComponentName>Stock/Auxiliary Steering</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>N4KIOsNqeUGVAUrx5OW3DQ</Key>
@@ -722,15 +752,15 @@
         </HullSocket>
         <HullSocket>
           <Key>HvdEBsnpUUypPN4uW67paQ</Key>
-          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>iDdlfFwKkUO9HbumzymceA</Key>
-          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>DaqWEX-8gEeIzYrhp8NIMw</Key>
-          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>EvZ6JN5xV0aUlKEeeKxFTQ</Key>
@@ -742,15 +772,19 @@
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="Plasma Casemate">
+        <WepGroup Name="100mm Battery">
+          <MemberKeys>
+            <string>Z2uDs34J-ESu64-i9YGnxQ</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="600mm Spinal">
           <MemberKeys>
             <string>4V6twrIUcEKE11tom-tDXQ</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="100mm Battery">
+        <WepGroup Name="Plasma Turret">
           <MemberKeys>
             <string>yN7f-9tEXEKlBNskqP6EbA</string>
-            <string>Z2uDs34J-ESu64-i9YGnxQ</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -760,7 +794,7 @@
       <SaveID xsi:nil="true" />
       <Key>411b3931-54e0-4fd0-98c8-ee01fa47e23d</Key>
       <Name>Hull Damage Builds Character</Name>
-      <Cost>593</Cost>
+      <Cost>656</Cost>
       <Callsign />
       <Number>86</Number>
       <SymbolOption>0</SymbolOption>
@@ -768,11 +802,11 @@
       <SocketMap>
         <HullSocket>
           <Key>4V6twrIUcEKE11tom-tDXQ</Key>
-          <ComponentName>Stock/C81 Plasma Cannon</ComponentName>
+          <ComponentName>Stock/C90 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>yN7f-9tEXEKlBNskqP6EbA</Key>
-          <ComponentName>Stock/T30 Cannon</ComponentName>
+          <ComponentName>Stock/T81 Plasma Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>Z2uDs34J-ESu64-i9YGnxQ</Key>
@@ -798,27 +832,37 @@
               <MagSaveData>
                 <MagazineKey>KblzZ552rECscsGAuVwaYw</MagazineKey>
                 <MunitionKey>Stock/400mm Plasma Ampoule</MunitionKey>
-                <Quantity>250</Quantity>
+                <Quantity>200</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>UBY3z4DBkkiwTvRdOp-N0g</MagazineKey>
                 <MunitionKey>Stock/100mm AP Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>500</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>KEzDBuQJn0eqJNK5729-tw</MagazineKey>
                 <MunitionKey>Stock/100mm HE Shell</MunitionKey>
-                <Quantity>1000</Quantity>
+                <Quantity>500</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>JF1cRbTMkEOGMhQpysYdVw</MagazineKey>
                 <MunitionKey>Stock/100mm HE-HC Shell</MunitionKey>
-                <Quantity>2000</Quantity>
+                <Quantity>1000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>6hJsjXrnKUCc-Gu6ScNbeA</MagazineKey>
                 <MunitionKey>Stock/Flak Round</MunitionKey>
                 <Quantity>900</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>yxddfJtq_E-Wb86PAdsy9A</MagazineKey>
+                <MunitionKey>Stock/600mm HE Shell</MunitionKey>
+                <Quantity>150</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>fqATF84mW0i9lK4xbOKCcw</MagazineKey>
+                <MunitionKey>Stock/600mm Bomb Shell</MunitionKey>
+                <Quantity>50</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -833,7 +877,7 @@
         </HullSocket>
         <HullSocket>
           <Key>_hUvj899GkWP0bnjDN1ODw</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
+          <ComponentName>Stock/Auxiliary Steering</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>N4KIOsNqeUGVAUrx5OW3DQ</Key>
@@ -849,15 +893,15 @@
         </HullSocket>
         <HullSocket>
           <Key>HvdEBsnpUUypPN4uW67paQ</Key>
-          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>iDdlfFwKkUO9HbumzymceA</Key>
-          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
+          <ComponentName>Stock/Ammunition Elevators</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>DaqWEX-8gEeIzYrhp8NIMw</Key>
-          <ComponentName>Stock/Ammunition Elevators</ComponentName>
+          <ComponentName>Stock/Rapid-Cycle Cradle</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>EvZ6JN5xV0aUlKEeeKxFTQ</Key>
@@ -869,15 +913,19 @@
         </HullSocket>
       </SocketMap>
       <WeaponGroups>
-        <WepGroup Name="Plasma Casemate">
+        <WepGroup Name="100mm Battery">
+          <MemberKeys>
+            <string>Z2uDs34J-ESu64-i9YGnxQ</string>
+          </MemberKeys>
+        </WepGroup>
+        <WepGroup Name="600mm Spinal">
           <MemberKeys>
             <string>4V6twrIUcEKE11tom-tDXQ</string>
           </MemberKeys>
         </WepGroup>
-        <WepGroup Name="100mm Battery">
+        <WepGroup Name="Plasma Turret">
           <MemberKeys>
             <string>yN7f-9tEXEKlBNskqP6EbA</string>
-            <string>Z2uDs34J-ESu64-i9YGnxQ</string>
           </MemberKeys>
         </WepGroup>
       </WeaponGroups>
@@ -889,19 +937,23 @@
       <AssociatedTemplateName>SGM-206 Thunderhead</AssociatedTemplateName>
       <Designation>SGM-206</Designation>
       <Nickname>Thunderhead IV</Nickname>
-      <Description>CRUISE - ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
-      <LongDescription>The SGM-206 Thunderhead IV is a size 2 waypoint-capable cruise missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker.
+      <Description>CRUISE - ACT(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-206 Thunderhead IV&lt;/noparse&gt; is a size 2 waypoint-capable cruise missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker.
 
 Control Method: CRUISE (Waypoint Capable)
-Targeting Modes:
-	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK[+TRP]&lt;/color&gt;&lt;/b&gt;
-Primary Seeker: ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+Targeting Modes: &lt;b&gt;&lt;color=#3BC81E&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK[+TRP]&lt;/color&gt;&lt;/b&gt;
+: 
+Primary Seeker: ACTIVE &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
 
-200 m/s for 14,040 m, top speed in 1.1 s
+Speed: 222 m/s
+Distance: 15,612 m
+Top Speed In: 1.2 s
+Turn Rate: 3.0 G
 Terminal Maneuvers: Weave
 
-Contact Fuze, High Explosive, Shaped
-Armor: 54cm   Component: 960hp
+Warhead: Contact Fuze, High Explosive, Shaped
+Armor: 54cm
+Component: 960hp
 Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
@@ -913,7 +965,7 @@ Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>8</Cost>
+      <Cost>6</Cost>
       <BodyKey>Stock/SGM-2 Body</BodyKey>
       <TemplateKey>2882048f-862c-45f1-839d-128132ed441c</TemplateKey>
       <BaseColor>
@@ -981,19 +1033,23 @@ Failure Rate: 0 %</LongDescription>
       <AssociatedTemplateName>SGM-112 Riposte</AssociatedTemplateName>
       <Designation>SGM-112</Designation>
       <Nickname>Riposte</Nickname>
-      <Description>DIRECT - &lt;color=#FBFF4C&gt;CMD&lt;/color&gt; - HE FRAG</Description>
-      <LongDescription>The SGM-112 Riposte is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using command guidance from its launching ship.
+      <Description>DIRECT - &lt;color=#D3D11F&gt;CMD&lt;/color&gt; - HE FRAG</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-112 Riposte&lt;/noparse&gt; is a size 1 direct guidance missile.  It is based on the SGM-1 body, which is a nimble general-purpose missile.  This missile will deliver a Proximity Fuze, High Explosive, Blast Fragmentation warhead.  It homes in on its target using command guidance from its launching ship.
 
 Control Method: DIRECT
-Targeting Modes:
-	&lt;b&gt;&lt;color=#FF2525&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
-Primary Seeker: COMMAND (&lt;color=#FBFF4C&gt;Requires COMMS Enabled&lt;/color&gt;)
+Targeting Modes: &lt;b&gt;&lt;color=#D4211D&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK&lt;/color&gt;&lt;/b&gt;
+: 
+Primary Seeker: COMMAND (&lt;color=#D3D11F&gt;Requires COMMS Enabled&lt;/color&gt;)
 
-335 m/s for 2,547 m, top speed in 0.7 s
+Speed: 250 m/s
+Distance: 3,000 m
+Top Speed In: 0.4 s
+Turn Rate: 9.9 G
 Terminal Maneuvers: None
 
-Proximity Fuze, High Explosive, Blast Fragmentation
-Armor: 2cm   Component: 65hp
+Warhead: Proximity Fuze, High Explosive, Blast Fragmentation
+Armor: 2cm
+Component: 65hp
 Blast Radius: 47 m
 
 Body Integrity: 10 
@@ -1040,7 +1096,7 @@ Failure Rate: 0 %</LongDescription>
               <TargetSizeMask>12</TargetSizeMask>
               <TargetType>All</TargetType>
               <TargetSizeOrdering>Descending</TargetSizeOrdering>
-              <SalvoSize>0</SalvoSize>
+              <SalvoSize>1</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
             </DefensiveDoctrine>
             <ApproachAngleControl>true</ApproachAngleControl>
@@ -1057,9 +1113,9 @@ Failure Rate: 0 %</LongDescription>
           <InstalledComponent xsi:type="MissileEngineSettings">
             <ComponentKey />
             <BalanceValues>
-              <A>0.565707445</A>
-              <B>0.1086033</B>
-              <C>0.325689256</C>
+              <A>0</A>
+              <B>0.3446652</B>
+              <C>0.65533483</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>
