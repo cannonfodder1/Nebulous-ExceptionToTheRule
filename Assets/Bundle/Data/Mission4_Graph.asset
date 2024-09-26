@@ -2820,9 +2820,9 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
   Mood: 0
   Lines:
-  - Text: Releasing launch control. If you panic fire on that cruiser without a solid
-      track and waste our entire supply of Hurricanes, I will actually kill you.
-      Good luck.
+  - Text: Releasing launch control. If you waste our entire stock of missiles panic
+      firing on that cruiser while it still has its escorts up, I will court martial
+      you. Godspeed.
     Audio: {fileID: 8300000, guid: a5c23ca4d3c6a3b46ae0e84e7172c878, type: 3}
     AutoAdvance: 1
 --- !u!114 &-3766238088334986148
@@ -4323,8 +4323,8 @@ MonoBehaviour:
       arcs are garbage. Compensating for that last weakness, you've got two escorting
       tugboats. Each of them has four Grazer PDTs, which are the closest thing to
       an Aurora you're going to get without the Exception around. We repurposed some
-      industrial cutting lasers for the job, but their power draw is fucking nuts.
-      Each tugboat can only fire two Grazers at once before redlining their reactors.
+      industrial cutting lasers for the job, but their power draw is absurd. Each
+      tugboat can only fire half their Grazers at once before redlining their reactors.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: 'Your main tool of choice for this engagement will be the 600mm cannon.
@@ -4336,12 +4336,12 @@ MonoBehaviour:
       from the bombs, or to engage larger ships.'
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: Also, you may have noticed the monitors have missile launchers. Do not
-      fire them, we need to conserve what few missiles we have left, and they're
-      not going to be that useful against a frigate swarm anyway. Hurricane missiles
-      are command-guided, they go for the bouncing dot of the track you target. Without
-      the Exception around to provide consistent target lock, they can miss smaller
-      ships, or get jammed out.
+  - Text: Also, you may have noticed the monitors have missile launchers. Unfortunately,
+      we need to conserve what few missiles we have left, and they're not going to
+      be that useful against a frigate swarm anyway. Hurricane missiles are command-guided,
+      they go for the bouncing dot of the track you target. Without the Exception
+      around to provide consistent target lock, anything smaller than a capital ship
+      will be able to jam them out easily.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: And the final piece of this squadron, the Long Range Tracker, or the 'Bloodhound'

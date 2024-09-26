@@ -21,11 +21,11 @@ MonoBehaviour:
   PreBriefing: "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\
     Weeks since the Divide: 12 \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nOSPN
     NAVY-LINK COMM.\r\nVOICE TRANSCRIPT.\r\n\r\n--- N. Vance has joined the call
-    ---\r\n\r\nV: Pick up, you bastard.\r\n\r\n--- B. Stratis has joined the call
-    ---\r\n\r\nS: Reporting as ordered, Captain.\r\n\r\nV: As of this very moment
-    I am pinned under a rock and there's a squadron of beam destroyers on my ass,
-    so we need to keep this brief. Is your ship combat-capable?\r\n\r\nS: We just
-    got another two freighters and their escorts, no significant damage.\r\n\r\nV:
+    ---\r\n\r\nV: Come on, pick up the phone, LC.\r\n\r\n--- B. Stratis has joined
+    the call ---\r\n\r\nS: Reporting as ordered, Captain.\r\n\r\nV: As of this very
+    moment I am pinned under a rock and there's a squadron of beam destroyers hunting
+    me, so we need to keep this brief. Is your ship combat-capable?\r\n\r\nS: We
+    just got another two freighters and their escorts, no significant damage.\r\n\r\nV:
     You and the other raiding groups have been doing ace work, but whoever's in command
     over there is being a massive pain in my ass. There's an Alliance taskforce loose
     in our rear area and they've been torching the supply dumps we set up around
@@ -39,10 +39,10 @@ MonoBehaviour:
     keep them occupied here is another week the shipyards have to militarize more
     freighters for the gate blockade. We have to stay in the system and remain a
     threat for as long as possible.\r\n\r\nS: But ma'am - \r\n\r\nV: Enough. We can
-    discuss strategy further once I tear these fucking destroyers apart.\r\n\r\nS:
-    Where do you want me, then?\r\n\r\nV: As I was saying, that marauding taskforce
-    has to be stopped. I sent a few other ships to do the job, but they were sent
-    packing by an ungodly amount of electronic warfare. And when it comes to dealing
+    discuss strategy further once I tear these destroyers apart.\r\n\r\nS: Where
+    do you want me, then?\r\n\r\nV: As I was saying, that marauding taskforce has
+    to be stopped. I sent a few other ships to do the job, but they were sent packing
+    by a ridiculous quantity of electronic warfare. And when it comes to dealing
     with that shit, your cruiser has no equal. We've been tracking their drive flares,
     and you're close enough to interdict them at their jumping off point before they
     hit another one of our fuel caches. I want them smashed into dust.\r\n\r\nS:
@@ -50,8 +50,7 @@ MonoBehaviour:
     some additional firepower for - \r\n\r\n(background voices detected) SPIKER!
     Spiker spiker spiker! Count four incoming, range three kilo, bearing two-five-one
     by zero-six-four, speed -\r\n\r\nV: Oh fuck - \r\n\r\n(background voices detected)
-    PDTs are up, Bastion net engaging, splash one -\r\n\r\nV: Gotta go!\r\n\r\n---
-    Connection Terminated ---\r\n"
+    PDTs are up, Bastion net engaging, splash one -\r\n\r\nV: Gotta go!\r\n"
   MissionKey: fKPptYeLr0C3-EPvpvKL1w
   Screenshot: {fileID: 21300000, guid: 65d3f993da0bf6d488622a5ac9a0ddfa, type: 3}
   _graph:

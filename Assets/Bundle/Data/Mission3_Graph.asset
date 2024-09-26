@@ -1213,7 +1213,7 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: 9f4525af73901814cad28e582586cc94, type: 2}
   Mood: 0
   Lines:
-  - Text: Yeah, dealt with some in my last convoy raid.
+  - Text: Yeah, dealt with some in a previous convoy raid.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &-3682264639036304321
@@ -1708,10 +1708,11 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
   Mood: 0
   Lines:
-  - Text: Finally. Alright, time to punch the Alliance Navy in the throat. This engagement
+  - Text: Alright, time to punch the Alliance Navy in the throat. This engagement
       won't be as simple as the previous ones you've faced, intelligence says they
       have at minimum two light cruisers here, the ANS Last Call and the ANS Grey
-      Area, along with escorts carrying a fuckload of jamming.
+      Area, along with escorts carrying a truly excessive amount of jamming. You've
+      gone up against Alliance jamming before, right? Know the procedure?
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &-1245840081958811778
@@ -4654,7 +4655,7 @@ MonoBehaviour:
   Character: {fileID: 11400000, guid: e7b637cf8cd240b4183fdc5c15e78314, type: 2}
   Mood: 0
   Lines:
-  - Text: Stratis, you got your fat ass over to the target yet or what?
+  - Text: Stratis, you got your squadron over to the target yet or what?
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &7802056669852219120

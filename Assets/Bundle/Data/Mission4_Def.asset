@@ -20,7 +20,7 @@ MonoBehaviour:
   PreBriefing: "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\
     Weeks since the Divide: 14 \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nOSPN
     NAVY-LINK COMM.\r\nT: OSPN MOMENTARY LAPSE OF SANITY\r\nF: OSPN EMPEROR REVERSE\r\n\r\nLieutenant
-    Hashim, wake the fuck up, we've got an emergency on our hands. I don't want another
+    Hashim, time to wake up, we've got an emergency on our hands. I don't want another
     one of your bullshit automated responses about how you're \"out of office\",
     you will read this message and send an immediate affirmation or I will get your
     XO to relieve you.\r\n\r\nEight drive flares just lit up on a braking burn into
@@ -28,14 +28,13 @@ MonoBehaviour:
     tell you everything, but we have reinforcements arriving here from Roclaren soon,
     and it is absolutely imperative that they have a clear path to get to us without
     their composition being visually identified. So you need to get over there and
-    clean that shit up. Normally I'd send Stratis but his fragile flower of a fuckin'
-    cruiser is laid up for repairs. And your squadron is the next-best suited for
-    an attack into the teeth of Alliance jamming.\r\n\r\nTo pre-empt the string of
-    panicked replies I know you're typing up right now, no Stratis does not know
-    about this yet, yes you are still supposed to be joining up with his squadron,
-    and no you will not waste time informing him of your course deviation. Stratis
-    will get the memo and you'll be back as soon as you're done saving the fucking
-    day. Get your squadron moving NOW, that is an order.\r\n\r\n- Vance\r"
+    ensure they aren\u2019t. Normally I'd send Stratis but his fragile flower of
+    a cruiser is laid up for repairs. And your squadron is the next-best suited for
+    an attack into the teeth of Alliance jamming.\r\n\r\nTo pre-empt what I know
+    you're typing up right now, yes you are still supposed to be joining up Stratis
+    for the next operation. He will get the memo eventually and you'll be back as
+    soon as you're done saving the day. Get your squadron moving now, no delays.\r\n\r\n-
+    Vance\r\n"
   MissionKey: zgWpl3Lk4EKulmQ-oJljSA
   Screenshot: {fileID: 21300000, guid: 62ebcfa0f37cd8c4aa7ffa026910e7de, type: 3}
   _graph:

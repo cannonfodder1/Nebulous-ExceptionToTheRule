@@ -6944,9 +6944,9 @@ MonoBehaviour:
   Lines:
   - Text: 'Twenty?! That''s more lineships than they have capitals in the rimward
       garrison fleets! There''s no way they''d win a gate transit assault against
-      that with what they have on hand. Maybe if they bring in First Fleet and Third
+      us with what they have on hand. Maybe if they bring in First Fleet and Third
       Fleet from the coreward border, but, y''know, the Alliance''s infrastructure
-      is fucking terrible. '
+      is... '
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: I'd be surprised if what's left of the gate network didn't just shit itself
@@ -7541,9 +7541,9 @@ MonoBehaviour:
   Lines:
   - Text: 'Twenty?! That''s more lineships than they have capitals in the rimward
       garrison fleets! There''s no way they''d win a gate transit assault against
-      that with what they have on hand. Maybe if they bring in First Fleet and Third
+      us with what they have on hand. Maybe if they bring in First Fleet and Third
       Fleet from the coreward border, but, y''know, the Alliance''s infrastructure
-      is fucking terrible. '
+      is... '
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: I'd be surprised if what's left of the gate network didn't just shit itself

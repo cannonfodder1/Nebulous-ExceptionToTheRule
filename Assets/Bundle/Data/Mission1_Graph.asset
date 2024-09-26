@@ -5654,8 +5654,8 @@ MonoBehaviour:
   Mood: 0
   Lines:
   - Text: Benji, that's a beam destroyer! You have to keep your distance, otherwise
-      the Exception is fucking dead! Maximum range on it is 6 km, with effectiveness
-      increasing the closer you get.
+      the Exception is as good as dead! Maximum range on it is 6 km, more dangerous
+      the closer you get.
     Audio: {fileID: 8300000, guid: a5c23ca4d3c6a3b46ae0e84e7172c878, type: 3}
     AutoAdvance: 1
 --- !u!114 &829017669766302825
@@ -6327,6 +6327,18 @@ MonoBehaviour:
       - fieldName: Conditions 0
         node: {fileID: 5460326569606820998}
         reroutePoints: []
+      - fieldName: AbortCondition
+        node: {fileID: 3572638807519974983}
+        reroutePoints: []
+      - fieldName: AbortCondition
+        node: {fileID: 7310576463811208300}
+        reroutePoints: []
+      - fieldName: AbortCondition
+        node: {fileID: 3082767152667505112}
+        reroutePoints: []
+      - fieldName: AbortCondition
+        node: {fileID: 6181573032689238528}
+        reroutePoints: []
       _direction: 1
       _connectionType: 0
       _typeConstraint: 0
@@ -6539,7 +6551,10 @@ MonoBehaviour:
       _node: {fileID: 3082767152667505112}
       _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: Result
+        node: {fileID: 2916584997665245205}
+        reroutePoints: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
@@ -8583,7 +8598,10 @@ MonoBehaviour:
       _node: {fileID: 6181573032689238528}
       _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: Result
+        node: {fileID: 2916584997665245205}
+        reroutePoints: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
@@ -8907,7 +8925,10 @@ MonoBehaviour:
       _node: {fileID: 7310576463811208300}
       _typeQualifiedName: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
         PublicKeyToken=b77a5c561934e089
-      connections: []
+      connections:
+      - fieldName: Result
+        node: {fileID: 2916584997665245205}
+        reroutePoints: []
       _direction: 0
       _connectionType: 1
       _typeConstraint: 0
