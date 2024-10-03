@@ -30,6 +30,7 @@ namespace ExceptionToTheRule
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetShipWithdrawn) });
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(GetShipDestroyed) });
 			cachePortsMethodInfo.Invoke(null, new object[] { typeof(SpawnCalloutMarker) });
+			cachePortsMethodInfo.Invoke(null, new object[] { typeof(RotateShip180) });
 		}
 
 		public void PostLoad()
@@ -39,7 +40,7 @@ namespace ExceptionToTheRule
 		}
 	}
 
-	// Forces the AI to move towards the player in mission 4, instead of wandering off into Canyon
+	// Forces the AI to retreat off the map in mission 2 and move towards the player in mission 4, instead of wandering off wherever they like
 	[HarmonyPatch(typeof(BotSkirmishPlayer), "GetInitialSearchLocations")]
 	class Patch_BotSkirmishPlayer_GetInitialSearchLocations
 	{
@@ -51,7 +52,18 @@ namespace ExceptionToTheRule
 			}
 
 			Missions.Mission mission = (Missions.Mission)Utilities.GetPrivateField(SkirmishLobbyManager.Instance, "_mission");
-
+			/*
+			if (mission != null && mission.MissionName == "Blades Drawn")
+			{
+				Debug.Log("WE MADE IT");
+				__result = new List<Vector3>
+				{
+					new Vector3(0, 0, 1700),
+					new Vector3(0, 0, 1700)
+				};
+				return false;
+			}
+			*/
 			if (mission != null && mission.MissionName == "Calculated Hubris")
 			{
 				__result = new List<Vector3>();
