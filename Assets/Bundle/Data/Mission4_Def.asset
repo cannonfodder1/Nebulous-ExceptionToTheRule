@@ -13,28 +13,54 @@ MonoBehaviour:
   m_Name: Mission4_Def
   m_EditorClassIdentifier: 
   MissionName: Calculated Hubris
-  DetailText: The Alliance counterattack continues, as the battlegroup begins to
-    run low on essential supplies. Incoming reinforcements from OSP space could turn
-    the campaign around, if the path back home can be kept open. Run the trench and
-    bring the big guns to bear - but be wary, and never trust the intel department.
-  PreBriefing: "\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\\\\\\
-    Weeks since the Divide: 14 \\\\\\\r\n\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\r\n\r\nOSPN
-    NAVY-LINK COMM.\r\nT: OSPN MOMENTARY LAPSE OF SANITY\r\nF: OSPN EMPEROR REVERSE\r\n\r\nLieutenant
-    Hashim, time to wake up, we've got an emergency on our hands. I don't want another
-    one of your bullshit automated responses about how you're \"out of office\",
+  DetailText: With the Alliance counterattack blunted, the OSP forces in Kribensis
+    must plan their next move. Incoming reinforcements could turn the tables with
+    the latest tech from Roclaren, if the path back home can be kept open. Run the
+    trench and bring the big guns to bear - but be wary, and never trust the intel
+    department.
+  PreBriefing: '\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+    \\\ Weeks since the Divide:
+    14 \\\
+
+    \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+
+    OSPN NAVY-LINK COMM.
+
+    T:
+    OSPN MOMENTARY LAPSE OF SANITY
+
+    F: OSPN EMPEROR REVERSE
+
+
+    Lieutenant
+    Hashim, time to wake up, we''ve got an emergency on our hands. I don''t want
+    another one of your bullshit automated responses about how you''re "out of office",
     you will read this message and send an immediate affirmation or I will get your
-    XO to relieve you.\r\n\r\nEight drive flares just lit up on a braking burn into
-    a rock cluster between the edge of the system and our area of operations. I can't
+    XO to relieve you.
+
+
+    Eight drive flares just lit up on a braking burn into
+    a rock cluster between the edge of the system and our area of operations. I can''t
     tell you everything, but we have reinforcements arriving here from Roclaren soon,
     and it is absolutely imperative that they have a clear path to get to us without
     their composition being visually identified. So you need to get over there and
-    ensure they aren\u2019t. Normally I'd send Stratis but his fragile flower of
-    a cruiser is laid up for repairs. And your squadron is the next-best suited for
-    an attack into the teeth of Alliance jamming.\r\n\r\nTo pre-empt what I know
-    you're typing up right now, yes you are still supposed to be joining up with
-    Stratis for the next operation. He will get the memo eventually and you'll be
-    back as soon as you're done saving the day. Get your squadron moving now, no
-    delays.\r\n\r\n- Vance\r\n"
+    ensure they aren''t. Normally I''d send Stratis but his fragile flower of a cruiser
+    is laid up for repairs. And your squadron is the next-best suited for an attack
+    into the teeth of Alliance jamming.
+
+
+    To pre-empt what I know you''re typing
+    up right now, yes, your Journeyman is still completely crippled from that torpedo
+    you took, and no, this cannot wait for it to be repaired. The carrier will be
+    safe here with me while you''re out saving the day. Get the rest of your squadron
+    moving now, no delays.
+
+
+    - Vance
+
+'
   MissionKey: zgWpl3Lk4EKulmQ-oJljSA
   Screenshot: {fileID: 21300000, guid: 62ebcfa0f37cd8c4aa7ffa026910e7de, type: 3}
   _graph:

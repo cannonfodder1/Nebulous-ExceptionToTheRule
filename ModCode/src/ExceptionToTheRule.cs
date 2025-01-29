@@ -39,7 +39,7 @@ namespace ExceptionToTheRule
 			harmony.PatchAll();
 		}
 	}
-
+	/*
 	// Forces the AI to retreat off the map in mission 2 and move towards the player in mission 4, instead of wandering off wherever they like
 	[HarmonyPatch(typeof(BotSkirmishPlayer), "GetInitialSearchLocations")]
 	class Patch_BotSkirmishPlayer_GetInitialSearchLocations
@@ -52,7 +52,7 @@ namespace ExceptionToTheRule
 			}
 
 			Missions.Mission mission = (Missions.Mission)Utilities.GetPrivateField(SkirmishLobbyManager.Instance, "_mission");
-			/*
+			/
 			if (mission != null && mission.MissionName == "Blades Drawn")
 			{
 				Debug.Log("WE MADE IT");
@@ -63,7 +63,7 @@ namespace ExceptionToTheRule
 				};
 				return false;
 			}
-			*/
+			/
 			if (mission != null && mission.MissionName == "Calculated Hubris")
 			{
 				__result = new List<Vector3>();
@@ -77,6 +77,7 @@ namespace ExceptionToTheRule
 			return true;
 		}
 	}
+	*/
 	/*
 	// Prevents the AI from firing at ELINT bearings or crossfixes
 	[HarmonyPatch(typeof(TaskUnit), "PickTargetsForShips")]

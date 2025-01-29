@@ -24,6 +24,7 @@ MonoBehaviour:
   MissionNamePrefix: Engagement
   Missions:
   - {fileID: 11400000, guid: 7564285a94ccfb34c80235f2ec0134fd, type: 2}
+  - {fileID: 11400000, guid: 300ed97f3c5bfe54badfcde900410c02, type: 2}
   - {fileID: 11400000, guid: 4268ba353b58ed746badf1ae7ff30d1a, type: 2}
   - {fileID: 11400000, guid: ed7d419e3d9f86744aaacb4bd653c875, type: 2}
   - {fileID: 11400000, guid: e00029016c098434e850169719a8ae18, type: 2}

@@ -2,11 +2,8 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mission 4 Player</Name>
   <Version>3</Version>
-  <TotalPoints>3534</TotalPoints>
+  <TotalPoints>3532</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
-  <Description>Difficulty: &lt;color=green&gt;EASY&lt;/color&gt;
-
-Heavily armoured and equipped for damage control, Cobalt Squadron is a durable firebase, able to hold the line against any target at medium range. With one concentrated formation, this fleet is ideal for those who struggle with multitasking, though it must be positioned well and pointed at incoming threats with a hold heading command - its flanks are vulnerable, and it lacks the mobility to escape an ambush.</Description>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
     <Ship>
@@ -130,6 +127,7 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
         </WepGroup>
       </WeaponGroups>
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
@@ -252,6 +250,7 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
         </WepGroup>
       </WeaponGroups>
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
@@ -374,12 +373,13 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
         </WepGroup>
       </WeaponGroups>
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>75f04558-bc78-4ddc-98a5-0c6ce693934d</Key>
       <Name>Smartest Person In The Room</Name>
-      <Cost>648</Cost>
+      <Cost>646</Cost>
       <Callsign />
       <Number>66</Number>
       <SymbolOption>0</SymbolOption>
@@ -408,11 +408,11 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
         </HullSocket>
         <HullSocket>
           <Key>gb6_3kWBY0KlEWeex3ruDg</Key>
-          <ComponentName>Stock/P20 Flak PDT</ComponentName>
+          <ComponentName>Stock/T20 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>_y-Bd-EWjUeMIrmzG3UxvQ</Key>
-          <ComponentName>Stock/P20 Flak PDT</ComponentName>
+          <ComponentName>Stock/T20 Cannon</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>gDQghm5iik2syYcoJqUPFg</Key>
@@ -424,16 +424,26 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
           <ComponentData xsi:type="BulkMagazineData">
             <Load>
               <MagSaveData>
-                <MagazineKey>JmenmlfQFkuS1LFfRJtG1g</MagazineKey>
-                <MunitionKey>Stock/Flak Round</MunitionKey>
-                <Quantity>600</Quantity>
+                <MagazineKey>tbXptIxVGk6sz82MKgnBYg</MagazineKey>
+                <MunitionKey>Stock/100mm Flak</MunitionKey>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>3jK0eLelE0e1TzB5sQBDGw</MagazineKey>
+                <MunitionKey>Stock/100mm AP Shell</MunitionKey>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>oGIvAgqQ1kyDg802qs1bZg</MagazineKey>
+                <MunitionKey>Stock/100mm HE Shell</MunitionKey>
+                <Quantity>500</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>TTM8O-MUDky06__LwvSo8w</Key>
-          <ComponentName>Stock/Plant Control Center</ComponentName>
+          <ComponentName>Stock/Rapid DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>rGVFgJ8GyUePoRkz33c1sw</Key>
@@ -473,11 +483,19 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
         </HullSocket>
         <HullSocket>
           <Key>CU_oraqJxEaB3dTzZW2MkA</Key>
-          <ComponentName>Stock/Ithaca Bridgemaster</ComponentName>
+          <ComponentName>Stock/Track Correlator</ComponentName>
         </HullSocket>
       </SocketMap>
-      <WeaponGroups />
+      <WeaponGroups>
+        <WepGroup Name="100mm Battery">
+          <MemberKeys>
+            <string>gb6_3kWBY0KlEWeex3ruDg</string>
+            <string>_y-Bd-EWjUeMIrmzG3UxvQ</string>
+          </MemberKeys>
+        </WepGroup>
+      </WeaponGroups>
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
@@ -568,6 +586,7 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
         </WepGroup>
       </WeaponGroups>
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
@@ -658,6 +677,7 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
         </WepGroup>
       </WeaponGroups>
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
   </Ships>
   <MissileTypes>
@@ -670,7 +690,7 @@ Heavily armoured and equipped for damage control, Cobalt Squadron is a durable f
 
 Control Method: DIRECT
 Targeting Modes: &lt;b&gt;&lt;color=#D4211D&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK&lt;/color&gt;&lt;/b&gt;
-: 
+
 Primary Seeker: COMMAND (&lt;color=#D3D11F&gt;Requires COMMS Enabled&lt;/color&gt;)
 
 Speed: 308 m/s
@@ -686,7 +706,7 @@ Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
 Body Integrity: 30 
-Wall Thickness: 0.5
+Wall Thickness: 0.05
 Programming Time: 8 s
 Radar Signature Bonus: 100 %
 Boost-Phase Duration: 3 s
@@ -697,9 +717,9 @@ Failure Rate: 0 %</LongDescription>
       <BodyKey>Stock/SGM-2 Body</BodyKey>
       <TemplateKey>eefeda36-4ed3-444b-8ba1-97b7f5f3ed19</TemplateKey>
       <BaseColor>
-        <r>-7.07805157E-08</r>
-        <g>-7.07805157E-08</g>
-        <b>-7.07805157E-08</b>
+        <r>0</r>
+        <g>0</g>
+        <b>0</b>
         <a>1</a>
       </BaseColor>
       <StripeColor>

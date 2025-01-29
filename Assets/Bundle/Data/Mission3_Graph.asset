@@ -653,32 +653,41 @@ MonoBehaviour:
     AutoAdvance: 0
   - Text: You'll have one of our lineships joining you for this operation. Our battlegroup
       doesn't have a ton of these, most of them are earmarked for the gate blockade
-      that's being assembled, but in a year or two they'll be the main workhorse
+      that's being assembled, but in a year or two they'll be one of the main workhorses
       of the OSPN. As you might have noticed, the Onslaught of Abundance has an asymmetric
-      loadout, with 250mm cannons bristling on her left side only.
+      loadout, with 250mm cannons bristling on her left side only and a handful of
+      secondary 100mm turrets around the hull.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: This sort of design is great for getting lots of freighters militarized
       on short notice, but it's somewhat tricky to command in battle. Didn't have
       time for nav-comp upgrades, so you're going to have to micromanage the ship's
       heading. Use the HDG command to point the bow about 90 degrees away from the
-      enemy, so the left broadside can bear to target.
+      enemy, so the left broadside can bear to target. The secondary turrets can
+      at least fire to either side for point defence or anti-light purposes.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
   - Text: 'On her other side, the Onslaught has a surprise in store: eight rocket
-      containers. These contraptions have a fairly long range and cruise capability
-      for reaching around corners. When a target is acquired, each container will
-      deploy six Piranha rockets. Very effective against lighter ships, but if they''re
-      sitting behind chaff, then the salvo may misfire. Best used against an advancing
-      enemy, so their chaff is deployed behind and is less effective.'
+      containers. These contraptions will deploy a handful of rockets to help punch
+      through ballistic PD in the final approach. They''re command-guided, so only
+      fire them at a ship that''s been target locked and once you fire, make sure
+      you keep that lock or the salvo may miss.'
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
-  - Text: Speaking of missiles, we weren't able to get the Exception's tubes reloaded
-      in time for this engagement. You've got a little more than half load of the
-      Thunderheads you used last time. But their seekers will get jammed to hell
-      just like your shipboard radar. If you fancy yourself a clever captain, you
-      might be able to use their cruise capability to waypoint them in for an off-angle
-      attack, avoiding the enemy jamming cone.
+  - Text: Finally, you've also got the With Great Haste along for the ride. Once
+      a passenger shuttle doing short hops between orbital stations, now she's a
+      rocket bomber doing short hops between dead Alliance frigates. Her rockets
+      are devastating when fired from within 2 km, and Riposte anti-missile-missiles
+      will keep her safe from one or two enemy missile salvos, even if she's separate
+      from the main formation. An excellent scout and ambusher.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+  - Text: Sadly, we weren't able to get the Exception's tubes reloaded in time for
+      this engagement. You've got a little more than half load of the Thunderheads
+      you used last time. But their radar seekers will get jammed to hell just like
+      your shipboard radar. If you fancy yourself a clever captain, you might be
+      able to use their cruise capability to waypoint them in for an off-angle attack,
+      avoiding the enemy jamming cone.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &-5305898735120092957
@@ -1442,7 +1451,7 @@ MonoBehaviour:
       StripeColor: {r: 1, g: 1, b: 1, a: 1}
       FleetPrefix: ANS
     Badge: {fileID: 0}
-    Brain: {fileID: 0}
+    Difficulty: 0
   BotPlayer: {fileID: 0}
 --- !u!114 &-1941605668428882144
 MonoBehaviour:
@@ -1711,8 +1720,13 @@ MonoBehaviour:
   - Text: Alright, time to punch the Alliance Navy in the throat. This engagement
       won't be as simple as the previous ones you've faced, intelligence says they
       have at minimum two light cruisers here, the ANS Last Call and the ANS Grey
-      Area, along with escorts carrying a truly excessive amount of jamming. You've
-      gone up against Alliance jamming before, right? Know the procedure?
+      Area, along with escorts carrying a truly excessive amount of jamming and hybrid
+      cruise missiles.
+    Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
+    AutoAdvance: 0
+  - Text: Worse, from all indications this formation is a veteran one. They'll be
+      fighting smarter in their use of cover, concentration of force, and armour
+      angling.
     Audio: {fileID: 8300000, guid: 51ea69854d8497747b0944f491a1c452, type: 3}
     AutoAdvance: 0
 --- !u!114 &-1245840081958811778
@@ -4766,7 +4780,9 @@ MonoBehaviour:
       FleetPrefix: OSPN
     Badge: {fileID: 2800000, guid: 10e200715fc02e448a64ee88829a67ee, type: 3}
   HumanPlayerOut: {fileID: 0}
+  AlliedStrategyType: 
   Allies: []
+  EnemyStrategyType: 
   EnemyForce:
   - PlayerFleet: {fileID: 4900000, guid: 4552f08e16a40ea48bfda965e1607bd2, type: 3}
     Colors:
@@ -4774,7 +4790,7 @@ MonoBehaviour:
       StripeColor: {r: 1, g: 1, b: 1, a: 1}
       FleetPrefix: ANS
     Badge: {fileID: 2800000, guid: bf60d913b8523874ebe53895ede0a183, type: 3}
-    Brain: {fileID: 11400000, guid: 49d307076c5af0348a7a192650837da9, type: 2}
+    Difficulty: 2
   SetupSteps: {fileID: 0}
   Next: {fileID: 0}
 --- !u!114 &8025293854888533409

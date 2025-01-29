@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mission 5 Player</Name>
   <Version>3</Version>
-  <TotalPoints>5240</TotalPoints>
+  <TotalPoints>5263</TotalPoints>
   <FactionKey>Stock/Protectorate</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>375c83e1-ccd3-41b4-863a-7c9ea5aa5100</Key>
       <Name>Exception To The Rule</Name>
-      <Cost>1890</Cost>
+      <Cost>1913</Cost>
       <Callsign />
       <Number>36</Number>
       <SymbolOption>0</SymbolOption>
@@ -68,8 +68,8 @@
           <ComponentData xsi:type="CellLauncherData">
             <MissileLoad>
               <MagSaveData>
-                <MagazineKey>nsZs-LQHSEyEO8uPoE4PNA</MagazineKey>
-                <MunitionKey>Stock/EA12 Chaff Decoy</MunitionKey>
+                <MagazineKey>KRxVzqEIjk2QZ5WDOHIR_w</MagazineKey>
+                <MunitionKey>Stock/EA14 Chaff Decoy</MunitionKey>
                 <Quantity>23</Quantity>
               </MagSaveData>
             </MissileLoad>
@@ -188,6 +188,7 @@
         </WepGroup>
       </WeaponGroups>
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
@@ -202,7 +203,7 @@
         <HullSocket>
           <Key>3mlCA6C6m0GI3wONZK_aqg</Key>
           <ComponentName>Stock/RL18 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
+          <ComponentData xsi:type="TurretedLauncherData">
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>LPbrP4y_o0K8BeDSuy8tUg</MagazineKey>
@@ -210,12 +211,13 @@
                 <Quantity>18</Quantity>
               </MagSaveData>
             </MissileLoad>
+            <FireOutsideLimits>false</FireOutsideLimits>
           </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>fbAgHM9u302peFMSC0TidQ</Key>
           <ComponentName>Stock/RL18 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
+          <ComponentData xsi:type="TurretedLauncherData">
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>SinFzWXvw0aN6wfwKM-O1Q</MagazineKey>
@@ -223,6 +225,7 @@
                 <Quantity>18</Quantity>
               </MagSaveData>
             </MissileLoad>
+            <FireOutsideLimits>false</FireOutsideLimits>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -277,6 +280,7 @@
       </SocketMap>
       <WeaponGroups />
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
@@ -291,7 +295,7 @@
         <HullSocket>
           <Key>3mlCA6C6m0GI3wONZK_aqg</Key>
           <ComponentName>Stock/RL18 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
+          <ComponentData xsi:type="TurretedLauncherData">
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>LPbrP4y_o0K8BeDSuy8tUg</MagazineKey>
@@ -299,12 +303,13 @@
                 <Quantity>18</Quantity>
               </MagSaveData>
             </MissileLoad>
+            <FireOutsideLimits>false</FireOutsideLimits>
           </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>fbAgHM9u302peFMSC0TidQ</Key>
           <ComponentName>Stock/RL18 Launcher</ComponentName>
-          <ComponentData xsi:type="CellLauncherData">
+          <ComponentData xsi:type="TurretedLauncherData">
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>SinFzWXvw0aN6wfwKM-O1Q</MagazineKey>
@@ -312,6 +317,7 @@
                 <Quantity>18</Quantity>
               </MagSaveData>
             </MissileLoad>
+            <FireOutsideLimits>false</FireOutsideLimits>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -366,6 +372,7 @@
       </SocketMap>
       <WeaponGroups />
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
@@ -507,6 +514,7 @@
         </WepGroup>
       </WeaponGroups>
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
@@ -648,6 +656,7 @@
         </WepGroup>
       </WeaponGroups>
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
@@ -789,6 +798,7 @@
         </WepGroup>
       </WeaponGroups>
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
@@ -930,6 +940,7 @@
         </WepGroup>
       </WeaponGroups>
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
   </Ships>
   <MissileTypes>
@@ -942,7 +953,7 @@
 
 Control Method: CRUISE (Waypoint Capable)
 Targeting Modes: &lt;b&gt;&lt;color=#3BC81E&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK[+TRP]&lt;/color&gt;&lt;/b&gt;
-: 
+
 Primary Seeker: ACTIVE &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
 
 Speed: 222 m/s
@@ -950,6 +961,7 @@ Distance: 15,612 m
 Top Speed In: 1.2 s
 Turn Rate: 3.0 G
 Terminal Maneuvers: Weave
+(&lt;color=#D3D11F&gt;May decrease effective range&lt;/color&gt;)
 
 Warhead: Contact Fuze, High Explosive, Shaped
 Armor: 54cm
@@ -958,7 +970,7 @@ Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
 Body Integrity: 30 
-Wall Thickness: 0.5
+Wall Thickness: 0.05
 Programming Time: 8 s
 Radar Signature Bonus: 100 %
 Boost-Phase Duration: 3 s
@@ -1038,7 +1050,7 @@ Failure Rate: 0 %</LongDescription>
 
 Control Method: DIRECT
 Targeting Modes: &lt;b&gt;&lt;color=#D4211D&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK&lt;/color&gt;&lt;/b&gt;
-: 
+
 Primary Seeker: COMMAND (&lt;color=#D3D11F&gt;Requires COMMS Enabled&lt;/color&gt;)
 
 Speed: 250 m/s
@@ -1048,12 +1060,12 @@ Turn Rate: 9.9 G
 Terminal Maneuvers: None
 
 Warhead: Proximity Fuze, High Explosive, Blast Fragmentation
-Armor: 2cm
-Component: 65hp
+Armor: 0.21cm
+Component: 65.34hp
 Blast Radius: 47 m
 
 Body Integrity: 10 
-Wall Thickness: 0.5
+Wall Thickness: 0.05
 Programming Time: 6 s
 Radar Signature Bonus: 100 %
 Boost-Phase Duration: 3 s

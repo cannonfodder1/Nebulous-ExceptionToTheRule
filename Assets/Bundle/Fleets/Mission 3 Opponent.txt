@@ -2,7 +2,7 @@
 <Fleet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>Mission 3 Opponent</Name>
   <Version>3</Version>
-  <TotalPoints>3800</TotalPoints>
+  <TotalPoints>3970</TotalPoints>
   <FactionKey>Stock/Alliance</FactionKey>
   <SortOverrideOrder xsi:nil="true" />
   <Ships>
@@ -10,7 +10,7 @@
       <SaveID xsi:nil="true" />
       <Key>58cb1edf-d0e9-4f2d-a03d-0ad732d7f1ef</Key>
       <Name>Last Call</Name>
-      <Cost>1131</Cost>
+      <Cost>1136</Cost>
       <Callsign />
       <Number>81</Number>
       <SymbolOption>0</SymbolOption>
@@ -79,10 +79,6 @@
           <ComponentName>Stock/Large DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>f_SO68qAGU-sw69T9GEWow</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
-        </HullSocket>
-        <HullSocket>
           <Key>9R0tfjsN-kiETUBLeCCmGw</Key>
           <ComponentName>Stock/Gun Plotting Center</ComponentName>
         </HullSocket>
@@ -110,12 +106,22 @@
               <MagSaveData>
                 <MagazineKey>XdGaSjzkfE2BIc3mGTjcHA</MagazineKey>
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
-                <Quantity>30000</Quantity>
+                <Quantity>20000</Quantity>
               </MagSaveData>
               <MagSaveData>
-                <MagazineKey>tGLxonXdBE24LsctYAhrhA</MagazineKey>
+                <MagazineKey>BBa5u3LfKUeqdtqmXXdAgg</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>2000</Quantity>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>vm2zaux4F0K6E1_5r-afGw</MagazineKey>
+                <MunitionKey>Stock/250mm HE Shell</MunitionKey>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>GYt1dmRXxkCmiizwm-s72Q</MagazineKey>
+                <MunitionKey>Stock/250mm HE-RPF Shell</MunitionKey>
+                <Quantity>500</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -169,12 +175,13 @@
         </WepGroup>
       </WeaponGroups>
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>bc62b8a0-14fb-4f77-b598-6297ad9fa790</Key>
       <Name>Grey Area</Name>
-      <Cost>1131</Cost>
+      <Cost>1136</Cost>
       <Callsign />
       <Number>48</Number>
       <SymbolOption>0</SymbolOption>
@@ -243,10 +250,6 @@
           <ComponentName>Stock/Large DC Locker</ComponentName>
         </HullSocket>
         <HullSocket>
-          <Key>f_SO68qAGU-sw69T9GEWow</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
-        </HullSocket>
-        <HullSocket>
           <Key>9R0tfjsN-kiETUBLeCCmGw</Key>
           <ComponentName>Stock/Gun Plotting Center</ComponentName>
         </HullSocket>
@@ -274,12 +277,22 @@
               <MagSaveData>
                 <MagazineKey>XdGaSjzkfE2BIc3mGTjcHA</MagazineKey>
                 <MunitionKey>Stock/20mm Slug</MunitionKey>
-                <Quantity>30000</Quantity>
+                <Quantity>20000</Quantity>
               </MagSaveData>
               <MagSaveData>
                 <MagazineKey>BBa5u3LfKUeqdtqmXXdAgg</MagazineKey>
                 <MunitionKey>Stock/250mm AP Shell</MunitionKey>
-                <Quantity>2000</Quantity>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>vm2zaux4F0K6E1_5r-afGw</MagazineKey>
+                <MunitionKey>Stock/250mm HE Shell</MunitionKey>
+                <Quantity>500</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>GYt1dmRXxkCmiizwm-s72Q</MagazineKey>
+                <MunitionKey>Stock/250mm HE-RPF Shell</MunitionKey>
+                <Quantity>500</Quantity>
               </MagSaveData>
             </Load>
           </ComponentData>
@@ -333,6 +346,7 @@
         </WepGroup>
       </WeaponGroups>
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
@@ -382,10 +396,6 @@
           </ComponentData>
         </HullSocket>
         <HullSocket>
-          <Key>lorATFhkTkeZQYThYOHazg</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
-        </HullSocket>
-        <HullSocket>
           <Key>bRgUlaoQJ0S7M91zMpdAdA</Key>
           <ComponentName>Stock/FR4800 Reactor</ComponentName>
         </HullSocket>
@@ -423,6 +433,7 @@
         </RelativePosition>
       </InitialFormation>
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
@@ -472,10 +483,6 @@
           </ComponentData>
         </HullSocket>
         <HullSocket>
-          <Key>lorATFhkTkeZQYThYOHazg</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
-        </HullSocket>
-        <HullSocket>
           <Key>bRgUlaoQJ0S7M91zMpdAdA</Key>
           <ComponentName>Stock/FR4800 Reactor</ComponentName>
         </HullSocket>
@@ -513,12 +520,13 @@
         </RelativePosition>
       </InitialFormation>
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
     <Ship>
       <SaveID xsi:nil="true" />
       <Key>d887891f-8aac-419f-8ce7-fc452cd6c430</Key>
       <Name>Transaction Denied</Name>
-      <Cost>670</Cost>
+      <Cost>830</Cost>
       <Callsign />
       <Number>129</Number>
       <SymbolOption>1</SymbolOption>
@@ -526,11 +534,34 @@
       <SocketMap>
         <HullSocket>
           <Key>PDKmGfvpykODc3XHDQ7WBw</Key>
-          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+          <ComponentName>Stock/VLS-2 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>ZCQ0fMQqCUafvCVjWl9esw</MagazineKey>
+                <MunitionKey>Stock/EA99 Active Decoy</MunitionKey>
+                <Quantity>4</Quantity>
+              </MagSaveData>
+              <MagSaveData>
+                <MagazineKey>fr6LkWjyxUyDGo25O7d4vw</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-206 Thunderhead IV</MunitionKey>
+                <Quantity>12</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>WwMGqYiU7E6lp7ID47phqA</Key>
-          <ComponentName>Stock/E90 'Blanket' Jammer</ComponentName>
+          <ComponentName>Stock/VLS-3 Launcher</ComponentName>
+          <ComponentData xsi:type="ResizableCellLauncherData">
+            <MissileLoad>
+              <MagSaveData>
+                <MagazineKey>d_lfQMNL70iJDC3fnbaKEg</MagazineKey>
+                <MunitionKey>$MODMIS$/SGM-H-312 Scimitar</MunitionKey>
+                <Quantity>4</Quantity>
+              </MagSaveData>
+            </MissileLoad>
+          </ComponentData>
         </HullSocket>
         <HullSocket>
           <Key>gkfIwYzn7kGhG6MW9uxBmw</Key>
@@ -539,14 +570,10 @@
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>d_lfQMNL70iJDC3fnbaKEg</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-H-312 Halberd</MunitionKey>
+                <MunitionKey>$MODMIS$/SGM-H-312 Scimitar</MunitionKey>
                 <Quantity>6</Quantity>
               </MagSaveData>
             </MissileLoad>
-            <ConfiguredSize>
-              <x>1</x>
-              <y>3</y>
-            </ConfiguredSize>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -556,14 +583,10 @@
             <MissileLoad>
               <MagSaveData>
                 <MagazineKey>cz_hdbJQ-0az3BcfI5uGZQ</MagazineKey>
-                <MunitionKey>$MODMIS$/SGM-H-312 Halberd</MunitionKey>
+                <MunitionKey>$MODMIS$/SGM-H-312 Scimitar</MunitionKey>
                 <Quantity>6</Quantity>
               </MagSaveData>
             </MissileLoad>
-            <ConfiguredSize>
-              <x>1</x>
-              <y>3</y>
-            </ConfiguredSize>
           </ComponentData>
         </HullSocket>
         <HullSocket>
@@ -586,10 +609,6 @@
           </ComponentData>
         </HullSocket>
         <HullSocket>
-          <Key>lorATFhkTkeZQYThYOHazg</Key>
-          <ComponentName>Stock/Berthing</ComponentName>
-        </HullSocket>
-        <HullSocket>
           <Key>bRgUlaoQJ0S7M91zMpdAdA</Key>
           <ComponentName>Stock/FR4800 Reactor</ComponentName>
         </HullSocket>
@@ -599,67 +618,67 @@
         </HullSocket>
         <HullSocket>
           <Key>V42tXibIR0e4u6riIHYZOw</Key>
-          <ComponentName>Stock/Actively Cooled Amplifiers</ComponentName>
+          <ComponentName>Stock/Missile Parallel Interface</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>p-m7ijS6ukuqzuBT5NE_lA</Key>
-          <ComponentName>Stock/Actively Cooled Amplifiers</ComponentName>
+          <ComponentName>Stock/Missile Parallel Interface</ComponentName>
         </HullSocket>
         <HullSocket>
           <Key>foApM84hT0GpEw4GaFv38w</Key>
           <ComponentName>Stock/Missile Programming Bus Array</ComponentName>
         </HullSocket>
       </SocketMap>
-      <WeaponGroups>
-        <WepGroup Name="Jammers">
-          <MemberKeys>
-            <string>PDKmGfvpykODc3XHDQ7WBw</string>
-            <string>WwMGqYiU7E6lp7ID47phqA</string>
-          </MemberKeys>
-        </WepGroup>
-      </WeaponGroups>
-      <InitialFormation>
-        <GuideKey>bc62b8a0-14fb-4f77-b598-6297ad9fa790</GuideKey>
-        <RelativePosition>
-          <x>11.0191879</x>
-          <y>-22.7692871</y>
-          <z>-15.1439209</z>
-        </RelativePosition>
-      </InitialFormation>
+      <WeaponGroups />
       <TemplateMissileTypes />
+      <TemplateSpacecraftTypes />
     </Ship>
   </Ships>
   <MissileTypes>
     <MissileTemplate>
       <Designation>SGM-H-312</Designation>
-      <Nickname>Halberd</Nickname>
-      <Description>DIRECT - ARAD(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;)/ACT(&lt;color=#4CFF72&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
-      <LongDescription>The SGM-H-312 Halberd is a size 3 direct guidance missile.  It is based on the SGM-H-3 body, which is a high speed hybrid missile designed to strike heavy targets.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Radar Anti-Radiation seeker  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
+      <Nickname>Scimitar</Nickname>
+      <Description>CRUISE - ARAD(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;)/ACT(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-H-312 Scimitar&lt;/noparse&gt; is a size 3 waypoint-capable cruise missile.  It is based on the SGM-H-3 body, which is a high speed hybrid missile designed to strike heavy targets.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using a Radar Anti-Radiation seeker  If the primary seeker does not find a target or is jammed, it can fall back on an Active Radar seeker.
 
-Control Method: DIRECT
-Targeting Modes:
-	&lt;b&gt;&lt;color=#4CFF72&gt;POSITION&lt;/color&gt;	&lt;color=#4CFF72&gt;TRACK&lt;/color&gt;&lt;/b&gt;
-Primary Seeker: ANTI-RADIATION (All &lt;color=#4CFF72&gt;RADAR&lt;/color&gt; Signals)
-Backup Seeker(s): ACTIVE &lt;color=#4CFF72&gt;RADAR&lt;/color&gt;
+Control Method: CRUISE (Waypoint Capable)
+Targeting Modes: &lt;b&gt;&lt;color=#3BC81E&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK[+TRP]&lt;/color&gt;&lt;/b&gt;
 
-Cruise: 133 m/s for 18,095 m, top speed in 1.9 s
-Sprint: 665 m/s for 4,131 m, top speed in 0.7 s
-   Stage Trigger on Target Detection (&lt;color=#FBFF4C&gt;Direction-Only Seeker&lt;/color&gt;)
+Primary Seeker: ANTI-RADIATION (All &lt;color=#3BC81E&gt;RADAR&lt;/color&gt; Signals)
+Backup Seeker: ACTIVE &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+
+&lt;b&gt;Cruise&lt;/b&gt;
+Speed: 133 m/s
+Distance: 18,095 m
+Top Speed In: 1.9 s
+Turn Rate: 1.2 G
+
+&lt;b&gt;Sprint&lt;/b&gt;
+Speed: 665 m/s
+Distance: 4,131 m
+Top Speed In: 0.7 s
+Turn Rate: 32.1 G
+
+: Stage Trigger on Target Detection (&lt;color=#D3D11F&gt;Direction-Only Seeker&lt;/color&gt;)
+
 Terminal Maneuvers: Weave
+(&lt;color=#D3D11F&gt;May decrease effective range&lt;/color&gt;)
 
-Contact Fuze, High Explosive, Shaped
-Armor: 80cm   Component: 2,160hp
+Warhead: Contact Fuze, High Explosive, Shaped
+Armor: 80cm
+Component: 2,160hp
 Blast Angle: 70 deg
 Damage Per Fragment: 50.0
 
 Body Integrity: 60 
+Wall Thickness: 0.05
 Programming Time: 16 s
 Radar Signature Bonus: 100 %
 Boost-Phase Duration: 3 s
 Boost-Phase Strafe: 100 %
 Boost-Phase Turn Rate: 100 %
 Failure Rate: 0 %</LongDescription>
-      <Cost>20</Cost>
+      <Cost>21</Cost>
       <BodyKey>Stock/SGM-H-3 Body</BodyKey>
       <TemplateKey>65afd014-235a-452b-8be4-bf38c5a1f072</TemplateKey>
       <BaseColor>
@@ -698,8 +717,8 @@ Failure Rate: 0 %</LongDescription>
         </MissileSocket>
         <MissileSocket>
           <Size>1</Size>
-          <InstalledComponent xsi:type="DirectGuidanceSettings">
-            <ComponentKey>Stock/Direct Guidance</ComponentKey>
+          <InstalledComponent xsi:type="CruiseGuidanceSettings">
+            <ComponentKey>Stock/Cruise Guidance</ComponentKey>
             <Role>Offensive</Role>
             <HotLaunch>false</HotLaunch>
             <SelfDestructOnLost>false</SelfDestructOnLost>
@@ -711,7 +730,6 @@ Failure Rate: 0 %</LongDescription>
               <SalvoSize>0</SalvoSize>
               <FarthestFirst>false</FarthestFirst>
             </DefensiveDoctrine>
-            <ApproachAngleControl>true</ApproachAngleControl>
           </InstalledComponent>
         </MissileSocket>
         <MissileSocket>
@@ -739,6 +757,103 @@ Failure Rate: 0 %</LongDescription>
               <A>0.333333343</A>
               <B>0.333333343</B>
               <C>0.333333343</C>
+            </BalanceValues>
+          </InstalledComponent>
+        </MissileSocket>
+      </Sockets>
+    </MissileTemplate>
+    <MissileTemplate>
+      <AssociatedTemplateName>SGM-206 Thunderhead IV</AssociatedTemplateName>
+      <Designation>SGM-206</Designation>
+      <Nickname>Thunderhead IV</Nickname>
+      <Description>CRUISE - ACT(&lt;color=#3BC81E&gt;RADAR&lt;/color&gt;) - HE SHAPED</Description>
+      <LongDescription>The &lt;noparse&gt;SGM-206 Thunderhead IV&lt;/noparse&gt; is a size 2 waypoint-capable cruise missile.  It is based on the SGM-2 body, which is a flexible mainstay anti-ship missile.  This missile will deliver a Contact Fuze, High Explosive, Shaped warhead.  It homes in on its target using an Active Radar seeker.
+
+Control Method: CRUISE (Waypoint Capable)
+Targeting Modes: &lt;b&gt;&lt;color=#3BC81E&gt;POSITION&lt;/color&gt;	&lt;color=#3BC81E&gt;TRACK[+TRP]&lt;/color&gt;&lt;/b&gt;
+
+Primary Seeker: ACTIVE &lt;color=#3BC81E&gt;RADAR&lt;/color&gt;
+
+Speed: 222 m/s
+Distance: 15,612 m
+Top Speed In: 1.2 s
+Turn Rate: 3.0 G
+Terminal Maneuvers: Weave
+(&lt;color=#D3D11F&gt;May decrease effective range&lt;/color&gt;)
+
+Warhead: Contact Fuze, High Explosive, Shaped
+Armor: 54cm
+Component: 960hp
+Blast Angle: 70 deg
+Damage Per Fragment: 50.0
+
+Body Integrity: 30 
+Wall Thickness: 0.05
+Programming Time: 8 s
+Radar Signature Bonus: 100 %
+Boost-Phase Duration: 3 s
+Boost-Phase Strafe: 100 %
+Boost-Phase Turn Rate: 100 %
+Failure Rate: 0 %</LongDescription>
+      <Cost>6</Cost>
+      <BodyKey>Stock/SGM-2 Body</BodyKey>
+      <TemplateKey>b25521ba-76fc-42e2-9ab7-ce1887c24f8d</TemplateKey>
+      <BaseColor>
+        <r>1</r>
+        <g>1</g>
+        <b>1</b>
+        <a>1</a>
+      </BaseColor>
+      <StripeColor>
+        <r>0.7058824</r>
+        <g>0.129411772</g>
+        <b>0.129411772</b>
+        <a>1</a>
+      </StripeColor>
+      <Sockets>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="ActiveSeekerSettings">
+            <ComponentKey>Stock/Fixed Active Radar Seeker</ComponentKey>
+            <Mode>Targeting</Mode>
+            <RejectUnvalidated>false</RejectUnvalidated>
+            <DetectPDTargets>false</DetectPDTargets>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>1</Size>
+          <InstalledComponent xsi:type="CruiseGuidanceSettings">
+            <ComponentKey>Stock/Cruise Guidance</ComponentKey>
+            <Role>Offensive</Role>
+            <HotLaunch>false</HotLaunch>
+            <SelfDestructOnLost>false</SelfDestructOnLost>
+            <Maneuvers>Weave</Maneuvers>
+            <DefensiveDoctrine>
+              <TargetSizeMask>12</TargetSizeMask>
+              <TargetType>All</TargetType>
+              <TargetSizeOrdering>Descending</TargetSizeOrdering>
+              <SalvoSize>0</SalvoSize>
+              <FarthestFirst>false</FarthestFirst>
+            </DefensiveDoctrine>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>4</Size>
+          <InstalledComponent>
+            <ComponentKey>Stock/HE Impact</ComponentKey>
+          </InstalledComponent>
+        </MissileSocket>
+        <MissileSocket>
+          <Size>6</Size>
+          <InstalledComponent xsi:type="MissileEngineSettings">
+            <ComponentKey />
+            <BalanceValues>
+              <A>0.248382539</A>
+              <B>0.488160223</B>
+              <C>0.263457239</C>
             </BalanceValues>
           </InstalledComponent>
         </MissileSocket>

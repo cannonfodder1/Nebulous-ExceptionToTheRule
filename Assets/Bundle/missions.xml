@@ -2,15 +2,15 @@
 <MissionLoaderManifest xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <MissionGraphMappings>
     <MissionGraphEntry MissionName="Wide Open" GraphAddress="Assets/Bundle/Data/Mission1_Graph.asset"/>
-    <!--<MissionGraphEntry MissionName="Blades Drawn" GraphAddress="Assets/Bundle/Data/Mission2_Graph.asset"/>-->
+    <MissionGraphEntry MissionName="Swift Hunt" GraphAddress="Assets/Bundle/Data/Mission2_Graph.asset"/>
     <MissionGraphEntry MissionName="Storm Warning" GraphAddress="Assets/Bundle/Data/Mission3_Graph.asset"/>
     <MissionGraphEntry MissionName="Calculated Hubris" GraphAddress="Assets/Bundle/Data/Mission4_Graph.asset"/>
     <MissionGraphEntry MissionName="Righteous Fire" GraphAddress="Assets/Bundle/Data/Mission5_Graph.asset"/>
   </MissionGraphMappings>
   <MissionBattlespaceMappings>
     <MissionBattlespaceEntry MissionName="Wide Open" BattlespaceName="Abyssal"/>
-    <!--<MissionBattlespaceEntry MissionName="Blades Drawn" BattlespaceName="Nyx's Eye"/>-->
-    <MissionBattlespaceEntry MissionName="Storm Warning" BattlespaceName="The Cliff"/>
+    <MissionBattlespaceEntry MissionName="Swift Hunt" BattlespaceName="The Cliff"/>
+    <MissionBattlespaceEntry MissionName="Storm Warning" BattlespaceName="Caltrop"/>
     <MissionBattlespaceEntry MissionName="Calculated Hubris" BattlespaceName="Canyon"/>
     <MissionBattlespaceEntry MissionName="Righteous Fire" BattlespaceName="Pillars"/>
   </MissionBattlespaceMappings>

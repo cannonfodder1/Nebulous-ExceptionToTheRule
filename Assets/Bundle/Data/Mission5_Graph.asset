@@ -11903,7 +11903,9 @@ MonoBehaviour:
       FleetPrefix: OSPN
     Badge: {fileID: 2800000, guid: 10e200715fc02e448a64ee88829a67ee, type: 3}
   HumanPlayerOut: {fileID: 0}
+  AlliedStrategyType: 
   Allies: []
+  EnemyStrategyType: 
   EnemyForce:
   - PlayerFleet: {fileID: 4900000, guid: ec1e0f6c375f3ca4f85cf4ac48fdddbe, type: 3}
     Colors:
@@ -11911,7 +11913,7 @@ MonoBehaviour:
       StripeColor: {r: 1, g: 1, b: 1, a: 1}
       FleetPrefix: ANS
     Badge: {fileID: 2800000, guid: bf60d913b8523874ebe53895ede0a183, type: 3}
-    Brain: {fileID: 11400000, guid: 2b3e42d50a4b5c6418845171d3e67b53, type: 2}
+    Difficulty: 2
   SetupSteps: {fileID: 0}
   Next: {fileID: 0}
 --- !u!114 &3487699143133763328
@@ -12021,7 +12023,7 @@ MonoBehaviour:
       StripeColor: {r: 1, g: 1, b: 1, a: 1}
       FleetPrefix: ANS
     Badge: {fileID: 0}
-    Brain: {fileID: 0}
+    Difficulty: 0
   BotPlayer: {fileID: 0}
 --- !u!114 &3773859781988301339
 MonoBehaviour:

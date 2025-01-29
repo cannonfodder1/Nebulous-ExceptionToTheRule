@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 1006082986, guid: e58d9751b6c32054d9b65314f0ed51e4, type: 3}
   m_Name: Mission2_Def
   m_EditorClassIdentifier: 
-  MissionName: Blades Drawn
+  MissionName: Swift Hunt
   DetailText: Set loose upon the Kribensis system, the OSP gets to work. There are
     convoys to raid, and infrastructure to wreck, all in the pursuit of drawing the
     Alliance's attention and resources away from the war-winning gate transit assault
@@ -27,71 +27,73 @@ MonoBehaviour:
     \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 
-    OSPN EXCEPTION TO THE
-    RULE //
+    CC-36 // OSPN EXCEPTION
+    TO THE RULE //
 
     INTRASHIP DISPATCH: PRIORITY ATLAS //
 
-    FOR IMMEDIATE ROUTING
-    TO: CIC //
+    FOR IMMEDIATE
+    ROUTING TO: CIC //
 
 
-    Hey skipper, it''s Furoc-Austin down here in the intel centre.
-    I got a fresh intercept for you, hot off the airwaves. This might explain why
-    those two freighters we''re chasin'' diverted course into that asteroid cluster.
-    And it''s quite funny, if I do say so myself. See attached.
+    Hey skipper, it''s Furoc-Austin down here in the intel
+    centre. I got a fresh intercept for you, hot off the solar wind. This might explain
+    why those two crippled freighters haven''t surrendered yet. And it is quite funny,
+    if I do say so myself. See attached.
 
 
-    ATTACHMENT
-    //
+    ATTACHMENT //
 
 
-    Mayday! Mayday! This is Captain Joral of the Ekota Republic Trading
-    Guild, calling anyone in the local volume. We are under attack! Where is the
-    Alliance Navy?!
+    Mayday! Mayday!
+    This is Captain Joral of the Ekota Republic Trading Guild, calling anyone in
+    the local volume. Our drives have been disabled! We are under attack! Where is
+    the Alliance Navy?!
 
 
-    This is the ANS Unyielding Stare, Task Force Arbutus. We
-    read your distress signal, but there seems to be a problem. We don''t have you
-    on our records, Captain - please turn on your transponder and immediately provide
-    your identification and manifest.
+    This is the ANS Unyielding Stare, Task Force Arbutus.
+    We read your distress signal, but there seems to be a problem. We don''t have
+    you on our records, Captain - please turn on your transponder and immediately
+    provide your identification and manifest.
 
 
-    Uh, with me is ERTS Adscita''s Star and
-    ERTS Belya''s Comet, of Convoy 92, we have a shipment of fuel and spare parts
-    from Anamur for the garrison at Bethel gate. We were jumped by rebel ships as
-    we crossed the outer belt - aren''t you supposed to have the system secure? The
-    latest Navy bulletin said the enemy incursion was small and almost dealt with.
+    Uh, with me is ERTS Adscita''s
+    Star and ERTS Belya''s Comet, of Convoy 92, we have a shipment of fuel and spare
+    parts from Anamur City for the garrison at Bethel gate. The rebels jumped us
+    with voidcraft as we crossed the outer belt - aren''t you supposed to have the
+    system secure? The latest Navy bulletin said the enemy incursion was small and
+    almost dealt with.
 
 
-    Thank
-    you, Captain - this is all very interesting because it looks like Convoy 92 is
-    currently waiting at Ekota gate for their assigned escort to arrive before setting
-    off. And yet, here you are, several light-hours away, transponder off, in the
-    middle of an active warzone. Am I to surmise that you, shall we say, jumped the
-    gun?
+    Thank you, Captain - this is all very interesting because
+    it looks like Convoy 92 is currently waiting at Ekota gate for their assigned
+    escort to arrive before setting off. And yet, here you are, several light-hours
+    away, transponder off, in the middle of an active warzone. Am I to surmise that
+    you, shall we say, jumped the gun?
 
 
-    The Trading Guild demands a strict timeline, our escort was taking
-    too long, and your bulletin said the system was safe! Look, the terrorists are
-    in pursuit as we speak, I do not have time for this. I am a citizen of the Ekota
-    Republic, a full member nation of the Shelter Alliance, and I am formally requesting
-    your immediate assistance, or my representatives will hear about this, one way
-    or another.
+    The Trading Guild demands a strict timeline,
+    our escort was taking too long, and your bulletin said the system was safe! Look,
+    the terrorists are in pursuit as we speak, I do not have time for this. I am
+    a citizen of the Ekota Republic, a full member nation of the Shelter Alliance,
+    and I am formally requesting your immediate assistance, or my representatives
+    will hear about this, one way or another.
 
 
-    Receiving you, Captain. My task force will be en route ASAP
-    to secure the safety of your ships, and escort you back to Ekota gate for a full
-    investigation into how this incident was allowed to occur. Transmit all relevant
-    information on your encounter with OSP forces and change course to the attached
-    coordinates to meet us. Task Force Arbutus, out.
+    Receiving you, Captain. My task
+    force will be en route ASAP to secure the safety of your ships, repair your drives,
+    and escort you back to Ekota gate for a full investigation into how this incident
+    was allowed to occur. Transmit all relevant information on your encounter with
+    OSP forces and expect our arrival shortly. Task Force Arbutus, out.
 
 
-    END DISPATCH //
+    END
+    DISPATCH //
+
 
 '
   MissionKey: oRb6-cT1Bk-CeFnzTrfdrg
-  Screenshot: {fileID: 21300000, guid: 5cc75af52e0b41344a58f4f2b95e27de, type: 3}
+  Screenshot: {fileID: 21300000, guid: 4a7cea72aa5ab934b89fa48fa5c63635, type: 3}
   _graph:
     m_AssetGUID: 
     m_SubObjectName: 

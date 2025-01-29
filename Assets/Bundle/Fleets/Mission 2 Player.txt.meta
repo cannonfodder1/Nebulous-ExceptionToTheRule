@@ -1,8 +1,7 @@
 fileFormatVersion: 2
-guid: c29bfb9ac9993b1498b56bef291f90b2
-NativeFormatImporter:
+guid: 8732b66a5d448444abf80304da15307c
+TextScriptImporter:
   externalObjects: {}
-  mainObjectFileID: 11400000
   userData: 
   assetBundleName: exceptiontotherule
   assetBundleVariant: 
