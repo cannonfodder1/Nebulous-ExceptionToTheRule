@@ -3,7 +3,7 @@
   <ModName>Exception To The Rule</ModName>
   <ModDescription>Adds the Exception To The Rule singleplayer mini-campaign to the campaigns/tutorials selection screen, with an original story told from the perspective of the OSP in the opening months of the rebellion. Made by NotSoLoneWolf, with many thanks to Marshall for writing the game's official lore.
   </ModDescription>
-  <ModVer>1.2.0</ModVer>
+  <ModVer>1.2.1</ModVer>
   <Assemblies>
     <string>Mono.Cecil.dll</string>
     <string>MonoMod.Utils.dll</string>

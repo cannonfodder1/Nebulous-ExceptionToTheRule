@@ -2,6 +2,7 @@ using UnityEngine;
 using XNode;
 using Game;
 using Game.Units;
+using Ships;
 
 namespace ExceptionToTheRule
 {
@@ -20,11 +21,11 @@ namespace ExceptionToTheRule
 				else if (port.fieldName == "IntactPointValue")
 				{
 					int intactPoints = 0;
-					foreach (ShipController ship in player.PlayerFleet.FleetShipControllers)
+					foreach (Ship ship in player.PlayerFleet.FleetShips)
                     {
-						if (!ship.IsEliminated)
+						if (!ship.Controller.IsEliminated)
                         {
-							intactPoints += ship.Ship.GetPointCost(true);
+							intactPoints += ship.GetPointCost(true);
                         }
 					}
 					return intactPoints;
